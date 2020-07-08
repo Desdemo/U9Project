@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project id="3432465e-c52b-47ce-a204-6f4eda8e2d7d" name="LogisticsUI" displayName="LogisticsUI" description="" help="" type="UI" assemblyName="UFIDA.U9.Cust.BLT.ShipPlan.LogisticsUI" mapProject="" resourceName="" projectVersion="Normal">
+  <Imports>
+    <Import id="ad8b85ce-178f-47ec-a4be-0967e7eec9b8" name="LogisticsBE" displayName="LogisticsBE" description="" help="" componentid="91ad4317-b286-4156-b6f4-6a79ce43994a" path="..\..\..\..\..\..\Yonyou\UBFV60\U9.VOB.Product.Metadata\Unconfiged\Metadata\UFIDA.U9.Cust.BLT.ShipPlan.LogisticsBE.MetaData.dll" type="BE" isRuntime="True" />
+    <Import id="8053dc4d-04e9-409d-80ef-744bb28aeed2" name="BaseReferenceUI" displayName="BaseReferenceUI" description="" help="" componentid="870381ee-cd66-4b78-8b3b-6c60e5ec43e5" path="..\..\..\..\..\..\Yonyou\UBFV60\U9.VOB.Product.Metadata\UI\UFIDA.U9.CBO.Ref.BaseReferenceUI.MetaData.dll" type="UI" isRuntime="True" />
+    <Import id="dad67494-a520-47bf-bac9-45f27672480c" name="CBOReferenceUI" displayName="CBOReferenceUI" description="" help="" componentid="2ac4288d-af64-42a9-bbd2-285464e8f707" path="..\..\..\..\..\..\Yonyou\UBFV60\U9.VOB.Product.Metadata\UI\UFIDA.U9.CBO.Ref.CBOReferenceUI.MetaData.dll" type="UI" isRuntime="True" />
+  </Imports>
+  <SourceControl />
+  <ItemGroup>
+    <Item id="6ff89aaa-d335-4933-bb0c-c7c54d8b5e37" name="PriceTypeUIModel.ubfuim" displayName="PriceTypeUIModel.ubfuim" description="" help="" include="PriceTypeUIModel.ubfuim" type="" />
+    <Item id="6d9cf0f9-de58-47cf-8cb9-af79015b78cf" name="PriceListUIModel.ubfuim" displayName="PriceListUIModel.ubfuim" description="" help="" include="PriceListUIModel.ubfuim" type="" />
+    <Item id="d5c3e942-a075-4a67-99cc-b4581d0af5cd" name="PriceTypeUIForm.ubfform" displayName="PriceTypeUIForm.ubfform" description="" help="" include="PriceTypeUIForm.ubfform" type="" />
+    <Item id="a831e9e5-21d8-457b-b357-19461bb975d5" name="PriceListUIForm.ubfform" displayName="PriceListUIForm.ubfform" description="" help="" include="PriceListUIForm.ubfform" type="" />
+    <Item id="31c4a004-b934-4a37-a562-540b392bfda2" name="LogisticsRef" displayName="LogisticsRef" description="" help="" include="LogisticsRef" type="" />
+    <Item id="61ae0e66-72a7-4980-b403-0eb8bec6a239" name="PriceTypeRef.ubfref" displayName="PriceTypeRef.ubfref" description="" help="" include="LogisticsRef\PriceTypeRef.ubfref" type="" />
+    <Item id="7fb6ff7b-e10d-494b-81fd-b2f81f083b91" name="PriceListRef.ubfref" displayName="PriceListRef.ubfref" description="" help="" include="LogisticsRef\PriceListRef.ubfref" type="" />
+  </ItemGroup>
+</Project>

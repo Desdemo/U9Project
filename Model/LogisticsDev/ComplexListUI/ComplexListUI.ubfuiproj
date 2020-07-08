@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project id="8ae95a3d-b938-4eec-9c19-64dcc8c4ec2a" name="ComplexListUI" displayName="ComplexListUI" description="" help="" type="UI" assemblyName="UFIDA.U9.Cust.BLT.ShipPlan.ComplexListUI" mapProject="" resourceName="" projectVersion="Normal">
+  <Imports>
+    <Import id="1945c019-6f22-48a8-a870-e5e05fd14b48" name="SMBE" displayName="SMBE" description="" help="" componentid="c901c367-9f35-425c-812e-9a9966cb21a3" path="..\..\..\..\..\..\Yonyou\UBFV60\U9.VOB.Product.Metadata\App\UFIDA.U9.SM.SMBE.MetaData.dll" type="BE" isRuntime="True" />
+    <Import id="8e280ace-92d1-4929-8443-92ae78fc81b1" name="InvDocBE" displayName="InvDocBE" description="" help="" componentid="bedae155-1aeb-4d49-b2c3-7ce5233e7ef4" path="..\..\..\..\..\..\Yonyou\UBFV60\U9.VOB.Product.Metadata\App\UFIDA.U9.InvDoc.InvDocBE.MetaData.dll" type="BE" isRuntime="True" />
+    <Import id="f8fc04f0-5832-46c3-ab06-c3adce23521f" name="CBO_PubBE" displayName="CBO_PubBE" description="" help="" componentid="fe8dc9a2-365d-41c0-8f48-c02abb016910" path="..\..\..\..\..\..\Yonyou\UBFV60\U9.VOB.Product.Metadata\App\UFIDA.U9.CBO.PubBE.MetaData.dll" type="BE" isRuntime="True" />
+    <Import id="5ced3c68-bf06-45aa-9169-3139dc8931f4" name="BaseBE" displayName="BaseBE" description="" help="" componentid="2402fd32-810a-4130-811d-f1e6183a5a26" path="..\..\..\..\..\..\Yonyou\UBFV60\U9.VOB.Product.Metadata\UBF\UFIDA.U9.Base.BaseBE.MetaData.dll" type="BE" isRuntime="True" />
+    <Import id="8de36bd7-ab66-4962-8518-738d2de10e70" name="BaseReferenceUI" displayName="BaseReferenceUI" description="" help="" componentid="870381ee-cd66-4b78-8b3b-6c60e5ec43e5" path="..\..\..\..\..\..\Yonyou\UBFV60\U9.VOB.Product.Metadata\UI\UFIDA.U9.CBO.Ref.BaseReferenceUI.MetaData.dll" type="UI" isRuntime="True" />
+    <Import id="294e3de1-4164-4d96-b00b-11b9856289dc" name="CBOReferenceUI" displayName="CBOReferenceUI" description="" help="" componentid="2ac4288d-af64-42a9-bbd2-285464e8f707" path="..\..\..\..\..\..\Yonyou\UBFV60\U9.VOB.Product.Metadata\UI\UFIDA.U9.CBO.Ref.CBOReferenceUI.MetaData.dll" type="UI" isRuntime="True" />
+    <Import id="3adc923f-f9a9-478d-830a-4a73637248d0" name="LogisticsBE" displayName="LogisticsBE" description="" help="" componentid="91ad4317-b286-4156-b6f4-6a79ce43994a" path="..\LogisticsBE\LogisticsBE.ubfmlproj" type="BE" isRuntime="False" />
+  </Imports>
+  <SourceControl />
+  <ItemGroup>
+    <Item id="5d84083e-1178-4fb3-aead-90a9986a22b5" name="ComplexListUIModel.ubfuim" displayName="ComplexListUIModel.ubfuim" description="" help="" include="ComplexListUIModel.ubfuim" type="" />
+    <Item id="218a04f2-3576-46e6-bcd2-f5d296c59cfd" name="ComplexListUIForm.ubfform" displayName="ComplexListUIForm.ubfform" description="" help="" include="ComplexListUIForm.ubfform" type="" />
+    <Item id="ae76d961-6b6a-42e2-8ea5-201afed4f4de" name="FeeApportionUIModel.ubfuim" displayName="FeeApportionUIModel.ubfuim" description="" help="" include="FeeApportionUIModel.ubfuim" type="" />
+    <Item id="71956645-c450-4c3f-970a-5068900914c8" name="FeeApportionUIForm.ubfform" displayName="FeeApportionUIForm.ubfform" description="" help="" include="FeeApportionUIForm.ubfform" type="" />
+  </ItemGroup>
+</Project>

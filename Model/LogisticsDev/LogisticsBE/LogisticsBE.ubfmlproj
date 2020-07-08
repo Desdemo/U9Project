@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project id="91ad4317-b286-4156-b6f4-6a79ce43994a" name="LogisticsBE" displayName="LogisticsBE" description="" help="" type="BE" assemblyName="UFIDA.U9.Cust.BLT.ShipPlan.LogisticsBE" mapProject=".\..\LogisticsBE_DB\LogisticsBE_DB.ubfdbproj" resourceName="" projectVersion="Normal">
+  <Imports>
+    <Import id="4655b132-6ef3-4848-8065-108644137f28" name="BaseBE" displayName="BaseBE" description="" help="" componentid="2402fd32-810a-4130-811d-f1e6183a5a26" path="..\..\..\..\..\..\Yonyou\UBFV60\U9.VOB.Product.Metadata\UBF\UFIDA.U9.Base.BaseBE.MetaData.dll" type="BE" isRuntime="True" />
+    <Import id="28e8d4c5-510e-41a8-90f6-f4d13080d455" name="CBO_PubBE" displayName="CBO_PubBE" description="" help="" componentid="fe8dc9a2-365d-41c0-8f48-c02abb016910" path="..\..\..\..\..\..\Yonyou\UBFV60\U9.VOB.Product.Metadata\App\UFIDA.U9.CBO.PubBE.MetaData.dll" type="BE" isRuntime="True" />
+    <Import id="bafa3c3e-fa60-4d35-9732-6d1e4c5d5f1c" name="InvDocBE" displayName="InvDocBE" description="" help="" componentid="bedae155-1aeb-4d49-b2c3-7ce5233e7ef4" path="..\..\..\..\..\..\Yonyou\UBFV60\U9.VOB.Product.Metadata\App\UFIDA.U9.InvDoc.InvDocBE.MetaData.dll" type="BE" isRuntime="True" />
+  </Imports>
+  <SourceControl />
+  <ItemGroup>
+    <Item id="98fa05a9-d128-47ef-a807-cae34b082844" name="PriceType.ubfbe" displayName="PriceType.ubfbe" description="" help="" include="PriceType.ubfbe" type="BE" />
+    <Item id="48e0b3ea-6966-4296-b523-2ed96d3d042b" name="PriceList.ubfbe" displayName="PriceList.ubfbe" description="" help="" include="PriceList.ubfbe" type="BE" />
+    <Item id="b01586f0-b3fb-42a7-9db4-12c54064e944" name="ComplexBE.ubfbe" displayName="ComplexBE.ubfbe" description="" help="" include="ComplexBE.ubfbe" type="BE" />
+  </ItemGroup>
+</Project>

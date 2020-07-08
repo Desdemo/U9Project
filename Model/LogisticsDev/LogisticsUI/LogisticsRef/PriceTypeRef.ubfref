@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ReferenceComponent id="5089809c-f207-4346-aebe-1b12fb68b033" name="PriceTypeRef" displayName="计价类型" description="" help="" refType="1" isMultiSelect="False" isDefault="False" isClientReturn="False" width="580" height="408" isBinding="False" displayNameResourceID="" URI="UFIDA.U9.Cust.BLT.ShipPlan.LogisticsUI.PriceTypeRef" Classify="" ForMultOrg="False">
+  <References>
+    <Reference id="3eef1ab4-bd0c-41ce-9279-7b5c75402ec8" name="cRef" displayName="cRef" description="" help="计价类型" refEntityId="bd95fd8c-8ea8-44e4-9b29-6b1d3075fe9b" refEntityName="UFIDA.U9.Cust.BLT.ShipPlan.LogisticsBE.PriceType" refType="1" isMain="False">
+      <RefFields>
+        <RefField id="907ad3e6-0ff1-4677-9e11-9ac862b72b48" name="ID" displayName="ID" description="" help="计价类型.Key.ID" isKey="True" isEdit="False" isName="False" isVisible="False" isParent="False" sequence="0" length="80" refAttributeName="UFIDA.U9.Cust.BLT.ShipPlan.LogisticsBE.PriceType:ID" displayNameIndexStr="2" />
+        <RefField id="b8054205-238e-4e52-a8c3-b957b6916859" name="Coding" displayName="编码" description="" help="计价类型.Misc.编码" isKey="False" isEdit="True" isName="False" isVisible="True" isParent="False" sequence="0" length="80" refAttributeName="UFIDA.U9.Cust.BLT.ShipPlan.LogisticsBE.PriceType:Coding" displayNameIndexStr="2" />
+        <RefField id="b07386a1-6b81-4259-aba6-7b8cd53869b4" name="Name" displayName="名称" description="" help="计价类型.Misc.名称" isKey="False" isEdit="False" isName="True" isVisible="True" isParent="False" sequence="0" length="80" refAttributeName="UFIDA.U9.Cust.BLT.ShipPlan.LogisticsBE.PriceType:Name" displayNameIndexStr="2" />
+        <RefField id="e52c5767-0e80-4d55-bd34-3725da0781b4" name="PriceTypeEnum" displayName="类型" description="" help="计价类型.Misc.类型" isKey="False" isEdit="False" isName="False" isVisible="True" isParent="False" sequence="0" length="80" refAttributeName="UFIDA.U9.Cust.BLT.ShipPlan.LogisticsBE.PriceType:PriceTypeEnum" displayNameIndexStr="2" />
+      </RefFields>
+      <OrderFields>
+        <OrderField id="e504ce8c-13ed-4f09-aceb-24ddca8127fb" name="Coding" displayName="编码" description="" help="计价类型.Misc.编码" direction="1" sequence="0" refAttributeName="UFIDA.U9.Cust.BLT.ShipPlan.LogisticsBE.PriceType:Coding" />
+      </OrderFields>
+      <Filter />
+    </Reference>
+  </References>
+</ReferenceComponent>

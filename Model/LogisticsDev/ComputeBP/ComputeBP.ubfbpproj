@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project id="7958f19a-cd89-424d-acf9-71990ba72195" name="ComputeBP" displayName="ComputeBP" description="" help="" type="BP" assemblyName="UFIDA.U9.Cust.BLT.ShipPlan.ComputeBP" mapProject="" resourceName="" projectVersion="Normal">
+  <Imports>
+    <Import id="71a58d80-f7fa-4c62-8d91-7c9507e986bf" name="LogisticsBE" displayName="LogisticsBE" description="" help="" componentid="91ad4317-b286-4156-b6f4-6a79ce43994a" path="..\..\..\..\..\..\Yonyou\UBFV60\U9.VOB.Product.Metadata\Unconfiged\Metadata\UFIDA.U9.Cust.BLT.ShipPlan.LogisticsBE.MetaData.dll" type="BE" isRuntime="True" />
+  </Imports>
+  <SourceControl />
+  <ItemGroup>
+    <Item id="ec9cd101-c552-418c-8edb-fcbef1cb88ad" name="FreightCalculationBP.ubfbp" displayName="FreightCalculationBP.ubfbp" description="" help="" include="FreightCalculationBP.ubfbp" type="BE" />
+  </ItemGroup>
+</Project>

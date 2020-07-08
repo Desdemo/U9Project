@@ -1,0 +1,15 @@
+D:\Code\U9demo\Logistics\UICode\LogisticsUI\bin\Debug\UFIDA.U9.Cust.BLT.ShipPlan.LogisticsUI.WebPart.dll
+D:\Code\U9demo\Logistics\UICode\LogisticsUI\bin\Debug\UFIDA.U9.Cust.BLT.ShipPlan.LogisticsUI.WebPart.pdb
+D:\Code\U9demo\Logistics\UICode\LogisticsUI\bin\Debug\UBF.System.dll
+D:\Code\U9demo\Logistics\UICode\LogisticsUI\bin\Debug\UFSoft.UBF.UI.UIFormPersonalization.dll
+D:\Code\U9demo\Logistics\UICode\LogisticsUI\bin\Debug\UFSoft.UBF.UI.UIFormPersonalization.Library.dll
+D:\Code\U9demo\Logistics\UICode\LogisticsUI\bin\Debug\UFSoft.UBF.UI.DefaultValue.CommonService.dll
+D:\Code\U9demo\Logistics\UICode\LogisticsUI\bin\Debug\UFSoft.UBF.UI.UIFormPersonalization.xml
+D:\Code\U9demo\Logistics\UICode\LogisticsUI\bin\Debug\UFSoft.UBF.UI.UIFormPersonalization.Library.xml
+D:\Code\U9demo\Logistics\UICode\LogisticsUI\bin\Debug\UBF.System.xml
+D:\Code\U9demo\Logistics\UICode\LogisticsUI\bin\Debug\UFSoft.UBF.UI.DefaultValue.CommonService.xml
+D:\Code\U9demo\Logistics\UICode\LogisticsUI\bin\Debug\zh-CN\UFSoft.UBF.UI.UIFormPersonalization.resources.dll
+D:\Code\U9demo\Logistics\UICode\LogisticsUI\obj\Debug\UFIDA.U9.Cust.BLT.ShipPlan.LogisticsUI.WebPart.dll
+D:\Code\U9demo\Logistics\UICode\LogisticsUI\obj\Debug\UFIDA.U9.Cust.BLT.ShipPlan.LogisticsUI.WebPart.pdb
+D:\Code\U9demo\Logistics\UICode\LogisticsUI\obj\Debug\UFIDA.U9.Cust.BLT.ShipPlan.LogisticsUI.WebPart.csproj.CoreCompileInputs.cache
+D:\Code\U9demo\Logistics\UICode\LogisticsUI\obj\Debug\UFIDA.U9.Cust.BLT.ShipPlan.LogisticsUI.WebPart.csproj.CopyComplete

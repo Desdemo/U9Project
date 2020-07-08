@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component id="d5a826c6-8101-48ab-97d3-1ff714356d02" name="FreightCalculationBP" displayName="FreightCalculationBP" description="" help="" type="BP" assemblyName="UFIDA.U9.Cust.BLT.ShipPlan.ComputeBP">
+  <Namespace id="748ca5d9-9203-4dc1-afb7-4093efd1b0ad" name="UFIDA.U9.Cust.BLT.ShipPlan.ComputeBP" displayName="FreightCalculationBP" description="" help="">
+    <PropertyType id="18c20d02-9d67-4778-8ee8-52b802e977ca" name="ShipPlanAmountDTOData" displayName="费用分摊DTO" description="" help="" mD_ParentClass_ID="" isFactEntity="False" isQuery="False" isPersistence="False">
+      <Groups>
+        <Group id="41f1e17c-93ea-4c21-b706-daaab0288a69" name="Misc" displayName="Misc" description="" help="" />
+      </Groups>
+      <Attributes>
+        <Attribute id="d8bd408f-ba58-48fd-8264-b11039a915f2" name="DocID" displayName="单据ID" description="" help="费用分摊DTO.Misc.单据ID" dataTypeID="ba391065-6c27-4c82-acc8-b52b1c93a910" isKey="False" defaultValue="0" length="8" precise="19" scale="0" isNullable="True" isReadOnly="False" isHide="False" isCalculation="False" valueExpression="" maxValue="" minValue="" sequence="0" isDefaultDimensionAttribute="False" isDefaultMeasureAttribute="False" isGlobalization="False" idGenerator="" groupName="Misc" isEntityKey="False" isEntityData="True" isSystem="False" isBusinessKey="True" isSyncDictionary="False" dictionaryKey="" isExtendCode="False" isQuery="True" isForAsso="True" isModifyControl="False" isDynamic="False" isImpressible="False" isInCache="False" isKeySerializable="False" isColumnDefine="True" isFilterDefine="True" isSortDefine="True" isDefaultColumn="True" forOBAImport="False" />
+        <Attribute id="8cb7952f-a927-480c-ad68-6b3e3708907a" name="Amount" displayName="金额" description="" help="费用分摊DTO.Misc.金额" dataTypeID="a5242caa-f9ee-4159-b8c9-d0952a79175a" isKey="False" defaultValue="0" length="8" precise="53" scale="0" isNullable="True" isReadOnly="False" isHide="False" isCalculation="False" valueExpression="" maxValue="" minValue="" sequence="1" isDefaultDimensionAttribute="False" isDefaultMeasureAttribute="False" isGlobalization="False" idGenerator="" groupName="Misc" isEntityKey="False" isEntityData="True" isSystem="False" isBusinessKey="True" isSyncDictionary="False" dictionaryKey="" isExtendCode="False" isQuery="True" isForAsso="True" isModifyControl="False" isDynamic="False" isImpressible="False" isInCache="False" isKeySerializable="False" isColumnDefine="True" isFilterDefine="True" isSortDefine="True" isDefaultColumn="True" forOBAImport="False" />
+        <Attribute id="dd02da70-1189-435a-b133-8be6c5901f38" name="DocType" displayName="单据类型" description="" help="费用分摊DTO.Misc.单据类型" dataTypeID="b24cb8b1-2612-4422-bc78-015269ff619f" isKey="False" defaultValue="0" length="2" precise="5" scale="0" isNullable="True" isReadOnly="False" isHide="False" isCalculation="False" valueExpression="" maxValue="" minValue="" sequence="2" isDefaultDimensionAttribute="False" isDefaultMeasureAttribute="False" isGlobalization="False" idGenerator="" groupName="Misc" isEntityKey="False" isEntityData="True" isSystem="False" isBusinessKey="True" isSyncDictionary="False" dictionaryKey="" isExtendCode="False" isQuery="True" isForAsso="True" isModifyControl="False" isDynamic="False" isImpressible="False" isInCache="False" isKeySerializable="False" isColumnDefine="True" isFilterDefine="True" isSortDefine="True" isDefaultColumn="True" forOBAImport="False" />
+        <Attribute id="a097badf-f9cd-401a-84bb-c828591be3cc" name="DocNo" displayName="单号" description="" help="费用分摊DTO.Misc.单号" dataTypeID="3d174255-fd12-47f7-8844-3b5e4fae9e8c" isKey="False" defaultValue="" length="50" precise="5" scale="0" isNullable="True" isReadOnly="False" isHide="False" isCalculation="False" valueExpression="" maxValue="" minValue="" sequence="3" isDefaultDimensionAttribute="False" isDefaultMeasureAttribute="False" isGlobalization="False" idGenerator="" groupName="Misc" isEntityKey="False" isEntityData="True" isSystem="False" isBusinessKey="False" isSyncDictionary="False" dictionaryKey="" isExtendCode="False" isQuery="True" isForAsso="True" isModifyControl="False" isDynamic="False" isImpressible="False" isInCache="False" isKeySerializable="False" isColumnDefine="True" isFilterDefine="True" isSortDefine="True" isDefaultColumn="True" forOBAImport="False" />
+      </Attributes>
+    </PropertyType>
+    <Operation id="85a2d1e7-52e2-459e-a3eb-cbcd26e3baa7" name="ComputeBP" displayName="运费计算操作" description="" help="" mD_ParentClass_ID="" isFactEntity="False" returnTypeID="a5242caa-f9ee-4159-b8c9-d0952a79175a" isService="False" isDefault="False" isReturnCollection="True" isEntityKey="False" transactionType="2" isAuthorization="True" isISV="False">
+      <Groups>
+        <Group id="f82e3de7-cbec-44b3-8dab-116908f74a2c" name="Misc" displayName="Misc" description="" help="" />
+      </Groups>
+      <Attributes>
+        <Attribute id="0e3dcd32-139c-4b04-b626-8341c1f06923" name="Data" displayName="费用头" description="" help="运费计算操作.Misc.费用头" dataTypeID="9b412470-c8e9-407b-99b2-2b4c2508d4d1" isKey="False" defaultValue="" length="4" precise="10" scale="0" isNullable="True" isReadOnly="False" isHide="False" isCalculation="False" valueExpression="" maxValue="" minValue="" sequence="0" isDefaultDimensionAttribute="False" isDefaultMeasureAttribute="False" isGlobalization="False" idGenerator="" groupName="Misc" isEntityKey="False" isEntityData="True" isSystem="False" isBusinessKey="True" isSyncDictionary="False" dictionaryKey="" isExtendCode="False" isQuery="True" isForAsso="True" isModifyControl="False" isDynamic="False" isImpressible="False" isInCache="False" isKeySerializable="False" isColumnDefine="True" isFilterDefine="True" isSortDefine="True" isDefaultColumn="True" forOBAImport="False" />
+        <Attribute id="02d7f7ee-b13a-495c-9961-16c9f3577bb0" name="DataLine" displayName="费用行" description="" help="运费计算操作.Misc.费用行" isCollection="True" dataTypeID="7c236994-42fa-4f5f-97de-edfea1c7966b" isKey="False" defaultValue="" length="50" precise="5" scale="0" isNullable="True" isReadOnly="False" isHide="False" isCalculation="False" valueExpression="" maxValue="" minValue="" sequence="1" isDefaultDimensionAttribute="False" isDefaultMeasureAttribute="False" isGlobalization="False" idGenerator="" groupName="Misc" isEntityKey="False" isEntityData="True" isSystem="False" isBusinessKey="True" isSyncDictionary="False" dictionaryKey="" isExtendCode="False" isQuery="True" isForAsso="True" isModifyControl="False" isDynamic="False" isImpressible="False" isInCache="False" isKeySerializable="False" isColumnDefine="True" isFilterDefine="True" isSortDefine="True" isDefaultColumn="True" forOBAImport="False" />
+      </Attributes>
+      <Implements>
+        <Operation id="d7ce0580-9275-4b63-a529-db6f5c7ab24b" name="Impement" displayName="实现" description="" help="" mD_ParentClass_ID="" isFactEntity="False" returnTypeID="a5242caa-f9ee-4159-b8c9-d0952a79175a" isService="False" isDefault="True" isReturnCollection="True" isEntityKey="False" transactionType="2" isAuthorization="True" isISV="False" />
+      </Implements>
+    </Operation>
+    <Operation id="429e0588-aa6b-429f-bfe7-76c88fb061e6" name="Operation" displayName="费用分摊操作" description="" help="" mD_ParentClass_ID="" isFactEntity="False" returnTypeID="378d45b4-375d-4b5d-8748-abc9575c26b3" isService="False" isDefault="False" isEntityKey="False" transactionType="2" isAuthorization="True" isISV="True">
+      <Groups>
+        <Group id="403d0148-8860-41d7-b431-ef96e522226f" name="Misc" displayName="Misc" description="" help="" />
+      </Groups>
+      <Attributes>
+        <Attribute id="69a5bfb7-7f51-4d18-86f0-a5815fdfc759" name="Amounts" displayName="费用集合" description="" help="费用分摊操作.Misc.费用集合" isCollection="True" dataTypeID="18c20d02-9d67-4778-8ee8-52b802e977ca" isKey="False" defaultValue="" length="50" precise="5" scale="0" isNullable="True" isReadOnly="False" isHide="False" isCalculation="False" valueExpression="" maxValue="" minValue="" sequence="0" isDefaultDimensionAttribute="False" isDefaultMeasureAttribute="False" isGlobalization="False" idGenerator="" groupName="Misc" isEntityKey="False" isEntityData="True" isSystem="False" isBusinessKey="False" isSyncDictionary="False" dictionaryKey="" isExtendCode="False" isQuery="True" isForAsso="True" isModifyControl="False" isDynamic="False" isImpressible="False" isInCache="False" isKeySerializable="False" isColumnDefine="True" isFilterDefine="True" isSortDefine="True" isDefaultColumn="True" forOBAImport="False" />
+      </Attributes>
+      <Implements>
+        <Operation id="7c821e2f-7274-45ce-ada9-95eb6bff0922" name="Impement" displayName="实现" description="" help="" mD_ParentClass_ID="" isFactEntity="False" returnTypeID="378d45b4-375d-4b5d-8748-abc9575c26b3" isService="False" isDefault="True" isEntityKey="False" transactionType="2" isAuthorization="True" isISV="False" />
+      </Implements>
+    </Operation>
+    <Diagram id="89a73566-e588-4094-b0b2-1137471f42b9" name="FreightCalculationBP" displayName="FreightCalculationBP">
+      <Class Editable="True" ID="00cbf24c-a92f-43a1-86c2-c36f238c11f6" Type="PropertyType" ADID="18c20d02-9d67-4778-8ee8-52b802e977ca">
+        <Location X="414" Y="153" />
+        <Size width="120" height="58" />
+      </Class>
+      <Class Editable="True" ID="edf65b95-54f8-40ae-be6a-6c604e7f0698" Type="Operation" ADID="85a2d1e7-52e2-459e-a3eb-cbcd26e3baa7">
+        <Location X="100" Y="61" />
+        <Size width="120" height="58" />
+      </Class>
+      <Class Editable="True" ID="0973d3cf-43eb-4659-8c81-ad44e66cca3b" Type="Operation" ADID="429e0588-aa6b-429f-bfe7-76c88fb061e6">
+        <Location X="162" Y="183" />
+        <Size width="120" height="58" />
+      </Class>
+    </Diagram>
+  </Namespace>
+</Component>

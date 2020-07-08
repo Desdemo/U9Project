@@ -1,0 +1,74 @@
+<View ID="596c6217-5538-4662-b773-4b6bcc4284c8" ChildLabelWidth="56" ChildRefWidth="20" DisplayName="费用分摊列表" DisplayNameIndexStr="" DisplayNameResourceID="" DisplaySrcType="Custom" DisplaySrcUIFieldID="" DisplaySrcUIViewID="" GridBottomMargin="10" GridColumnCount="11" GridColumnSpace="24" GridLeftMargin="10" GridRightMargin="10" GridRowCount="11" GridRowSpace="10" GridTopMargin="10" Height="368" IsAutoSize="True" IsMainForm="True" LayoutType="GridBag" Name="FeeApportionUIForm" Namespace="UFIDA.U9.Cust.BLT.ShipPlan.ComplexListUI" TabStop="False" TemplateCode="BlankTemplate" TemplateType="SystemTemplate" UIModelID="8a5539c6-ff4f-4a14-9c0b-ed8038ea12bb" URI="UFIDA.U9.Cust.BLT.ShipPlan.ComplexListUI.FeeApportionUIFormWebPart" ViewID="4983" Width="688" X="10" Y="10">
+  <Columns>
+    <Column Fixed="False" Name="Column0" Type="Title" Width="99" />
+    <Column Fixed="False" Name="Column2" Type="Spacing" Width="11" />
+    <Column Fixed="False" Name="Column1" Width="99" />
+    <Column Fixed="False" Name="Column2" Type="Spacing" Width="11" />
+    <Column Fixed="False" Name="Column3" Type="Title" Width="99" />
+    <Column Fixed="False" Name="Column2" Type="Spacing" Width="11" />
+    <Column Fixed="False" Name="Column4" Width="98" />
+    <Column Fixed="False" Name="Column5" Type="Spacing" Width="10" />
+    <Column Fixed="False" Name="Column6" Type="Title" Width="98" />
+    <Column Fixed="False" Name="Column2" Type="Spacing" Width="10" />
+    <Column Fixed="False" Name="Column7" Width="98" />
+  </Columns>
+  <Rows>
+    <Row Fixed="False" Height="26" Name="Row0" />
+    <Row Fixed="False" Height="20" Name="Row1" />
+    <Row Fixed="False" Height="20" Name="Row2" />
+    <Row Fixed="False" Height="20" Name="Row3" />
+    <Row Fixed="False" Height="20" Name="Row4" />
+    <Row Fixed="False" Height="20" Name="Row5" />
+    <Row Fixed="False" Height="20" Name="Row6" />
+    <Row Fixed="False" Height="20" Name="Row7" />
+    <Row Fixed="False" Height="20" Name="Row8" />
+    <Row Fixed="False" Height="20" Name="Row9" />
+    <Row Fixed="False" Height="20" Name="Row10" />
+  </Rows>
+  <Providers />
+  <InParameters />
+  <DataGrid ID="5dd8c012-a4b8-4507-9dcc-463c622da79d" AllowSelectAllPage="True" AutoEditModel="False" EditStatus="edit" Enabled="True" GridHeight="9" GridWidth="11" GridX="0" GridY="0" HasSum="False" Height="266" IsMultiSelect="True" IsSumAllData="True" Name="DataGrid0" PageSize="20" Paging="True" TabIndex="1" TabStop="True" Width="644" X="10" Y="10">
+    <Events />
+    <Header ID="8745fa8f-8a1f-48cd-bf98-1329a75304b8" Name="Header0">
+      <HeaderRow ID="f1b154e5-c0b6-43a8-83ae-16cabaedae57" Name="DefaultRow">
+        <HeaderCell ID="f7a3165f-1db3-4828-ad95-864596b26da7" ColSpan="1" Name="HeaderCell1" OwnerColName="ID0" RowSpan="1" />
+        <HeaderCell ID="643fc401-a1eb-4472-893d-8f36c2082731" ColSpan="1" Name="HeaderCell2" OwnerColName="SysVersion0" RowSpan="1" />
+        <HeaderCell ID="0503f51d-dc22-4971-9449-029955cf88d9" ColSpan="1" Name="HeaderCell3" OwnerColName="DocNo0" RowSpan="1" />
+        <HeaderCell ID="48eb2fab-4f1a-4641-b72f-930ca1bfd98b" ColSpan="1" Name="HeaderCell4" OwnerColName="Fee0" RowSpan="1" />
+      </HeaderRow>
+    </Header>
+    <UIFilterBar Name="LocateBar" />
+    <Columns>
+      <NumberColumn ID="1d3ae089-809b-40db-9bf6-8d75a04dd7b8" DefaultValue="" DisplayFormat="" Enabled="True" Help="Key.ID" IsNull="False" IsProperty="False" IsSequence="True" Name="ID0" NPos="1" Point="0" UIFieldID="ID" UIViewID="FeeApportionView" Visible="False">
+        <PrecisionBind Name="PrecisionBind0" />
+        <RoundRuleBind Name="RoundRuleBind0" />
+        <ValueOfRoundByValueBind Name="ValueOfRoundByValueBind0" />
+        <CurrencyType Name="CurrencyType0" />
+        <Events />
+      </NumberColumn>
+      <NumberColumn ID="b0503fd4-9924-483c-a1d0-c7921d2983cd" DefaultValue="" DisplayFormat="" Enabled="True" Help="Sys.SysVersion" IsNull="False" IsProperty="False" IsSequence="False" Name="SysVersion0" NPos="2" Point="0" UIFieldID="SysVersion" UIViewID="FeeApportionView" Visible="False">
+        <PrecisionBind Name="PrecisionBind1" />
+        <RoundRuleBind Name="RoundRuleBind1" />
+        <ValueOfRoundByValueBind Name="ValueOfRoundByValueBind1" />
+        <CurrencyType Name="CurrencyType1" />
+        <Events />
+      </NumberColumn>
+      <TextBoxColumn ID="a959fb95-a872-494e-afbf-64a0d0f684ee" DefaultValue="0" DisplayFormat="50" Enabled="True" Help="Misc.单号" IsNull="False" IsProperty="False" IsSequence="False" Name="DocNo0" NPos="3" Point="0" TextAlign="Left" UIFieldID="DocNo" UIViewID="FeeApportionView" Visible="True" Width="200">
+        <Events />
+      </TextBoxColumn>
+      <NumberColumn ID="ed27c78c-78fe-4197-b6be-4dbb03559da6" DefaultValue="0" DisplayFormat="53.00" Enabled="True" Help="Misc.费用" IsNull="False" IsProperty="False" IsSequence="False" Name="Fee0" NPos="4" Point="2" UIFieldID="Fee" UIViewID="FeeApportionView" Visible="True">
+        <PrecisionBind Name="PrecisionBind2" />
+        <RoundRuleBind Name="RoundRuleBind2" />
+        <ValueOfRoundByValueBind Name="ValueOfRoundByValueBind2" />
+        <CurrencyType Name="CurrencyType2" />
+        <Events />
+      </NumberColumn>
+    </Columns>
+  </DataGrid>
+  <Button ID="59888d04-43bd-48bb-9213-7d1cdf8c6dcc" AccessKey="" DisplayName="费用分摊" DisplayNameIndexStr="" DisplayNameResourceID="" DisplaySrcType="Custom" DisplaySrcUIFieldID="" DisplaySrcUIViewID="" GridHeight="1" GridWidth="1" GridX="8" GridY="10" Height="20" Name="OnOk350" TabIndex="2" TabStop="True" Width="98" X="448" Y="316">
+    <Events>
+      <Event ActionName="OnOk" EnableEvent="True" EventType="PostBack" IsDataBinding="True" IsDataCollect="True" Name="Click" Parameter="OKClick" Template=".\UITpls\WebPart\RefCodeBehindCommon.tpl" />
+    </Events>
+  </Button>
+  <Events />
+</View>

@@ -1,0 +1,11 @@
+<Solution>
+  <SourceControl>
+  </SourceControl>
+  <ItemGroup>
+    <Item id="9130d92b-1601-4ff3-ae1e-dae55a4e00eb" include="LogisticsBE\LogisticsBE.ubfmlproj" />
+    <Item id="d4bd7551-41ea-4b2d-a959-707ca3a39ae7" include="LogisticsUI\LogisticsUI.ubfuiproj" />
+    <Item id="13fd41ef-08ec-43be-ae0b-dd873ce0f8bc" include="ComplexListUI\ComplexListUI.ubfuiproj" />
+    <Item id="dde9a79a-c500-4384-87c5-ffd96a1f087d" include="ComputeBP\ComputeBP.ubfbpproj" />
+  </ItemGroup>
+  <ServiceGroupInfo id="bb77c12c-0530-4d62-8375-038a3927ef4f" name="LogisticsDev" displayName="LogisticsDev" description="" help="" fullPath="D:\Code\U9demo\Logistics\Model\LogisticsDev\LogisticsDev.sg" applicationID="" />
+</Solution>

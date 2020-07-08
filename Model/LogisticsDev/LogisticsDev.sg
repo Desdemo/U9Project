@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceGroup>
+  <ServiceGroupInfo id="bb77c12c-0530-4d62-8375-038a3927ef4f" name="LogisticsDev" displayName="LogisticsDev" description="" help="" fullPath="D:\Code\U9demo\Logistics\Model\LogisticsDev\LogisticsDev.sg" applicationID="" />
+  <AssemblyGroup>
+    <Assembly ID="91ad4317-b286-4156-b6f4-6a79ce43994a" name="UFIDA.U9.Cust.BLT.ShipPlan.LogisticsBE" type="BE" path="" />
+    <Assembly ID="3432465e-c52b-47ce-a204-6f4eda8e2d7d" name="UFIDA.U9.Cust.BLT.ShipPlan.LogisticsUI" type="UI" path="" />
+    <Assembly ID="8ae95a3d-b938-4eec-9c19-64dcc8c4ec2a" name="UFIDA.U9.Cust.BLT.ShipPlan.ComplexListUI" type="UI" path="" />
+    <Assembly ID="7958f19a-cd89-424d-acf9-71990ba72195" name="UFIDA.U9.Cust.BLT.ShipPlan.ComputeBP" type="BP" path="" />
+  </AssemblyGroup>
+</ServiceGroup>
