@@ -15,5 +15,6 @@
     <Item id="218a04f2-3576-46e6-bcd2-f5d296c59cfd" name="ComplexListUIForm.ubfform" displayName="ComplexListUIForm.ubfform" description="" help="" include="ComplexListUIForm.ubfform" type="" />
     <Item id="ae76d961-6b6a-42e2-8ea5-201afed4f4de" name="FeeApportionUIModel.ubfuim" displayName="FeeApportionUIModel.ubfuim" description="" help="" include="FeeApportionUIModel.ubfuim" type="" />
     <Item id="71956645-c450-4c3f-970a-5068900914c8" name="FeeApportionUIForm.ubfform" displayName="FeeApportionUIForm.ubfform" description="" help="" include="FeeApportionUIForm.ubfform" type="" />
+    <Item id="785646e0-4644-4851-b6ae-db7933023e8a" name="LocationRef.ubfref" displayName="LocationRef.ubfref" description="" help="" include="LocationRef.ubfref" type="" />
   </ItemGroup>
 </Project>

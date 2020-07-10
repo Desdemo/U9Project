@@ -126,6 +126,9 @@
             <UIFieldInfo id="8a2c1375-91f0-4307-b17e-55687b286a34" name="Remark" displayName="备注" description="" DefaultValue="" GroupName="Misc" DisplayRule="50" IsNullable="True" IsReadOnly="False" IsEnableReference="False" IsLink="False" ControlID="68095607-50d1-4296-a35a-623b21d654f0" DataTypeID="3d174255-fd12-47f7-8844-3b5e4fae9e8c" EnumTypeID="" BindingFullName="ComplexListUIModel.ComplexList.Remark" Expression="" Sequence="0" Length="50" IsBinding="False" IsGlobalized="False" CustomIsLoadable="False" CustomAttrName="" />
             <UIFieldInfo id="29716dbb-fa70-46f3-a219-efe158722a5e" name="Discharge" displayName="卸货费" description="" DefaultValue="0" GroupName="Misc" DisplayRule="53.0" IsNullable="True" IsReadOnly="False" IsEnableReference="False" IsLink="False" ControlID="68095607-50d1-4296-a35a-623b21d654f1" DataTypeID="a5242caa-f9ee-4159-b8c9-d0952a79175a" EnumTypeID="" BindingFullName="ComplexListUIModel.ComplexList.Discharge" Expression="" Sequence="0" Length="8" IsBinding="False" IsGlobalized="False" CustomIsLoadable="False" CustomAttrName="" />
           </Fields>
+          <Filters>
+            <UIFilterInfo id="4c7f39c3-f156-45fb-af5b-6a06b55a33c2" name="DefaultFilter" displayName="缺省过滤条件" description="" help="" OPath="" OrderBy="" />
+          </Filters>
         </UIViewInfo>
         <UIViewInfo id="0046f6c0-df0b-4318-b709-ab5a016f7c3c" name="ComplexList_ComplexListLine" displayName="物流费用行" description="" RootFullName="ComplexListUIModel.ComplexList.ComplexListLine.Item">
           <Groups>

@@ -226,31 +226,12 @@
         <RelationControls />
         <Events />
       </Label>
-      <Reference ID="889806cd-2949-43d8-baae-d537edd66652" CodeAttributeName="Code" CodeField="Code" CodeFieldUIFieldID="StartAddress_Code" CodeFieldUIViewID="ComplexList" DisplayFormat="19.0" Enabled="True" EntityName="ID" GridHeight="1" GridWidth="2" GridX="1" GridY="0" Height="20" IsNull="True" IsProperty="False" IsSequence="False" Name="StartAddress0" NameAttributeName="Name" NameFieldUIFieldID="StartAddress_Name" NameFieldUIViewID="ComplexList" PkeyField="ID" RefType="1eff2146-d07b-4ab6-b6c4-323e5e6b5185" RelationControl="lblStartAddress0" TabIndex="34" TabStop="True" TextAlign="Right" TitleAlign="Left" TitleLocation="Left" UIFieldID="StartAddress" UIViewID="ComplexList" Visible="True" Width="250" WindowHeight="408" WindowWidth="580" X="125" Y="0">
+      <Reference ID="889806cd-2949-43d8-baae-d537edd66652" CodeAttributeName="Code" CodeField="Code" CodeFieldUIFieldID="StartAddress_Code" CodeFieldUIViewID="ComplexList" DisplayFormat="19.0" Enabled="True" EntityName="ID" GridHeight="1" GridWidth="2" GridX="1" GridY="0" Height="20" IsNull="True" IsProperty="False" IsSequence="False" Name="StartAddress0" NameAttributeName="Name" NameFieldUIFieldID="StartAddress_Name" NameFieldUIViewID="ComplexList" PkeyField="ID" RefType="2c7b79da-8a5f-416b-9f9f-31e286747b86" RelationControl="lblStartAddress0" TabIndex="34" TabStop="True" TextAlign="Right" TitleAlign="Left" TitleLocation="Left" UIFieldID="StartAddress" UIViewID="ComplexList" Visible="True" Width="250" WindowHeight="408" WindowWidth="580" X="125" Y="0">
         <Events />
         <RelationControls />
         <ReferenceRelation Action="Clear" ColumnDisplayName="ID" ColumnID="ID" TargetControlType="" TargetID="" TargetProperty="" />
-        <ReferenceRelation Action="Clear" ColumnDisplayName="编码" ColumnID="Code" TargetControlType="" TargetID="" TargetProperty="" />
-        <ReferenceRelation Action="Clear" ColumnDisplayName="名称" ColumnID="Name" TargetControlType="" TargetID="" TargetProperty="" />
-        <ReferenceRelation Action="Clear" ColumnDisplayName="简称" ColumnID="ShortName" TargetControlType="" TargetID="" TargetProperty="" />
-        <ReferenceRelation Action="Clear" ColumnDisplayName="描述" ColumnID="Description" TargetControlType="" TargetID="" TargetProperty="" />
-        <ReferenceRelation Action="Clear" ColumnDisplayName="地址1" ColumnID="Address1" TargetControlType="" TargetID="" TargetProperty="" />
-        <ReferenceRelation Action="Clear" ColumnDisplayName="地址2" ColumnID="Address2" TargetControlType="" TargetID="" TargetProperty="" />
-        <ReferenceRelation Action="Clear" ColumnDisplayName="地址3" ColumnID="Address3" TargetControlType="" TargetID="" TargetProperty="" />
-        <ReferenceRelation Action="Clear" ColumnDisplayName="ID" ColumnID="Country_ID" TargetControlType="" TargetID="" TargetProperty="" />
-        <ReferenceRelation Action="Clear" ColumnDisplayName="编码" ColumnID="Country_Code" TargetControlType="" TargetID="" TargetProperty="" />
-        <ReferenceRelation Action="Clear" ColumnDisplayName="国家／地区" ColumnID="Country_Name" TargetControlType="" TargetID="" TargetProperty="" />
-        <ReferenceRelation Action="Clear" ColumnDisplayName="ID" ColumnID="Province_ID" TargetControlType="" TargetID="" TargetProperty="" />
-        <ReferenceRelation Action="Clear" ColumnDisplayName="编码" ColumnID="Province_Code" TargetControlType="" TargetID="" TargetProperty="" />
-        <ReferenceRelation Action="Clear" ColumnDisplayName="省／自治区" ColumnID="Province_Name" TargetControlType="" TargetID="" TargetProperty="" />
-        <ReferenceRelation Action="Clear" ColumnDisplayName="ID" ColumnID="City_ID" TargetControlType="" TargetID="" TargetProperty="" />
-        <ReferenceRelation Action="Clear" ColumnDisplayName="编码" ColumnID="City_Code" TargetControlType="" TargetID="" TargetProperty="" />
-        <ReferenceRelation Action="Clear" ColumnDisplayName="城市" ColumnID="City_Name" TargetControlType="" TargetID="" TargetProperty="" />
-        <ReferenceRelation Action="Clear" ColumnDisplayName="ID" ColumnID="County_ID" TargetControlType="" TargetID="" TargetProperty="" />
-        <ReferenceRelation Action="Clear" ColumnDisplayName="编码" ColumnID="County_Code" TargetControlType="" TargetID="" TargetProperty="" />
-        <ReferenceRelation Action="Clear" ColumnDisplayName="区县" ColumnID="County_Name" TargetControlType="" TargetID="" TargetProperty="" />
-        <ReferenceRelation Action="Clear" ColumnDisplayName="ID" ColumnID="PostalCode_ID" TargetControlType="" TargetID="" TargetProperty="" />
-        <ReferenceRelation Action="Clear" ColumnDisplayName="邮政编码" ColumnID="PostalCode_PostalCode" TargetControlType="" TargetID="" TargetProperty="" />
+        <ReferenceRelation Action="Clear" ColumnDisplayName="地址编码" ColumnID="Code" TargetControlType="" TargetID="" TargetProperty="" />
+        <ReferenceRelation Action="Clear" ColumnDisplayName="地址名称" ColumnID="Name" TargetControlType="" TargetID="" TargetProperty="" />
         <RefNameFields>
           <RefNameField UIFieldID="Name" />
         </RefNameFields>
