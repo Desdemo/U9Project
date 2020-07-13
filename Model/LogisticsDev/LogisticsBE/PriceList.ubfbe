@@ -5,7 +5,7 @@
       <Groups>
         <Group id="1ece792f-909d-4468-a9a8-d606b2c3bbcc" name="Key" displayName="Key" description="" help="" />
         <Group id="638d2336-441d-48f4-9a43-697819edb697" name="Sys" displayName="Sys" description="" help="" />
-        <Group id="1a93aa89-eaa4-4428-8f41-361bf5ef8a20" name="Misc" displayName="Misc" description="" help="" />
+        <Group id="ed0495b6-64b0-46eb-8825-459e1ff906b7" name="Misc" displayName="Misc" description="" help="" />
       </Groups>
       <Attributes>
         <Attribute id="36505db6-4e42-458f-8182-333bbb0b1279" name="ID" displayName="ID" description="" help="物流价目表.Key.ID" dataTypeID="ba391065-6c27-4c82-acc8-b52b1c93a910" isKey="True" defaultValue="" length="8" precise="19" scale="0" isNullable="False" isReadOnly="False" isHide="True" isCalculation="False" valueExpression="" maxValue="" minValue="" sequence="0" isDefaultDimensionAttribute="False" isDefaultMeasureAttribute="False" isGlobalization="False" idGenerator="db" groupName="Key" isEntityKey="False" isEntityData="True" isSystem="True" isBusinessKey="False" isSyncDictionary="False" dictionaryKey="" isExtendCode="False" isQuery="True" isForAsso="True" isModifyControl="False" isDynamic="False" isImpressible="False" isInCache="False" isKeySerializable="False" isColumnDefine="True" isFilterDefine="True" isSortDefine="True" isDefaultColumn="True" forOBAImport="False" />
@@ -39,7 +39,7 @@
       <Groups>
         <Group id="e1399740-7971-45c4-88a9-1c896a64d434" name="Key" displayName="Key" description="" help="" />
         <Group id="f5c96b8f-120f-4f6c-ad43-2c906a3569b3" name="Sys" displayName="Sys" description="" help="" />
-        <Group id="1989d3f8-511a-4584-a80b-f5be5bd435be" name="Misc" displayName="Misc" description="" help="" />
+        <Group id="d85a6c18-f56d-4a4a-bcbd-89bb13789bd8" name="Misc" displayName="Misc" description="" help="" />
       </Groups>
       <Attributes>
         <Attribute id="8f1fc30e-916d-4385-bff3-61b23caf62e4" name="ID" displayName="ID" description="" help="物流价目表行.Key.ID" dataTypeID="ba391065-6c27-4c82-acc8-b52b1c93a910" isKey="True" defaultValue="" length="8" precise="19" scale="0" isNullable="False" isReadOnly="False" isHide="True" isCalculation="False" valueExpression="" maxValue="" minValue="" sequence="0" isDefaultDimensionAttribute="False" isDefaultMeasureAttribute="False" isGlobalization="False" idGenerator="db" groupName="Key" isEntityKey="False" isEntityData="True" isSystem="True" isBusinessKey="False" isSyncDictionary="False" dictionaryKey="" isExtendCode="False" isQuery="True" isForAsso="True" isModifyControl="False" isDynamic="False" isImpressible="False" isInCache="False" isKeySerializable="False" isColumnDefine="True" isFilterDefine="True" isSortDefine="True" isDefaultColumn="True" forOBAImport="False" />

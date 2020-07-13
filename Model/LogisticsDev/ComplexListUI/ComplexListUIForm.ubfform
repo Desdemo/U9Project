@@ -84,11 +84,11 @@
       <Column Fixed="True" Name="Column1" Width="372" />
     </Columns>
     <Rows>
-      <Row Fixed="True" Height="70" Name="Row0" />
+      <Row Fixed="True" Height="100" Name="Row0" />
       <Row Fixed="False" Height="400" Name="Row1" />
       <Row Fixed="True" Height="53" Name="Row2" />
     </Rows>
-    <Card ID="3633a995-fb0e-4c12-b2d0-fed8c6638302" BorderStyle="True" ChildLabelWidth="60" ChildRefWidth="20" GridBottomMargin="0" GridColumnCount="11" GridColumnSpace="0" GridHeight="1" GridLeftMargin="0" GridRightMargin="0" GridRowCount="3" GridRowSpace="5" GridTopMargin="0" GridWidth="2" GridX="0" GridY="0" Height="70" LayoutType="GridBag" Name="Card2" TabIndex="1" TabStop="False" Width="1372" X="0" Y="0">
+    <Card ID="3633a995-fb0e-4c12-b2d0-fed8c6638302" BorderStyle="True" ChildLabelWidth="60" ChildRefWidth="20" GridBottomMargin="0" GridColumnCount="11" GridColumnSpace="0" GridHeight="1" GridLeftMargin="0" GridRightMargin="0" GridRowCount="3" GridRowSpace="5" GridTopMargin="0" GridWidth="2" GridX="0" GridY="0" Height="100" LayoutType="GridBag" Name="Card2" TabIndex="1" TabStop="False" Width="1372" X="0" Y="0">
       <Columns>
         <Column Fixed="True" Name="Column0" Type="Title" Width="125" />
         <Column Fixed="True" Name="Column1" Type="Spacing" Width="125" />
@@ -239,7 +239,7 @@
         <Events />
       </Reference>
     </Card>
-    <DataGrid ID="9cc8c678-f7c8-4015-8144-d666141889c9" AllowAddRow="True" AutoEditModel="False" EditStatus="edit" Enabled="True" GridHeight="2" GridWidth="2" GridX="0" GridY="1" HasSum="True" Height="463" IsMultiSelect="True" Name="DataGrid5" PageSize="20" Paging="True" TabIndex="2" TabStop="True" Width="1372" X="0" Y="80">
+    <DataGrid ID="9cc8c678-f7c8-4015-8144-d666141889c9" AllowAddRow="True" AutoEditModel="False" EditStatus="edit" Enabled="True" GridHeight="2" GridWidth="2" GridX="0" GridY="1" HasSum="True" Height="463" IsMultiSelect="True" Name="DataGrid5" PageSize="20" Paging="True" TabIndex="2" TabStop="True" Width="1372" X="0" Y="110">
       <Events />
       <Header ID="3894d826-866e-471b-9069-808ada69fdcf" Name="Header5">
         <HeaderRow ID="15db4043-aeec-482f-88fc-52637285eb5d" Name="DefaultRow">

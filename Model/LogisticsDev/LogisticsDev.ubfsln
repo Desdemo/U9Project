@@ -7,5 +7,5 @@
     <Item id="13fd41ef-08ec-43be-ae0b-dd873ce0f8bc" include="ComplexListUI\ComplexListUI.ubfuiproj" />
     <Item id="dde9a79a-c500-4384-87c5-ffd96a1f087d" include="ComputeBP\ComputeBP.ubfbpproj" />
   </ItemGroup>
-  <ServiceGroupInfo id="bb77c12c-0530-4d62-8375-038a3927ef4f" name="LogisticsDev" displayName="LogisticsDev" description="" help="" fullPath="D:\Code\U9demo\Logistics\Model\LogisticsDev\LogisticsDev.sg" applicationID="" />
+  <ServiceGroupInfo id="bb77c12c-0530-4d62-8375-038a3927ef4f" name="LogisticsDev" displayName="LogisticsDev" description="" help="" fullPath="D:\Code\U9demo\Logistics\Model\LogisticsDev\LogisticsDev.ubfsln" applicationID="" />
 </Solution>
