@@ -172,6 +172,9 @@
             <UIFieldInfo id="d6d6ee62-6650-4b2b-a5c3-c91fa4c443f1" name="ComputeUom_Code" displayName="编码" description="编码" DefaultValue="" GroupName="Misc" DisplayRule="50" IsNullable="False" IsReadOnly="False" IsEnableReference="False" IsLink="False" ControlID="68095607-50d1-4296-a35a-623b21d654f0" DataTypeID="3d174255-fd12-47f7-8844-3b5e4fae9e8c" EnumTypeID="" BindingFullName="ComplexListUIModel.ComplexList.ComplexListLine.Item.ComputeUom.Code" Expression="" Sequence="0" Length="50" IsBinding="False" IsGlobalized="False" CustomIsLoadable="False" CustomAttrName="" />
             <UIFieldInfo id="cb011d47-f6c5-46be-975f-05d86670cfa1" name="ComputeUom_Name" displayName="名称" description="名称" DefaultValue="" GroupName="Misc" DisplayRule="50" IsNullable="True" IsReadOnly="False" IsEnableReference="False" IsLink="False" ControlID="68095607-50d1-4296-a35a-623b21d654f0" DataTypeID="3d174255-fd12-47f7-8844-3b5e4fae9e8c" EnumTypeID="" BindingFullName="ComplexListUIModel.ComplexList.ComplexListLine.Item.ComputeUom.Name" Expression="" Sequence="0" Length="50" IsBinding="False" IsGlobalized="True" CustomIsLoadable="False" CustomAttrName="" />
           </Fields>
+          <Filters>
+            <UIFilterInfo id="73697249-ec1a-498a-bf7f-bb05b76be9b3" name="DefaultFilter" displayName="缺省过滤条件" description="" help="" OPath="" OrderBy="" />
+          </Filters>
         </UIViewInfo>
       </Views>
       <Links>
@@ -189,6 +192,7 @@
         <UIActionInfo id="6c120815-56e8-489b-9f05-a926fbb0a5fc" name="Query" displayName="查询" description="" help="" CodeTemplate="" TemplateParameter="Query" GroupName="Misc" DictionaryItemKey="" IsSyncDictionary="True" />
         <UIActionInfo id="9e182243-da1a-447e-a72d-3d6972fd8eb6" name="Planning" displayName="运费计算" description="" help="" CodeTemplate="" TemplateParameter="Planning" GroupName="Misc" DictionaryItemKey="" IsSyncDictionary="True" />
         <UIActionInfo id="251b65ef-86b0-40ce-8635-018f7b974799" name="OnClose" displayName="取消" description="取消" help="" CodeTemplate=".\UITpls\WebPart\RefCodeBehindCommon.tpl" TemplateParameter="CancelClick" GroupName="Misc" DictionaryItemKey="020a5365-8f12-4970-b8df-17ce3ae60a68" IsSyncDictionary="True" />
+        <UIActionInfo id="63fb895f-ec32-46d0-a4fb-075a16d9acc1" name="SaveResult" displayName="保存" description="" help="" CodeTemplate="" TemplateParameter="" GroupName="Misc" DictionaryItemKey="" IsSyncDictionary="True" />
       </Actions>
     </UIModel>
   </UIModels>

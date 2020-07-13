@@ -4,7 +4,7 @@
   </Columns>
   <Rows>
     <Row Fixed="True" Height="28" Name="Row0" />
-    <Row Fixed="False" Height="500" Name="Row4" />
+    <Row Fixed="False" Height="493" Name="Row4" />
     <Row Fixed="True" Height="35" Name="Row3" />
     <Row Fixed="False" Height="5" Name="Row5" />
     <Row Fixed="True" Height="30" Name="Row6" />
@@ -34,7 +34,7 @@
       </Events>
     </Button>
   </Toolbar>
-  <Card ID="63035ee1-c824-4bbb-81c5-a5a44eebcd14" ChildLabelWidth="60" ChildRefWidth="20" FunctionBar="FunctionBar" GridBottomMargin="10" GridColumnCount="22" GridColumnSpace="0" GridHeight="1" GridLeftMargin="20" GridRightMargin="10" GridRowCount="1" GridRowSpace="5" GridTopMargin="3" GridWidth="1" GridX="0" GridY="4" Height="30" LayoutType="GridBag" Name="Card0" TabIndex="3" TabStop="False" Width="1392" X="0" Y="608">
+  <Card ID="63035ee1-c824-4bbb-81c5-a5a44eebcd14" ChildLabelWidth="60" ChildRefWidth="20" FunctionBar="FunctionBar" GridBottomMargin="10" GridColumnCount="22" GridColumnSpace="0" GridHeight="1" GridLeftMargin="20" GridRightMargin="10" GridRowCount="1" GridRowSpace="5" GridTopMargin="3" GridWidth="1" GridX="0" GridY="4" Height="30" LayoutType="GridBag" Name="Card0" TabIndex="3" TabStop="False" Width="1392" X="0" Y="601">
     <Columns>
       <Column Fixed="True" Name="Column0" Type="Spacing" Width="80" />
       <Column Fixed="True" Name="Column1" Type="Spacing" Width="10" />
@@ -77,8 +77,13 @@
         <Event ActionName="Planning" EnableEvent="True" EventType="PostBack" Name="Click" Parameter="" Template="" />
       </Events>
     </Button>
+    <Button ID="bbd8281d-fb62-49ee-a2f1-9ed0e76bde5b" AccessKey="" GridHeight="1" GridWidth="1" GridX="12" GridY="0" Height="20" Name="SaveResult1267" TabIndex="12" TabStop="True" Width="80" X="560" Y="3">
+      <Events>
+        <Event ActionName="SaveResult" EnableEvent="True" EventType="PostBack" IsDataBinding="True" IsDataCollect="True" Name="Click" Parameter="" Template="" />
+      </Events>
+    </Button>
   </Card>
-  <Card ID="be4961e2-d330-46ec-b8f8-a9dc72c80116" ChildLabelWidth="60" ChildRefWidth="20" GridBottomMargin="0" GridColumnCount="2" GridColumnSpace="0" GridHeight="1" GridLeftMargin="0" GridRightMargin="0" GridRowCount="3" GridRowSpace="10" GridTopMargin="0" GridWidth="1" GridX="0" GridY="1" Height="500" LayoutType="GridBag" Name="Card4" TabIndex="2" TabStop="False" Width="1392" X="0" Y="38">
+  <Card ID="be4961e2-d330-46ec-b8f8-a9dc72c80116" ChildLabelWidth="60" ChildRefWidth="20" GridBottomMargin="0" GridColumnCount="2" GridColumnSpace="0" GridHeight="1" GridLeftMargin="0" GridRightMargin="0" GridRowCount="3" GridRowSpace="10" GridTopMargin="0" GridWidth="1" GridX="0" GridY="1" Height="493" LayoutType="GridBag" Name="Card4" TabIndex="2" TabStop="False" Width="1392" X="0" Y="38">
     <Columns>
       <Column Fixed="False" Name="Column0" Type="Title" Width="1000" />
       <Column Fixed="True" Name="Column1" Width="372" />
@@ -354,7 +359,7 @@
       </Columns>
     </DataGrid>
   </Card>
-  <Card ID="e7764a15-103b-4525-aac7-d8fcf4103e64" ChildLabelWidth="60" ChildRefWidth="20" GridBottomMargin="0" GridColumnCount="18" GridColumnSpace="0" GridHeight="2" GridLeftMargin="0" GridRightMargin="0" GridRowCount="2" GridRowSpace="5" GridTopMargin="0" GridWidth="1" GridX="0" GridY="2" Height="50" Name="Card7" TabStop="False" Width="1392" X="0" Y="548">
+  <Card ID="e7764a15-103b-4525-aac7-d8fcf4103e64" ChildLabelWidth="60" ChildRefWidth="20" GridBottomMargin="0" GridColumnCount="18" GridColumnSpace="0" GridHeight="2" GridLeftMargin="0" GridRightMargin="0" GridRowCount="2" GridRowSpace="5" GridTopMargin="0" GridWidth="1" GridX="0" GridY="2" Height="50" Name="Card7" TabStop="False" Width="1392" X="0" Y="541">
     <Columns>
       <Column Fixed="True" Name="Column0" Type="Title" Width="77" />
       <Column Fixed="True" Name="Column1" Type="Spacing" Width="77" />

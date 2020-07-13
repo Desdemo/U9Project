@@ -1,0 +1,36 @@
+{9CC14AC0-AD29-47f6-8711-C5047938016E}
+BaseFile|11
+UBF_MD_Association|36|35
+ID, Name, CreateOp, CreateTime, ModifyOp, ModifyTime, Parent_Class_ID, Child_Class_ID, Parent_Attribute_ID, Child_Attribute_ID, ParentCardinality, ChildCardinality, Kind, IsCascadeDelete, IsCascadeUpdate, IsEnableCascadeValidation, CascadeDeleteRule, CascadeUpdateRule, IsCreateFK
+
+UBF_MD_Class|36|35
+ID, Name, CreateOp, CreateTime, ModifyOp, ModifyTime, Local_ID, MD_ParentClass_ID, MD_Component_ID, Local_Component_ID, ClassType, FullName, IsMain, IsAbstract, Discriminator, InheritanceMapKind, IsModifyControl, HasImpressibleAttribute, IsInCache, DefaultTableName, IsAuthority, IsDefault, IsService, TransactionType, ReturnTypeID, IsExtend, IsQueryDTO, IsPersistence, IsPkClustered,ForOBAImport
+
+UBF_MD_IndexAttribute|36|35
+ID, CreatedBy, CreatedOn, ModifiedBy, ModifiedOn, EntityIndex, AttributeUID, AttributeName, ColumnName, DataTypeFullName, DataTypeUID, IsEntity, IsCollection, AttributeFullName, Sequence, IsAscend
+
+UBF_MD_IndexIncludeAttribute|36|35
+ID, CreatedBy, CreatedOn, ModifiedBy, ModifiedOn, EntityIndex, AttributeUID, AttributeName, ColumnName, DataTypeFullName, DataTypeUID, IsEntity, IsCollection, AttributeFullName, Sequence, IsAscend
+
+UBF_MD_Project|36|36
+Name, ID, AssemblyName, CreateOp, ComponentType, ModifyTime, ModifyOp, CreateTime
+
+UBF_MD_EntityIndex|37|36
+ID, Name, CreatedBy, CreatedOn, ModifiedBy, ModifiedOn, IsUnique, IsCluster, EntityUID, EntityFullName
+
+UBF_MD_Stereotype|37|36
+ID, Name, Template, Classify, OwnerId, OwnerType, ComponentId, Ordinal
+ID, OwnerId
+UBF_MD_Import|37|36
+Source_ID, Imported_ID
+
+UBF_MD_StereotypeValue|37|36
+Name, Value, StereotypeUid, StereotypeOwnerUid, ComponentId, StereotypeOrdinal
+Name, StereotypeUid, StereotypeOwnerUid, StereotypeOrdinal
+UBF_MD_Attribute|37|36
+ID, Name, CreateOp, CreateTime, ModifyOp, ModifyTime, Local_ID, MD_Class_ID, Local_Class_ID, DataTypeID, GroupName, IsCollection, DefaultValue, Length, Precision, Sequence, Scale, MaxValue, MinValue, IsKey, IsNullable, IsReadOnly, Visibility, IsCalculation, IsGlobalization, IsSystem, IsBusinessKey, IsQueryAttribute, IsForAsso, GroupID, IsModifyControl, IsDynamic, IsImpressible, IsInCache, IsKeySerializable, IsColumnDefine, IsFilterDefine, IsSortDefine, IsDefaultColumn, IsEntityData, DefaultColumnName, DataTypeFlag,ForOBAImport
+
+UBF_MD_Component|37|36
+Local_ID, Kind, Name, ID, AssemblyName, CreateOp, ModifyTime, Version, ModifyOp, MD_Module_ID, CreateTime
+
+LogisticsConstsBP	672118a1-0ecb-4343-b3e9-9c58af16a44c	UFIDA.U9.Cust.BLT.ShipPlan.LogisticsConstsBP	Administrator	BP	2020-07-13T11:58:14		2020-07-13T11:58:14

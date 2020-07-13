@@ -1,0 +1,19 @@
+{9CC14AC0-AD29-47f6-8711-C5047938016E}
+BaseFile|1
+UBF_RES_ResourceValue|6|19
+LanguageName, ResourceName, Status, Description, DisplayName, Type, Help, ComponentID, ParentHelpResourceName, ResourceID, ParentResourceName
+
+zh-CN	c2104bd3-cc7f-44c5-b776-1be32e8a2265	T		LogisticsConstsBListUIModel	UimComponent		205bb11a-ce29-4dbb-b935-c1c8cf0905d6		b5e6e38a-927d-451d-a1fc-3c354e4aed8a	
+zh-CN	ae654d6c-f10c-4b88-8aea-5f46bd003847	T		Case	UimGroup		205bb11a-ce29-4dbb-b935-c1c8cf0905d6		3a92a7b0-212e-4e90-aac8-9f4eb4edad05	
+zh-CN	8e33e2df-37fc-4198-bc7d-ce3907873fff	T		物流费统计	UimUIViewInfo		205bb11a-ce29-4dbb-b935-c1c8cf0905d6		1b38ae60-dd80-4ac9-af05-68d1574769a5	
+zh-CN	658dbcd6-702b-4af7-a811-de1edd2658b1	T		Key	UimUIViewInfoGroup		205bb11a-ce29-4dbb-b935-c1c8cf0905d6		fb0714b8-6530-46b9-a0b3-e3eb0ac7a674	
+zh-CN	9b603439-f284-473d-8258-99d622add365	T		Misc	UimUIViewInfoGroup		205bb11a-ce29-4dbb-b935-c1c8cf0905d6		6146990d-f265-406a-a87b-9f24f6c479ba	
+zh-CN	624f1b40-6d5f-40cf-a9e1-d7b254c4ceda	F		ID	UimUIViewInfoUIFieldInfo	物流费统计.Key.ID	205bb11a-ce29-4dbb-b935-c1c8cf0905d6	80e85da3-c7d5-4c9c-8327-8523d7f66d1a.9619d0fa-061b-4f4f-910f-b2b46e3540ed.4f5449f8-a518-4c41-8296-9eb842300e32	9cc762ed-7e67-499a-b3d3-cd33419a0a69	4f5449f8-a518-4c41-8296-9eb842300e32
+zh-CN	5facf0f3-3e7e-4837-a0b5-fbbbb51c8da0	T		查询	UimUIActionInfo		205bb11a-ce29-4dbb-b935-c1c8cf0905d6		8c3b7f16-edb7-469b-a869-1164a41ecc45	
+zh-CN	16857192-f8e3-4e5d-a409-c32c89c9088a	T		改变方案	UimUIActionInfo		205bb11a-ce29-4dbb-b935-c1c8cf0905d6		564bdf43-0c3d-4515-b777-4c2b355ffa75	
+zh-CN	2c004827-7b94-4926-82ce-86a02be8fd2f	T		输出	UimUIActionInfo		205bb11a-ce29-4dbb-b935-c1c8cf0905d6		ab0f2cce-7a8a-42c7-b8da-d8bc54ee4af8	
+zh-CN	dffd13a6-dd24-4a45-8c33-169626dac71b	T		双击网格行	UimUIActionInfo		205bb11a-ce29-4dbb-b935-c1c8cf0905d6		8375f227-3eff-4872-876d-70c3e0b89855	
+zh-CN	f6c80e8a-be63-45d2-aeb1-c9b393f9ba73	T		新增	UimUIActionInfo		205bb11a-ce29-4dbb-b935-c1c8cf0905d6		05cc2625-ec41-4090-a9b4-b2247697fcaf	
+zh-CN	5fcc78e2-201c-44ae-bc3d-cb55bae14cdd	T		打印	UimUIActionInfo		205bb11a-ce29-4dbb-b935-c1c8cf0905d6		50543f32-3cf8-4263-bf7c-bb40f2ae9982	
+zh-CN	eb9640a2-092f-40c0-9d2d-3cfc935cc139	T		删除	UimUIActionInfo		205bb11a-ce29-4dbb-b935-c1c8cf0905d6		01db6207-930b-4b78-bfa0-045e9d0ed087	
+zh-CN	0d359f87-f761-46ac-8226-9e9d30f78bc3	F		物流费统计	UiFormTitle		0d359f87-f761-46ac-8226-9e9d30f78bc3		bcb9583a-344a-4f01-867c-340c6888896c	

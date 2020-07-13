@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project id="0cb01b69-427a-4ba5-9da4-a2e2563f5d74" name="LogisticsConsts" displayName="LogisticsConsts" description="" help="" type="" assemblyName="LogisticsConsts" mapProject="" resourceName="" projectVersion="Normal">
+  <Imports>
+    <Import id="7cb718a2-6f5e-4a02-b8e1-38c3ea21ea43" name="LogisticsConstsUI" displayName="LogisticsConstsUI" description="" help="" componentid="a965f686-4d30-4360-9044-6e03489f6516" path="..\..\LogisticsConstsUI\LogisticsConstsUI.ubfuiproj" type="UI" isRuntime="False" />
+    <Import id="6b678c86-9963-478c-b788-3028c23782b0" name="LogisticsConstsBP" displayName="LogisticsConstsBP" description="" help="" componentid="672118a1-0ecb-4343-b3e9-9c58af16a44c" path="..\..\LogisticsConstsBP\LogisticsConstsBP.ubfbpproj" type="BP" isRuntime="False" />
+  </Imports>
+  <SourceControl />
+  <ItemGroup>
+    <Item id="c7a0a470-1c5d-4614-9159-7f9b9e45499b" name="LogisticsConsts.ubfquery" displayName="LogisticsConsts.ubfquery" description="" help="" include="LogisticsConsts.ubfquery" type="" />
+  </ItemGroup>
+</Project>

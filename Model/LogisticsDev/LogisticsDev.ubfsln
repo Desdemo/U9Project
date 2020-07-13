@@ -6,6 +6,9 @@
     <Item id="d4bd7551-41ea-4b2d-a959-707ca3a39ae7" include="LogisticsUI\LogisticsUI.ubfuiproj" />
     <Item id="13fd41ef-08ec-43be-ae0b-dd873ce0f8bc" include="ComplexListUI\ComplexListUI.ubfuiproj" />
     <Item id="dde9a79a-c500-4384-87c5-ffd96a1f087d" include="ComputeBP\ComputeBP.ubfbpproj" />
+    <Item id="b89f1708-7811-456c-976e-47436b059601" include="..\LogisticsConstsUI\LogisticsConstsUI.ubfuiproj" />
+    <Item id="b49a0479-e4ef-4074-9031-5348aad5da8e" include="..\LogisticsConstsBP\LogisticsConstsBP.ubfbpproj" />
+    <Item id="bddaedc9-c702-4bf9-9226-d63bd0e1710d" include="LogisticsConsts\LogisticsConsts.ubfqueryproj" />
   </ItemGroup>
   <ServiceGroupInfo id="bb77c12c-0530-4d62-8375-038a3927ef4f" name="LogisticsDev" displayName="LogisticsDev" description="" help="" fullPath="D:\Code\U9demo\Logistics\Model\LogisticsDev\LogisticsDev.ubfsln" applicationID="" />
 </Solution>

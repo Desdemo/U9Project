@@ -5,7 +5,7 @@
       <Groups>
         <Group id="9619d0fa-061b-4f4f-910f-b2b46e3540ed" name="Key" displayName="Key" description="" help="" />
         <Group id="fb985ba7-6bed-4122-9d4f-2f849584d8d8" name="Sys" displayName="Sys" description="" help="" />
-        <Group id="c165aa6f-e9e5-425c-8f72-d230a600ef18" name="Misc" displayName="Misc" description="" help="" />
+        <Group id="7def1d38-8e08-4a2a-813e-a64ed9656c89" name="Misc" displayName="Misc" description="" help="" />
       </Groups>
       <Attributes>
         <Attribute id="4f5449f8-a518-4c41-8296-9eb842300e32" name="ID" displayName="ID" description="" help="物流费统计.Key.ID" dataTypeID="ba391065-6c27-4c82-acc8-b52b1c93a910" isKey="True" defaultValue="" length="8" precise="19" scale="0" isNullable="False" isReadOnly="False" isHide="True" isCalculation="False" valueExpression="" maxValue="" minValue="" sequence="0" isDefaultDimensionAttribute="False" isDefaultMeasureAttribute="False" isGlobalization="False" idGenerator="db" groupName="Key" isEntityKey="False" isEntityData="True" isSystem="True" isBusinessKey="False" isSyncDictionary="False" dictionaryKey="" isExtendCode="False" isQuery="True" isForAsso="True" isModifyControl="False" isDynamic="False" isImpressible="False" isInCache="False" isKeySerializable="False" isColumnDefine="True" isFilterDefine="True" isSortDefine="True" isDefaultColumn="True" forOBAImport="False" />
@@ -61,15 +61,15 @@
     </Enum>
     <Diagram id="69ae86c2-a516-4a81-baa8-ce5ce9aa2263" name="LogisticsCostsBE" displayName="LogisticsCostsBE">
       <Class Editable="True" ID="05e8e92f-3293-4067-8f74-9d5e34dfcdf9" Type="Entity" ADID="80e85da3-c7d5-4c9c-8327-8523d7f66d1a">
-        <Location X="103" Y="65" />
+        <Location X="136" Y="107" />
         <Size width="120" height="58" />
       </Class>
       <Class Editable="True" ID="bb659f18-a9a1-4397-875d-ea06021abf96" Type="EnumType" ADID="6591bb46-d9fa-4513-a005-ac7a9a29da5b">
-        <Location X="417" Y="77" />
+        <Location X="394" Y="113" />
         <Size width="120" height="58" />
       </Class>
       <Class Editable="True" ID="8ef2e2be-45e4-423b-8cea-2ab0bc0230a7" Type="EnumType" ADID="c501e03b-f362-489e-90bf-76bc04540d5a">
-        <Location X="396" Y="221" />
+        <Location X="170" Y="250" />
         <Size width="120" height="58" />
       </Class>
     </Diagram>

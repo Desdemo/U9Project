@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UIModelComponent id="c2104bd3-cc7f-44c5-b776-1be32e8a2265" name="LogisticsConstsBListUIModel" displayName="LogisticsConstsBListUIModel" description="" help="">
+  <UIModels>
+    <UIModel id="205bb11a-ce29-4dbb-b935-c1c8cf0905d6" name="LogisticsConstsBListUIModel" displayName="LogisticsConstsBListUIModel" description="" help="" Namespace="UFIDA.U9.Cust.BLT.ShipPlan.LogisticsConstsUI" QueryInfo="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" UseType="ForQuery">
+      <UIModelInfos>
+        <UIModelInfo id="a03553ee-5083-4fd8-8dc9-3c43697dd4b3" name="LogisticsConstsBListUIModel" displayName="LogisticsConstsBListUIModel" description="" help="" FullName="LogisticsConstsBListUIModel" DataTypeID="" MappingID="" MappingName="" IsMap="False">
+          <UIModelInfo id="f13dcf16-3ee4-4bcc-a973-204d9c1ed8f8" name="QueryView" displayName="QueryView" description="" help="" FullName="LogisticsConstsBListUIModel.QueryView" DataTypeID="445702fb-424b-4b3c-b066-38eac0f90486" MappingID="" MappingName="" IsMap="False">
+            <UIModelInfo id="d44621ee-3108-446c-8a1e-dd3679010e3c" name="ID" displayName="ID" description="" help="" FullName="LogisticsConstsBListUIModel.QueryView.ID" DataTypeID="ba391065-6c27-4c82-acc8-b52b1c93a910" MappingID="" MappingName="" IsMap="False" />
+          </UIModelInfo>
+          <UIModelInfo id="b7d3aa07-75a1-4d85-af5b-9337656ef55b" name="LogisticsCosts" displayName="LogisticsCosts" description="" help="" FullName="LogisticsConstsBListUIModel.LogisticsCosts" DataTypeID="80e85da3-c7d5-4c9c-8327-8523d7f66d1a" MappingID="" MappingName="UFIDA::U9::Cust::BLT::ShipPlan::LogisticsBE::LogisticsCosts" IsMap="True">
+            <UIModelInfo id="74dc2a53-94ae-454a-8e6c-8cbeb2bb3e5f" name="ID" displayName="ID" description="" help="" FullName="LogisticsConstsBListUIModel.LogisticsCosts.ID" DataTypeID="ba391065-6c27-4c82-acc8-b52b1c93a910" MappingID="4f5449f8-a518-4c41-8296-9eb842300e32" MappingName="ID" IsMap="True" />
+          </UIModelInfo>
+        </UIModelInfo>
+      </UIModelInfos>
+      <Views>
+        <UIViewInfo id="8e33e2df-37fc-4198-bc7d-ce3907873fff" name="LogisticsCosts" displayName="物流费统计" description="" RootFullName="LogisticsConstsBListUIModel.LogisticsCosts">
+          <Groups>
+            <Group id="658dbcd6-702b-4af7-a811-de1edd2658b1" name="Key" displayName="Key" description="" help="" />
+            <Group id="9b603439-f284-473d-8258-99d622add365" name="Misc" displayName="Misc" description="" help="" />
+          </Groups>
+          <Fields>
+            <UIFieldInfo id="624f1b40-6d5f-40cf-a9e1-d7b254c4ceda" name="ID" displayName="ID" description="" DefaultValue="" GroupName="Key" DisplayRule="19.0" IsNullable="False" IsReadOnly="False" IsEnableReference="False" IsLink="False" ControlID="68095607-50d1-4296-a35a-623b21d654f1" DataTypeID="ba391065-6c27-4c82-acc8-b52b1c93a910" EnumTypeID="" BindingFullName="LogisticsConstsBListUIModel.LogisticsCosts.ID" Expression="" Sequence="0" Length="8" IsBinding="False" IsGlobalized="False" CustomIsLoadable="False" CustomAttrName="" />
+          </Fields>
+          <Filters>
+            <UIFilterInfo id="d0f1f0c2-524b-4828-8858-364084f6f83c" name="DefaultFilter" displayName="缺省过滤条件" description="" help="" OPath="" OrderBy="" />
+          </Filters>
+        </UIViewInfo>
+      </Views>
+      <ActionGroups>
+        <Group id="ae654d6c-f10c-4b88-8aea-5f46bd003847" name="Case" displayName="Case" description="" help="" />
+      </ActionGroups>
+      <Actions>
+        <UIActionInfo id="5facf0f3-3e7e-4837-a0b5-fbbbb51c8da0" name="OnLookCase" displayName="查询" description="" help="" CodeTemplate=".\UITpls\UICommonAction.tpl" TemplateParameter="QryClick" GroupName="Case" DictionaryItemKey="" IsSyncDictionary="True" />
+        <UIActionInfo id="16857192-f8e3-4e5d-a409-c32c89c9088a" name="OnCaseChanged" displayName="改变方案" description="" help="" CodeTemplate="" TemplateParameter="" GroupName="Case" DictionaryItemKey="" IsSyncDictionary="True" />
+        <UIActionInfo id="2c004827-7b94-4926-82ce-86a02be8fd2f" name="OnOutPut" displayName="输出" description="" help="" CodeTemplate=".\UITpls\UICommonAction.tpl" TemplateParameter="OnOutPut" GroupName="Case" DictionaryItemKey="" IsSyncDictionary="True" />
+        <UIActionInfo id="dffd13a6-dd24-4a45-8c33-169626dac71b" name="OnGridRowDbClick" displayName="双击网格行" description="" help="" CodeTemplate="" TemplateParameter="" GroupName="Case" DictionaryItemKey="" IsSyncDictionary="True" />
+        <UIActionInfo id="f6c80e8a-be63-45d2-aeb1-c9b393f9ba73" name="OnNew" displayName="新增" description="" help="" CodeTemplate="" TemplateParameter="" GroupName="Case" DictionaryItemKey="" IsSyncDictionary="True" />
+        <UIActionInfo id="5fcc78e2-201c-44ae-bc3d-cb55bae14cdd" name="OnPrint" displayName="打印" description="" help="" CodeTemplate=".\UITpls\UICommonAction.tpl" TemplateParameter="OnPrint" GroupName="Case" DictionaryItemKey="" IsSyncDictionary="True" />
+        <UIActionInfo id="eb9640a2-092f-40c0-9d2d-3cfc935cc139" name="OnDelete" displayName="删除" description="" help="" CodeTemplate=".\UITpls\UICommonAction.tpl" TemplateParameter="ListDeleteClick" GroupName="Case" DictionaryItemKey="" IsSyncDictionary="True" />
+      </Actions>
+    </UIModel>
+  </UIModels>
+</UIModelComponent>

@@ -13,3 +13,4 @@ D:\Code\U9demo\Logistics\UICode\LogisticsUI\obj\Debug\UFIDA.U9.Cust.BLT.ShipPlan
 D:\Code\U9demo\Logistics\UICode\LogisticsUI\obj\Debug\UFIDA.U9.Cust.BLT.ShipPlan.LogisticsUI.WebPart.pdb
 D:\Code\U9demo\Logistics\UICode\LogisticsUI\obj\Debug\UFIDA.U9.Cust.BLT.ShipPlan.LogisticsUI.WebPart.csproj.CoreCompileInputs.cache
 D:\Code\U9demo\Logistics\UICode\LogisticsUI\obj\Debug\UFIDA.U9.Cust.BLT.ShipPlan.LogisticsUI.WebPart.csproj.CopyComplete
+D:\Code\U9demo\Logistics\UICode\LogisticsUI\obj\Debug\UFIDA.U9.Cust.BLT.ShipPlan.LogisticsUI.WebPart.csprojResolveAssemblyReference.cache

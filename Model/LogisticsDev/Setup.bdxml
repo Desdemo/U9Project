@@ -268,17 +268,47 @@
                         <PartRelations />
                         <Parameters />
                     </Page>
+                    <Page id="5fc07725-c16a-48e4-ad84-f8c9312d8f02" code="5fc07725-c16a-48e4-ad84-f8c9312d8f02" name="运费列表" shortName="" displayName="运费列表" description="" title="运费列表" uri="Cust_BLT_ShipPlan_LogsticsCostsURI" topMargine="10" bottomMargine="10" leftMargine="10" rightMargine="10" columnSpace="10" orientation="Vertical" defaultEntity="">
+                        <Columns>
+                            <Column id="5289bfa0-6ff5-4a58-9b91-248f86bad71c" code="" name="" shortName="" displayName="" description="" widthProportion="100" heightProportion="0" title="" IsMainRegion="True">
+                                <Parts>
+                                    <Part>9e0ac998-147c-46a8-94b7-9ec3d8dabfbc</Part>
+                                </Parts>
+                            </Column>
+                        </Columns>
+                        <Parts>
+                            <Part id="9e0ac998-147c-46a8-94b7-9ec3d8dabfbc" code="9e0ac998-147c-46a8-94b7-9ec3d8dabfbc" name="运费列表" shortName="LogisticsConstsUIFormWebPart" displayName="运费列表" description="LogisticsConstsUIFormWebPart" title="LogisticsConstsUIFormWebPart" bindedFormID="e1620127-dbdd-45de-9f4c-939a3366c5d1" bindedFormName="LogisticsConstsUIFormWebPart" height="504" width="992" />
+                        </Parts>
+                        <PartRelations />
+                        <Parameters />
+                    </Page>
+                    <Page id="1462be7f-ed32-424e-94ca-13ab7c5fbf99" code="1462be7f-ed32-424e-94ca-13ab7c5fbf99" name="运费列表2" shortName="" displayName="运费列表2" description="" title="运费列表2" uri="Cust_BLT_ShipPlan_logistics2URI" topMargine="10" bottomMargine="10" leftMargine="10" rightMargine="10" columnSpace="10" orientation="Vertical" defaultEntity="">
+                        <Columns>
+                            <Column id="1caca3f7-5063-4914-90c8-e536ef7c82ff" code="" name="" shortName="" displayName="" description="" widthProportion="100" heightProportion="0" title="" IsMainRegion="True">
+                                <Parts>
+                                    <Part>6366c9ab-c74e-46a3-b195-a5a950720794</Part>
+                                </Parts>
+                            </Column>
+                        </Columns>
+                        <Parts>
+                            <Part id="6366c9ab-c74e-46a3-b195-a5a950720794" code="6366c9ab-c74e-46a3-b195-a5a950720794" name="运费计算2" shortName="LogisticsConstsBListUIFormWebPart" displayName="运费计算2" description="LogisticsConstsBListUIFormWebPart" title="LogisticsConstsBListUIFormWebPart" bindedFormID="0d359f87-f761-46ac-8226-9e9d30f78bc3" bindedFormName="LogisticsConstsBListUIFormWebPart" height="504" width="992" />
+                        </Parts>
+                        <PartRelations />
+                        <Parameters />
+                    </Page>
                 </Pages>
                 <BEComponents>
                     <BEComponent assemblyName="UFIDA.U9.Cust.BLT.ShipPlan.LogisticsBE.dll" assemblyID="91ad4317-b286-4156-b6f4-6a79ce43994a" />
                 </BEComponents>
                 <BPComponents>
                     <BPComponent assemblyName="UFIDA.U9.Cust.BLT.ShipPlan.ComputeBP.dll" assemblyID="7958f19a-cd89-424d-acf9-71990ba72195" />
+                    <BPComponent assemblyName="UFIDA.U9.Cust.BLT.ShipPlan.LogisticsConstsBP.dll" assemblyID="672118a1-0ecb-4343-b3e9-9c58af16a44c" />
                 </BPComponents>
                 <ServiceComponents />
                 <UIComponents>
                     <UIComponent assemblyName="UFIDA.U9.Cust.BLT.ShipPlan.LogisticsUI.WebPart.dll" assemblyID="3432465e-c52b-47ce-a204-6f4eda8e2d7d" />
                     <UIComponent assemblyName="UFIDA.U9.Cust.BLT.ShipPlan.ComplexListUI.WebPart.dll" assemblyID="8ae95a3d-b938-4eec-9c19-64dcc8c4ec2a" />
+                    <UIComponent assemblyName="UFIDA.U9.Cust.BLT.ShipPlan.LogisticsConstsUI.WebPart.dll" assemblyID="a965f686-4d30-4360-9044-6e03489f6516" />
                 </UIComponents>
                 <WorkflowComponents />
                 <ReportComponents />
@@ -288,6 +318,8 @@
                         <Menu id="5527c516-5dc1-44b9-bf51-6e359bf700bc" code="5527c516-5dc1-44b9-bf51-6e359bf700bc" name="物流价目表" shortName="new menu" displayName="物流价目表" description="new menu" image="" isDialog="False" pageURI="Cust_ShipPlan_PriceListURI" pageParameter="" sequence="1" kind="Task" theApp="" />
                         <Menu id="5bd4aee3-f6ae-4cda-94bd-a665f34541f6" code="5bd4aee3-f6ae-4cda-94bd-a665f34541f6" name="运费计算列表" shortName="new menu" displayName="运费计算列表" description="new menu" image="" isDialog="False" pageURI="Cust_Shipplan_ComplexListURI" pageParameter="" sequence="2" kind="Task" theApp="" />
                         <Menu id="d542a5d5-0989-4114-bbbd-504ba51cc848" code="d542a5d5-0989-4114-bbbd-504ba51cc848" name="费用计算" shortName="new menu" displayName="费用计算" description="new menu" image="" isDialog="False" pageURI="Cust_ShipPlan_ComputTestURI" pageParameter="" sequence="3" kind="Task" theApp="" />
+                        <Menu id="c588cc06-1c5d-4f78-bc83-feee0b487a2f" code="c588cc06-1c5d-4f78-bc83-feee0b487a2f" name="运费列表" shortName="new menu" displayName="运费列表" description="new menu" image="" isDialog="False" pageURI="Cust_BLT_ShipPlan_LogsticsCostsURI" pageParameter="" sequence="4" kind="Task" theApp="" />
+                        <Menu id="5517b0d8-9bad-4b5d-a547-a19e259465b3" code="5517b0d8-9bad-4b5d-a547-a19e259465b3" name="运费计算2" shortName="new menu" displayName="运费计算2" description="new menu" image="" isDialog="False" pageURI="Cust_BLT_ShipPlan_logistics2URI" pageParameter="" sequence="5" kind="Task" theApp="3015" />
                     </Menu>
                 </PrePlacedMenu>
             </App>

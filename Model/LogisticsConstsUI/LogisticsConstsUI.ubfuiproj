@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project id="a965f686-4d30-4360-9044-6e03489f6516" name="LogisticsConstsUI" displayName="LogisticsConstsUI" description="" help="" type="UI" assemblyName="UFIDA.U9.Cust.BLT.ShipPlan.LogisticsConstsUI" mapProject="" resourceName="" projectVersion="Normal">
+  <Imports>
+    <Import id="5975310c-fff7-495b-9f5a-8e77d3868f9e" name="LogisticsBE" displayName="LogisticsBE" description="" help="" componentid="91ad4317-b286-4156-b6f4-6a79ce43994a" path="..\..\..\..\..\Yonyou\UBFV60\U9.VOB.Product.Metadata\Unconfiged\Metadata\UFIDA.U9.Cust.BLT.ShipPlan.LogisticsBE.MetaData.dll" type="BE" isRuntime="True" />
+  </Imports>
+  <SourceControl />
+  <ItemGroup>
+    <Item id="061668b5-98fa-4e07-86ec-e0b07e8eb791" name="LogisticsConstsBListUIModel.ubfuim" displayName="LogisticsConstsBListUIModel.ubfuim" description="" help="" include="LogisticsConstsBListUIModel.ubfuim" type="" />
+    <Item id="1c07d2ae-e5e1-45b4-9ae2-b04f570ae372" name="LogisticsConstsBListUIForm.ubfform" displayName="LogisticsConstsBListUIForm.ubfform" description="" help="" include="LogisticsConstsBListUIForm.ubfform" type="" />
+  </ItemGroup>
+</Project>

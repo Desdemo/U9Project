@@ -35,77 +35,11 @@ namespace UFIDA.U9.Cust.BLT.ShipPlan.LogisticsUI
     {
         #region eventBind
 		 
-				//MethodName:BtnSave_Click ActionName:SaveClick
+				//MethodName:BtnNew_Click ActionName:NewClick
         /// <summary>
         /// Help Info : {varEvent.Help}
         /// </summary>
-        public void BtnSave_Click(object sender, EventArgs e)
-        {
-			
-				OnDataCollect(this); //当前事件先执行数据收集		    
-		
-
-			this.IsDataBinding = true ; //当前事件执行后会进行数据绑定
-			this.IsConsuming = false;
-					
-			this.InvokeMethod(sender,e,BtnSave_Click_Extend) ;
-	
-			
-        }
-
-        //default implement by tpl ...
-        private void BtnSave_Click_DefaultImpl(object sender, EventArgs e)
-        {
-			if (adjust.DoRequireCheck())
-			{
-			//Template (tpl) Code here...
-			//加入{action.Name}的代码模版:.\UITpls\WebPart\ViewCodeBehindCommon.tpl,参数:SaveClick
-
-	
-		Action.SaveClick(sender,new UIActionEventArgs());
-
-		
-			
-
-			}
-        }
-		 
-				//MethodName:BtnCancel_Click ActionName:CancelClick
-        /// <summary>
-        /// Help Info : {varEvent.Help}
-        /// </summary>
-        public void BtnCancel_Click(object sender, EventArgs e)
-        {
-			
-				OnDataCollect(this); //当前事件先执行数据收集		    
-		
-
-			this.IsDataBinding = true ; //当前事件执行后会进行数据绑定
-			this.IsConsuming = false;
-					
-			this.InvokeMethod(sender,e,BtnCancel_Click_Extend) ;
-	
-			
-        }
-
-        //default implement by tpl ...
-        private void BtnCancel_Click_DefaultImpl(object sender, EventArgs e)
-        {
-			//Template (tpl) Code here...
-			//加入{action.Name}的代码模版:.\UITpls\WebPart\ViewCodeBehindCommon.tpl,参数:CancelClick
-
-	
-		Action.CancelClick(sender,new UIActionEventArgs());
-
-		
-			
-        }
-		 
-				//MethodName:BtnAdd_Click ActionName:NewClick
-        /// <summary>
-        /// Help Info : {varEvent.Help}
-        /// </summary>
-        public void BtnAdd_Click(object sender, EventArgs e)
+        public void BtnNew_Click(object sender, EventArgs e)
         {
 			//新增事件不进行数据收集，如果数据改变，Client端提示直接触发Save操作.
 
@@ -113,13 +47,13 @@ namespace UFIDA.U9.Cust.BLT.ShipPlan.LogisticsUI
 			this.IsDataBinding = true ; //当前事件执行后会进行数据绑定
 			this.IsConsuming = false;
 					
-			this.InvokeMethod(sender,e,BtnAdd_Click_Extend) ;
+			this.InvokeMethod(sender,e,BtnNew_Click_Extend) ;
 	
 			
         }
 
         //default implement by tpl ...
-        private void BtnAdd_Click_DefaultImpl(object sender, EventArgs e)
+        private void BtnNew_Click_DefaultImpl(object sender, EventArgs e)
         {
 			//Template (tpl) Code here...
 			//加入{action.Name}的代码模版:.\UITpls\WebPart\ViewCodeBehindCommon.tpl,参数:NewClick
@@ -162,11 +96,11 @@ namespace UFIDA.U9.Cust.BLT.ShipPlan.LogisticsUI
 			
         }
 		 
-				//MethodName:BtnCopy_Click ActionName:CopyClick
+				//MethodName:BtnOutPut_Click ActionName:OutputClick
         /// <summary>
         /// Help Info : {varEvent.Help}
         /// </summary>
-        public void BtnCopy_Click(object sender, EventArgs e)
+        public void BtnOutPut_Click(object sender, EventArgs e)
         {
 			
 				OnDataCollect(this); //当前事件先执行数据收集		    
@@ -175,363 +109,13 @@ namespace UFIDA.U9.Cust.BLT.ShipPlan.LogisticsUI
 			this.IsDataBinding = true ; //当前事件执行后会进行数据绑定
 			this.IsConsuming = false;
 					
-			this.InvokeMethod(sender,e,BtnCopy_Click_Extend) ;
+			this.InvokeMethod(sender,e,BtnOutPut_Click_Extend) ;
 	
 			
         }
 
         //default implement by tpl ...
-        private void BtnCopy_Click_DefaultImpl(object sender, EventArgs e)
-        {
-			//Template (tpl) Code here...
-			//加入{action.Name}的代码模版:.\UITpls\WebPart\ViewCodeBehindCommon.tpl,参数:CopyClick
-
-	
-		Action.CopyClick(sender,new UIActionEventArgs());
-
-		
-			
-        }
-		 
-				//MethodName:BtnSubmit_Click ActionName:SubmitClick
-        /// <summary>
-        /// Help Info : {varEvent.Help}
-        /// </summary>
-        public void BtnSubmit_Click(object sender, EventArgs e)
-        {
-			
-				OnDataCollect(this); //当前事件先执行数据收集		    
-		
-
-			this.IsDataBinding = true ; //当前事件执行后会进行数据绑定
-			this.IsConsuming = false;
-					
-			this.InvokeMethod(sender,e,BtnSubmit_Click_Extend) ;
-	
-			
-        }
-
-        //default implement by tpl ...
-        private void BtnSubmit_Click_DefaultImpl(object sender, EventArgs e)
-        {
-			if (adjust.DoRequireCheck())
-			{
-			//Template (tpl) Code here...
-			//加入{action.Name}的代码模版:.\UITpls\WebPart\ViewCodeBehindCommon.tpl,参数:SubmitClick
-
-	
-		Action.SubmitClick(sender,new UIActionEventArgs());
-
-		
-			
-
-			}
-        }
-		 
-				//MethodName:BtnApprove_Click ActionName:ApproveClick
-        /// <summary>
-        /// Help Info : {varEvent.Help}
-        /// </summary>
-        public void BtnApprove_Click(object sender, EventArgs e)
-        {
-			
-				OnDataCollect(this); //当前事件先执行数据收集		    
-		
-
-			this.IsDataBinding = true ; //当前事件执行后会进行数据绑定
-			this.IsConsuming = false;
-					
-			this.InvokeMethod(sender,e,BtnApprove_Click_Extend) ;
-	
-			
-        }
-
-        //default implement by tpl ...
-        private void BtnApprove_Click_DefaultImpl(object sender, EventArgs e)
-        {
-			if (adjust.DoRequireCheck())
-			{
-			//Template (tpl) Code here...
-			//加入{action.Name}的代码模版:.\UITpls\WebPart\ViewCodeBehindCommon.tpl,参数:ApproveClick
-
-	
-		Action.ApproveClick(sender,new UIActionEventArgs());
-
-		
-			
-
-			}
-        }
-		 
-				//MethodName:BtnFind_Click ActionName:FindClick
-        /// <summary>
-        /// Help Info : {varEvent.Help}
-        /// </summary>
-        public void BtnFind_Click(object sender, EventArgs e)
-        {
-			
-				OnDataCollect(this); //当前事件先执行数据收集		    
-		
-					
-			this.IsDataBinding = true ; //当前事件执行后会进行数据绑定
-			this.IsConsuming = false;
-					
-			this.InvokeMethod(sender,e,BtnFind_Click_Extend) ;
-	
-			
-        }
-
-        //default implement by tpl ...
-        private void BtnFind_Click_DefaultImpl(object sender, EventArgs e)
-        {
-			//Template (tpl) Code here...
-			//加入{action.Name}的代码模版:.\UITpls\WebPart\ViewCodeBehindCommon.tpl,参数:FindClick
-
-		UFIDA.U9.UI.Commands.CommandHelper.FindClickDoLoad(this.Action, long.Parse(wpFindID.Value));
-	
-		Action.FindClick(sender,new UIActionEventArgs());
-
-		
-			
-        }
-		 
-				//MethodName:BtnList_Click ActionName:ListClick
-        /// <summary>
-        /// Help Info : {varEvent.Help}
-        /// </summary>
-        public void BtnList_Click(object sender, EventArgs e)
-        {
-			
-				OnDataCollect(this); //当前事件先执行数据收集		    
-		
-
-			this.IsDataBinding = true ; //当前事件执行后会进行数据绑定
-			this.IsConsuming = false;
-					
-			this.InvokeMethod(sender,e,BtnList_Click_Extend) ;
-	
-			
-        }
-
-        //default implement by tpl ...
-        private void BtnList_Click_DefaultImpl(object sender, EventArgs e)
-        {
-			//Template (tpl) Code here...
-			//加入{action.Name}的代码模版:.\UITpls\WebPart\ViewCodeBehindCommon.tpl,参数:ListClick
-
-	
-		Action.ListClick(sender,new UIActionEventArgs());
-
-		
-			
-        }
-		 
-				//MethodName:BtnFirstPage_Click ActionName:FirstPage
-        /// <summary>
-        /// Help Info : {varEvent.Help}
-        /// </summary>
-        public void BtnFirstPage_Click(object sender, EventArgs e)
-        {
-			
-				OnDataCollect(this); //当前事件先执行数据收集		    
-		
-
-			this.IsDataBinding = true ; //当前事件执行后会进行数据绑定
-			this.IsConsuming = false;
-					
-			this.InvokeMethod(sender,e,BtnFirstPage_Click_Extend) ;
-	
-			
-        }
-
-        //default implement by tpl ...
-        private void BtnFirstPage_Click_DefaultImpl(object sender, EventArgs e)
-        {
-			//Template (tpl) Code here...
-			//加入{action.Name}的代码模版:.\UITpls\WebPart\ViewCodeBehindCommon.tpl,参数:FirstPage
-
-	
-		Action.FirstPage(sender,new UIActionEventArgs());
-
-		
-			
-        }
-		 
-				//MethodName:BtnPrevPage_Click ActionName:PrevPage
-        /// <summary>
-        /// Help Info : {varEvent.Help}
-        /// </summary>
-        public void BtnPrevPage_Click(object sender, EventArgs e)
-        {
-			
-				OnDataCollect(this); //当前事件先执行数据收集		    
-		
-
-			this.IsDataBinding = true ; //当前事件执行后会进行数据绑定
-			this.IsConsuming = false;
-					
-			this.InvokeMethod(sender,e,BtnPrevPage_Click_Extend) ;
-	
-			
-        }
-
-        //default implement by tpl ...
-        private void BtnPrevPage_Click_DefaultImpl(object sender, EventArgs e)
-        {
-			//Template (tpl) Code here...
-			//加入{action.Name}的代码模版:.\UITpls\WebPart\ViewCodeBehindCommon.tpl,参数:PrevPage
-
-	
-		Action.PrevPage(sender,new UIActionEventArgs());
-
-		
-			
-        }
-		 
-				//MethodName:BtnNextPage_Click ActionName:NextPage
-        /// <summary>
-        /// Help Info : {varEvent.Help}
-        /// </summary>
-        public void BtnNextPage_Click(object sender, EventArgs e)
-        {
-			
-				OnDataCollect(this); //当前事件先执行数据收集		    
-		
-
-			this.IsDataBinding = true ; //当前事件执行后会进行数据绑定
-			this.IsConsuming = false;
-					
-			this.InvokeMethod(sender,e,BtnNextPage_Click_Extend) ;
-	
-			
-        }
-
-        //default implement by tpl ...
-        private void BtnNextPage_Click_DefaultImpl(object sender, EventArgs e)
-        {
-			//Template (tpl) Code here...
-			//加入{action.Name}的代码模版:.\UITpls\WebPart\ViewCodeBehindCommon.tpl,参数:NextPage
-
-	
-		Action.NextPage(sender,new UIActionEventArgs());
-
-		
-			
-        }
-		 
-				//MethodName:BtnLastPage_Click ActionName:LastPage
-        /// <summary>
-        /// Help Info : {varEvent.Help}
-        /// </summary>
-        public void BtnLastPage_Click(object sender, EventArgs e)
-        {
-			
-				OnDataCollect(this); //当前事件先执行数据收集		    
-		
-
-			this.IsDataBinding = true ; //当前事件执行后会进行数据绑定
-			this.IsConsuming = false;
-					
-			this.InvokeMethod(sender,e,BtnLastPage_Click_Extend) ;
-	
-			
-        }
-
-        //default implement by tpl ...
-        private void BtnLastPage_Click_DefaultImpl(object sender, EventArgs e)
-        {
-			//Template (tpl) Code here...
-			//加入{action.Name}的代码模版:.\UITpls\WebPart\ViewCodeBehindCommon.tpl,参数:LastPage
-
-	
-		Action.LastPage(sender,new UIActionEventArgs());
-
-		
-			
-        }
-		 
-				//MethodName:BtnAttachment_Click ActionName:AttachmentClick
-        /// <summary>
-        /// Help Info : {varEvent.Help}
-        /// </summary>
-        public void BtnAttachment_Click(object sender, EventArgs e)
-        {
-			
-				OnDataCollect(this); //当前事件先执行数据收集		    
-		
-
-			this.IsDataBinding = true ; //当前事件执行后会进行数据绑定
-			this.IsConsuming = false;
-					
-			this.InvokeMethod(sender,e,BtnAttachment_Click_Extend) ;
-	
-			
-        }
-
-        //default implement by tpl ...
-        private void BtnAttachment_Click_DefaultImpl(object sender, EventArgs e)
-        {
-			//Template (tpl) Code here...
-			//加入{action.Name}的代码模版:.\UITpls\WebPart\ViewCodeBehindCommon.tpl,参数:AttachmentClick
-
-	
-		Action.AttachmentClick(sender,new UIActionEventArgs());
-
-		
-			
-        }
-		 
-				//MethodName:BtnFlow_Click ActionName:FlowClick
-        /// <summary>
-        /// Help Info : {varEvent.Help}
-        /// </summary>
-        public void BtnFlow_Click(object sender, EventArgs e)
-        {
-			
-				OnDataCollect(this); //当前事件先执行数据收集		    
-		
-
-			this.IsDataBinding = true ; //当前事件执行后会进行数据绑定
-			this.IsConsuming = false;
-					
-			this.InvokeMethod(sender,e,BtnFlow_Click_Extend) ;
-	
-			
-        }
-
-        //default implement by tpl ...
-        private void BtnFlow_Click_DefaultImpl(object sender, EventArgs e)
-        {
-			//Template (tpl) Code here...
-			//加入{action.Name}的代码模版:.\UITpls\WebPart\ViewCodeBehindCommon.tpl,参数:FlowClick
-
-	
-		Action.FlowClick(sender,new UIActionEventArgs());
-
-		
-			
-        }
-		 
-				//MethodName:BtnOutput_Click ActionName:OutputClick
-        /// <summary>
-        /// Help Info : {varEvent.Help}
-        /// </summary>
-        public void BtnOutput_Click(object sender, EventArgs e)
-        {
-			
-				OnDataCollect(this); //当前事件先执行数据收集		    
-		
-
-			this.IsDataBinding = true ; //当前事件执行后会进行数据绑定
-			this.IsConsuming = false;
-					
-			this.InvokeMethod(sender,e,BtnOutput_Click_Extend) ;
-	
-			
-        }
-
-        //default implement by tpl ...
-        private void BtnOutput_Click_DefaultImpl(object sender, EventArgs e)
+        private void BtnOutPut_Click_DefaultImpl(object sender, EventArgs e)
         {
 			//Template (tpl) Code here...
 			//加入{action.Name}的代码模版:.\UITpls\WebPart\ViewCodeBehindCommon.tpl,参数:OutputClick
@@ -574,11 +158,14 @@ namespace UFIDA.U9.Cust.BLT.ShipPlan.LogisticsUI
 			
         }
 		 
-				//MethodName:BtnOk_Click ActionName:OnOk
+
+			
+
+		//MethodName:DDLCase_TextChanged ActionName:OnCaseChanged
         /// <summary>
         /// Help Info : {varEvent.Help}
         /// </summary>
-        public void BtnOk_Click(object sender, EventArgs e)
+        public void DDLCase_TextChanged(object sender, EventArgs e)
         {
 			
 				OnDataCollect(this); //当前事件先执行数据收集		    
@@ -587,32 +174,64 @@ namespace UFIDA.U9.Cust.BLT.ShipPlan.LogisticsUI
 			this.IsDataBinding = true ; //当前事件执行后会进行数据绑定
 			this.IsConsuming = false;
 					
-			this.InvokeMethod(sender,e,BtnOk_Click_Extend) ;
+			this.InvokeMethod(sender,e,DDLCase_TextChanged_Extend) ;
 	
 			
         }
 
         //default implement by tpl ...
-        private void BtnOk_Click_DefaultImpl(object sender, EventArgs e)
+        private void DDLCase_TextChanged_DefaultImpl(object sender, EventArgs e)
         {
 			//Template (tpl) Code here...
-			//加入{action.Name}的代码模版:.\UITpls\WebPart\RefCodeBehindCommon.tpl,参数:OKClick
 
+			//通用事件模版定义的相应操作内容.	
 
-	        UIActionEventArgs uie=new UIActionEventArgs();
-			IList<string> outParameters = new List<string>();
-		   uie["OutParameters"]=outParameters;
-		   UFIDA.U9.UI.Commands.CommandFactory.DoCommand("OKClick",this.Action,sender,uie);
+		
+			Action.OnCaseChanged(sender,new UIActionEventArgs());
+	 
 
 		
 			
         }
 		 
-				//MethodName:BtnClose_Click ActionName:OnClose
+				//MethodName:OnLookCase_Click ActionName:OnLookCase
         /// <summary>
         /// Help Info : {varEvent.Help}
         /// </summary>
-        public void BtnClose_Click(object sender, EventArgs e)
+        public void OnLookCase_Click(object sender, EventArgs e)
+        {
+					
+
+			this.IsDataBinding = true ; //当前事件执行后会进行数据绑定
+			this.IsConsuming = false;
+					
+			this.InvokeMethod(sender,e,OnLookCase_Click_Extend) ;
+	
+			
+        }
+
+        //default implement by tpl ...
+        private void OnLookCase_Click_DefaultImpl(object sender, EventArgs e)
+        {
+			//Template (tpl) Code here...
+
+			//通用事件模版定义的相应操作内容.	
+
+	
+		Action.OnLookCase(sender,new UIActionEventArgs());
+
+		
+			
+        }
+		 
+			
+				
+
+		//MethodName:DataGrid1_GridRowDbClicked ActionName:OnGridRowDbClick
+        /// <summary>
+        /// Help Info : {varEvent.Help}
+        /// </summary>
+        public void DataGrid1_GridRowDbClicked(object sender, GridDBClickEventArgs e)
         {
 			
 				OnDataCollect(this); //当前事件先执行数据收集		    
@@ -620,20 +239,32 @@ namespace UFIDA.U9.Cust.BLT.ShipPlan.LogisticsUI
 
 			this.IsDataBinding = true ; //当前事件执行后会进行数据绑定
 			this.IsConsuming = false;
-					
-			this.InvokeMethod(sender,e,BtnClose_Click_Extend) ;
+					try
+			{				
+				DataGrid1_GridRowDbClicked_Extend(sender,e) ;			
+			}
+			catch(Exception ex)
+			{
+				if (UFSoft.UBF.Exceptions.ExceptionHelper.IsUnknownException(ex, true)) {
+                    throw;
+                }
+                IUIModel model = this.Model;
+				this.Model.ErrorMessage.SetErrorMessage(ref model,ex);
+			}
 	
 			
         }
 
         //default implement by tpl ...
-        private void BtnClose_Click_DefaultImpl(object sender, EventArgs e)
+        private void DataGrid1_GridRowDbClicked_DefaultImpl(object sender, GridDBClickEventArgs e)
         {
 			//Template (tpl) Code here...
-			//加入{action.Name}的代码模版:.\UITpls\WebPart\ViewCodeBehindCommon.tpl,参数:CancelClick
 
-	
-		Action.OnClose(sender,new UIActionEventArgs());
+			//通用事件模版定义的相应操作内容.	
+
+		
+			Action.OnGridRowDbClick(sender,new UIActionEventArgs());
+	 
 
 		
 			

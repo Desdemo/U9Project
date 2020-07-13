@@ -35,7 +35,14 @@
         <Operation id="7c821e2f-7274-45ce-ada9-95eb6bff0922" name="Impement" displayName="实现" description="" help="" mD_ParentClass_ID="" isFactEntity="False" returnTypeID="378d45b4-375d-4b5d-8748-abc9575c26b3" isService="False" isDefault="True" isEntityKey="False" transactionType="2" isAuthorization="True" isISV="False" />
       </Implements>
     </Operation>
-    <Operation id="8c524551-ce42-4c64-9714-323b35a77a32" name="Operation1" displayName="操作" description="" help="" mD_ParentClass_ID="" isFactEntity="False" returnTypeID="378d45b4-375d-4b5d-8748-abc9575c26b3" isService="False" isDefault="False" isEntityKey="False" transactionType="2" isAuthorization="True" isISV="False">
+    <Operation id="8c524551-ce42-4c64-9714-323b35a77a32" name="CreateLogisticsConstsOperation" displayName="创建运费记录单操作" description="" help="" mD_ParentClass_ID="" isFactEntity="False" returnTypeID="5efeea06-cae7-4cc0-82e9-20a789e4e582" isService="False" isDefault="False" isEntityKey="True" transactionType="2" isAuthorization="True" isISV="True">
+      <Groups>
+        <Group id="8144b318-7d43-425c-a17e-ffc0d763a14e" name="Misc" displayName="Misc" description="" help="" />
+      </Groups>
+      <Attributes>
+        <Attribute id="11ea9ab0-e98e-4735-8846-d3edfa6c6083" name="Data" displayName="运费头" description="" help="创建运费记录单操作.Misc.运费头" dataTypeID="9b412470-c8e9-407b-99b2-2b4c2508d4d1" isKey="False" defaultValue="" length="50" precise="5" scale="0" isNullable="True" isReadOnly="False" isHide="False" isCalculation="False" valueExpression="" maxValue="" minValue="" sequence="0" isDefaultDimensionAttribute="False" isDefaultMeasureAttribute="False" isGlobalization="False" idGenerator="" groupName="Misc" isEntityKey="False" isEntityData="True" isSystem="False" isBusinessKey="True" isSyncDictionary="False" dictionaryKey="" isExtendCode="True" isQuery="True" isForAsso="True" isModifyControl="False" isDynamic="False" isImpressible="False" isInCache="False" isKeySerializable="False" isColumnDefine="True" isFilterDefine="True" isSortDefine="True" isDefaultColumn="True" forOBAImport="False" />
+        <Attribute id="a17b3758-abd3-473e-b30e-329fbbc2bb33" name="DataLine" displayName="运费行" description="" help="创建运费记录单操作.Misc.运费行" isCollection="True" dataTypeID="7c236994-42fa-4f5f-97de-edfea1c7966b" isKey="False" defaultValue="" length="50" precise="5" scale="0" isNullable="True" isReadOnly="False" isHide="False" isCalculation="False" valueExpression="" maxValue="" minValue="" sequence="1" isDefaultDimensionAttribute="False" isDefaultMeasureAttribute="False" isGlobalization="False" idGenerator="" groupName="Misc" isEntityKey="False" isEntityData="True" isSystem="False" isBusinessKey="False" isSyncDictionary="False" dictionaryKey="" isExtendCode="False" isQuery="True" isForAsso="True" isModifyControl="False" isDynamic="False" isImpressible="False" isInCache="False" isKeySerializable="False" isColumnDefine="True" isFilterDefine="True" isSortDefine="True" isDefaultColumn="True" forOBAImport="False" />
+      </Attributes>
       <Implements>
         <Operation id="064340ce-56e8-4e01-be74-b3bdeb3ee9e8" name="Impement" displayName="实现" description="" help="" mD_ParentClass_ID="" isFactEntity="False" returnTypeID="378d45b4-375d-4b5d-8748-abc9575c26b3" isService="False" isDefault="True" isEntityKey="False" transactionType="2" isAuthorization="True" isISV="False" />
       </Implements>
@@ -50,11 +57,11 @@
         <Size width="120" height="58" />
       </Class>
       <Class Editable="True" ID="0973d3cf-43eb-4659-8c81-ad44e66cca3b" Type="Operation" ADID="429e0588-aa6b-429f-bfe7-76c88fb061e6">
-        <Location X="151" Y="168" />
+        <Location X="138" Y="174" />
         <Size width="120" height="58" />
       </Class>
       <Class Editable="True" ID="4b39bc6a-1e3a-4fd0-b63d-f48c75051e6e" Type="Operation" ADID="8c524551-ce42-4c64-9714-323b35a77a32">
-        <Location X="386" Y="171" />
+        <Location X="370" Y="181" />
         <Size width="120" height="58" />
       </Class>
     </Diagram>
