@@ -12,7 +12,7 @@
         <Attribute id="a097badf-f9cd-401a-84bb-c828591be3cc" name="DocNo" displayName="单号" description="" help="费用分摊DTO.Misc.单号" dataTypeID="3d174255-fd12-47f7-8844-3b5e4fae9e8c" isKey="False" defaultValue="" length="50" precise="5" scale="0" isNullable="True" isReadOnly="False" isHide="False" isCalculation="False" valueExpression="" maxValue="" minValue="" sequence="3" isDefaultDimensionAttribute="False" isDefaultMeasureAttribute="False" isGlobalization="False" idGenerator="" groupName="Misc" isEntityKey="False" isEntityData="True" isSystem="False" isBusinessKey="False" isSyncDictionary="False" dictionaryKey="" isExtendCode="False" isQuery="True" isForAsso="True" isModifyControl="False" isDynamic="False" isImpressible="False" isInCache="False" isKeySerializable="False" isColumnDefine="True" isFilterDefine="True" isSortDefine="True" isDefaultColumn="True" forOBAImport="False" />
       </Attributes>
     </PropertyType>
-    <Operation id="85a2d1e7-52e2-459e-a3eb-cbcd26e3baa7" name="ComputeBP" displayName="运费计算操作" description="" help="" mD_ParentClass_ID="" isFactEntity="False" returnTypeID="a5242caa-f9ee-4159-b8c9-d0952a79175a" isService="False" isDefault="False" isReturnCollection="True" isEntityKey="False" transactionType="2" isAuthorization="True" isISV="False">
+    <Operation id="85a2d1e7-52e2-459e-a3eb-cbcd26e3baa7" name="ComputeBP" displayName="运费计算操作" description="" help="" mD_ParentClass_ID="" isFactEntity="False" returnTypeID="9b412470-c8e9-407b-99b2-2b4c2508d4d1" isService="False" isDefault="False" isEntityKey="False" transactionType="2" isAuthorization="True" isISV="False">
       <Groups>
         <Group id="f82e3de7-cbec-44b3-8dab-116908f74a2c" name="Misc" displayName="Misc" description="" help="" />
       </Groups>
@@ -44,7 +44,7 @@
         <Attribute id="a17b3758-abd3-473e-b30e-329fbbc2bb33" name="DataLine" displayName="运费行" description="" help="创建运费记录单操作.Misc.运费行" isCollection="True" dataTypeID="7c236994-42fa-4f5f-97de-edfea1c7966b" isKey="False" defaultValue="" length="50" precise="5" scale="0" isNullable="True" isReadOnly="False" isHide="False" isCalculation="False" valueExpression="" maxValue="" minValue="" sequence="1" isDefaultDimensionAttribute="False" isDefaultMeasureAttribute="False" isGlobalization="False" idGenerator="" groupName="Misc" isEntityKey="False" isEntityData="True" isSystem="False" isBusinessKey="False" isSyncDictionary="False" dictionaryKey="" isExtendCode="False" isQuery="True" isForAsso="True" isModifyControl="False" isDynamic="False" isImpressible="False" isInCache="False" isKeySerializable="False" isColumnDefine="True" isFilterDefine="True" isSortDefine="True" isDefaultColumn="True" forOBAImport="False" />
       </Attributes>
       <Implements>
-        <Operation id="064340ce-56e8-4e01-be74-b3bdeb3ee9e8" name="Impement" displayName="实现" description="" help="" mD_ParentClass_ID="" isFactEntity="False" returnTypeID="378d45b4-375d-4b5d-8748-abc9575c26b3" isService="False" isDefault="True" isEntityKey="False" transactionType="2" isAuthorization="True" isISV="False" />
+        <Operation id="064340ce-56e8-4e01-be74-b3bdeb3ee9e8" name="Impement" displayName="实现" description="" help="" mD_ParentClass_ID="" isFactEntity="False" returnTypeID="5efeea06-cae7-4cc0-82e9-20a789e4e582" isService="False" isDefault="True" isEntityKey="False" transactionType="2" isAuthorization="True" isISV="False" />
       </Implements>
     </Operation>
     <Diagram id="89a73566-e588-4094-b0b2-1137471f42b9" name="FreightCalculationBP" displayName="FreightCalculationBP">

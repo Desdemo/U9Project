@@ -3,15 +3,15 @@ BaseFile|1
 UBF_RES_ResourceValue|6|17
 LanguageName, ResourceName, Status, Description, DisplayName, Type, Help, ComponentID, ParentHelpResourceName, ResourceID, ParentResourceName
 
-zh-CN	d5a826c6-8101-48ab-97d3-1ff714356d02	T		FreightCalculationBP	BPComponent		d5a826c6-8101-48ab-97d3-1ff714356d02		b0ee8e2e-4bfc-40d6-b0c4-a13d5faec655	
-zh-CN	85a2d1e7-52e2-459e-a3eb-cbcd26e3baa7	T		运费计算操作	BPOperation		d5a826c6-8101-48ab-97d3-1ff714356d02		643d252c-4f1b-42b3-b69c-6963ce091afc	
-zh-CN	429e0588-aa6b-429f-bfe7-76c88fb061e6	T		费用分摊操作	BPOperation		d5a826c6-8101-48ab-97d3-1ff714356d02		d0d83008-8c2d-4e91-838c-48c9fb365566	
-zh-CN	8c524551-ce42-4c64-9714-323b35a77a32	T		创建运费记录单操作	BPOperation		d5a826c6-8101-48ab-97d3-1ff714356d02		30a05d0c-ccfe-40f9-a500-51bfef52bd6e	
-zh-CN	0e3dcd32-139c-4b04-b626-8341c1f06923	T		费用头	BPOperationAttribute		d5a826c6-8101-48ab-97d3-1ff714356d02		7f4de139-a5e4-41a8-ae88-42f16709880d	
-zh-CN	02d7f7ee-b13a-495c-9961-16c9f3577bb0	T		费用行	BPOperationAttribute		d5a826c6-8101-48ab-97d3-1ff714356d02		223447dd-5f07-4ba6-a0c1-f5ee4bf1c454	
-zh-CN	69a5bfb7-7f51-4d18-86f0-a5815fdfc759	T		费用集合	BPOperationAttribute		d5a826c6-8101-48ab-97d3-1ff714356d02		8a2d0896-7f87-443e-a5fd-3734af845741	
-zh-CN	11ea9ab0-e98e-4735-8846-d3edfa6c6083	T		运费头	BPOperationAttribute		d5a826c6-8101-48ab-97d3-1ff714356d02		126df44e-9c89-43a7-9bce-1e1de2e6fde8	
-zh-CN	a17b3758-abd3-473e-b30e-329fbbc2bb33	T		运费行	BPOperationAttribute		d5a826c6-8101-48ab-97d3-1ff714356d02		36e4a072-e1b5-497d-bd62-b22601ee4176	
-zh-CN	d7ce0580-9275-4b63-a529-db6f5c7ab24b	T		实现	BPOperationImplementsOperation		d5a826c6-8101-48ab-97d3-1ff714356d02		8ea4d65e-4b35-4ff8-8721-5439ee75716c	
-zh-CN	7c821e2f-7274-45ce-ada9-95eb6bff0922	T		实现	BPOperationImplementsOperation		d5a826c6-8101-48ab-97d3-1ff714356d02		dd619473-16c9-462b-a293-cb064f306164	
-zh-CN	064340ce-56e8-4e01-be74-b3bdeb3ee9e8	T		实现	BPOperationImplementsOperation		d5a826c6-8101-48ab-97d3-1ff714356d02		ac8a6922-2a8a-422c-a6d7-9efefea64235	
+zh-CN	d5a826c6-8101-48ab-97d3-1ff714356d02	T		FreightCalculationBP	BPComponent		d5a826c6-8101-48ab-97d3-1ff714356d02		36ea11fd-58fa-4763-9958-de246dc0e13c	
+zh-CN	85a2d1e7-52e2-459e-a3eb-cbcd26e3baa7	T		运费计算操作	BPOperation		d5a826c6-8101-48ab-97d3-1ff714356d02		3c98406c-02a6-45c2-acc0-a2569e3a648c	
+zh-CN	429e0588-aa6b-429f-bfe7-76c88fb061e6	T		费用分摊操作	BPOperation		d5a826c6-8101-48ab-97d3-1ff714356d02		2ac9c2bc-6fa5-41c1-8ae1-7e96bfe24cc3	
+zh-CN	8c524551-ce42-4c64-9714-323b35a77a32	T		创建运费记录单操作	BPOperation		d5a826c6-8101-48ab-97d3-1ff714356d02		4d6f17a0-7a0b-4cf0-9444-3b9c50aa29c6	
+zh-CN	0e3dcd32-139c-4b04-b626-8341c1f06923	T		费用头	BPOperationAttribute		d5a826c6-8101-48ab-97d3-1ff714356d02		5e5374cf-114a-4752-9be0-e6bd7be6356b	
+zh-CN	02d7f7ee-b13a-495c-9961-16c9f3577bb0	T		费用行	BPOperationAttribute		d5a826c6-8101-48ab-97d3-1ff714356d02		bf00a8a2-caea-472d-9580-cb6c1277a83d	
+zh-CN	69a5bfb7-7f51-4d18-86f0-a5815fdfc759	T		费用集合	BPOperationAttribute		d5a826c6-8101-48ab-97d3-1ff714356d02		9279b85b-ed39-4555-930f-f4799d99f1b1	
+zh-CN	11ea9ab0-e98e-4735-8846-d3edfa6c6083	T		运费头	BPOperationAttribute		d5a826c6-8101-48ab-97d3-1ff714356d02		e55a7732-838e-4cd5-8933-601fcfc55544	
+zh-CN	a17b3758-abd3-473e-b30e-329fbbc2bb33	T		运费行	BPOperationAttribute		d5a826c6-8101-48ab-97d3-1ff714356d02		56145d55-3eb7-4997-a3ba-c5ea2de86fb3	
+zh-CN	d7ce0580-9275-4b63-a529-db6f5c7ab24b	T		实现	BPOperationImplementsOperation		d5a826c6-8101-48ab-97d3-1ff714356d02		787a6c99-9e34-4690-92b2-bde708721446	
+zh-CN	7c821e2f-7274-45ce-ada9-95eb6bff0922	T		实现	BPOperationImplementsOperation		d5a826c6-8101-48ab-97d3-1ff714356d02		01d532c7-abfd-4c7e-86a8-7dfe0932acb4	
+zh-CN	064340ce-56e8-4e01-be74-b3bdeb3ee9e8	T		实现	BPOperationImplementsOperation		d5a826c6-8101-48ab-97d3-1ff714356d02		84510a35-744b-419b-8491-0b08a6d09c4a	

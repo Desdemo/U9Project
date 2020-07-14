@@ -60,30 +60,30 @@ ID, UID, Name, CreatedBy, CreatedOn, ModifiedBy, ModifiedOn, UIView, ToolTips, D
 UBF_MD_UIAction|83|89
 ID, UID, Name, CreatedBy, CreatedOn, ModifiedBy, ModifiedOn, UIModel, Container, GroupName
 
-@SNIndex+2	8e33e2df-37fc-4198-bc7d-ce3907873fff	LogisticsCosts	Administrator	2020-07-13T12:00:44	Administrator	2020-07-13T13:44:58	@SNIndex+1	1	0			80e85da3-c7d5-4c9c-8327-8523d7f66d1a	205bb11a-ce29-4dbb-b935-c1c8cf0905d6	00000000-0000-0000-0000-000000000000
-@SNIndex+11	0d359f87-f761-46ac-8226-9e9d30f78bc3	Administrator	2020-07-13T13:44:58	Administrator	2020-07-13T13:44:58	UFIDA.U9.Cust.BLT.ShipPlan.LogisticsConstsUI.LogisticsConstsBListUIFormWebPart	UFIDA.U9.Cust.BLT.ShipPlan.LogisticsConstsUI.WebPart	UFIDA\U9\Cust\BLT\ShipPlan\LogisticsConstsUI	.UI_列表Form带CheckBoxWebPart
-@SNIndex+11	0d359f87-f761-46ac-8226-9e9d30f78bc3	a965f686-4d30-4360-9044-6e03489f6516	@SNIndex+0	LogisticsConstsBListUIForm	205bb11a-ce29-4dbb-b935-c1c8cf0905d6	1	1	Administrator	2020-07-13T13:44:58	Administrator	2020-07-13T13:44:58	UFIDA.U9.Cust.BLT.ShipPlan.LogisticsConstsUI.LogisticsConstsBListUIFormWebPart	UFIDA.U9.Cust.BLT.ShipPlan.LogisticsConstsUI.WebPart	.UI_列表Form带CheckBoxWebPart	0	992	504
-@SNIndex+20	Click	OnNew	Administrator	2020-07-13T13:44:58	Administrator	2020-07-13T13:44:58	@SNIndex+12	4817b4db-3a36-45af-b61f-57bf26415a56
-@SNIndex+22	Click	OnDelete	Administrator	2020-07-13T13:44:58	Administrator	2020-07-13T13:44:58	@SNIndex+13	e4d2ec88-341e-490b-9935-45209e1d1da8
-@SNIndex+24	Click	OnOutPut	Administrator	2020-07-13T13:44:58	Administrator	2020-07-13T13:44:58	@SNIndex+14	d11a6b17-9113-4c26-a19b-326bd11b8d2e
-@SNIndex+26	Click	OnPrint	Administrator	2020-07-13T13:44:58	Administrator	2020-07-13T13:44:58	@SNIndex+15	7ccafd22-a522-45eb-8bfd-225f3ae68209
-@SNIndex+28	TextChanged	OnCaseChanged	Administrator	2020-07-13T13:44:58	Administrator	2020-07-13T13:44:58	@SNIndex+18	cb8a9687-e4e8-4890-9752-a3293a78a434
-@SNIndex+30	Click	OnLookCase	Administrator	2020-07-13T13:44:58	Administrator	2020-07-13T13:44:58	@SNIndex+16	acb129c5-4787-4e3f-a956-b9c9f0e09baa
-@SNIndex+32	GridRowDbClicked	OnGridRowDbClick	Administrator	2020-07-13T13:44:58	Administrator	2020-07-13T13:44:58	@SNIndex+17	8f263481-8ddb-41a6-855f-2e03d27cac70
-@SNIndex+1	205bb11a-ce29-4dbb-b935-c1c8cf0905d6	LogisticsConstsBListUIModel	Administrator	2020-07-13T11:59:29	Administrator	2020-07-13T13:44:58	@SNIndex+0
-@SNIndex+0	a965f686-4d30-4360-9044-6e03489f6516	LogisticsConstsUI	Administrator	2020-07-13T13:44:53	Administrator	2020-07-13T13:44:58	UFIDA.U9.Cust.BLT.ShipPlan.LogisticsConstsUI
-@SNIndex+12	4817b4db-3a36-45af-b61f-57bf26415a56	BtnNew	0d359f87-f761-46ac-8226-9e9d30f78bc3	@SNIndex+11	Button		0			Administrator	2020-07-13T13:44:58	Administrator	2020-07-13T13:44:58		1
-@SNIndex+13	e4d2ec88-341e-490b-9935-45209e1d1da8	BtnDelete	0d359f87-f761-46ac-8226-9e9d30f78bc3	@SNIndex+11	Button		0			Administrator	2020-07-13T13:44:58	Administrator	2020-07-13T13:44:58		1
-@SNIndex+14	d11a6b17-9113-4c26-a19b-326bd11b8d2e	BtnOutPut	0d359f87-f761-46ac-8226-9e9d30f78bc3	@SNIndex+11	Button		0			Administrator	2020-07-13T13:44:58	Administrator	2020-07-13T13:44:58		1
-@SNIndex+15	7ccafd22-a522-45eb-8bfd-225f3ae68209	BtnPrint	0d359f87-f761-46ac-8226-9e9d30f78bc3	@SNIndex+11	Button		0			Administrator	2020-07-13T13:44:58	Administrator	2020-07-13T13:44:58		1
-@SNIndex+16	acb129c5-4787-4e3f-a956-b9c9f0e09baa	OnLookCase	0d359f87-f761-46ac-8226-9e9d30f78bc3	@SNIndex+11	Button		0			Administrator	2020-07-13T13:44:58	Administrator	2020-07-13T13:44:58		1
-@SNIndex+17	8f263481-8ddb-41a6-855f-2e03d27cac70	DataGrid1	0d359f87-f761-46ac-8226-9e9d30f78bc3	@SNIndex+11	DataGrid		0			Administrator	2020-07-13T13:44:58	Administrator	2020-07-13T13:44:58		1
-@SNIndex+18	cb8a9687-e4e8-4890-9752-a3293a78a434	DDLCase	0d359f87-f761-46ac-8226-9e9d30f78bc3	@SNIndex+11	DropDownList		0			Administrator	2020-07-13T13:44:58	Administrator	2020-07-13T13:44:58		1
-@SNIndex+3	624f1b40-6d5f-40cf-a9e1-d7b254c4ceda	ID	Administrator	2020-07-13T12:00:44	Administrator	2020-07-13T13:44:58	@SNIndex+2	物流费统计.Key.ID	ba391065-6c27-4c82-acc8-b52b1c93a910		Key	0	0	8e33e2df-37fc-4198-bc7d-ce3907873fff	4f5449f8-a518-4c41-8296-9eb842300e32
-@SNIndex+4	5facf0f3-3e7e-4837-a0b5-fbbbb51c8da0	OnLookCase	Administrator	2020-07-13T11:59:29	Administrator	2020-07-13T13:44:58	@SNIndex+1	205bb11a-ce29-4dbb-b935-c1c8cf0905d6	Case
-@SNIndex+5	16857192-f8e3-4e5d-a409-c32c89c9088a	OnCaseChanged	Administrator	2020-07-13T11:59:29	Administrator	2020-07-13T13:44:58	@SNIndex+1	205bb11a-ce29-4dbb-b935-c1c8cf0905d6	Case
-@SNIndex+6	2c004827-7b94-4926-82ce-86a02be8fd2f	OnOutPut	Administrator	2020-07-13T11:59:29	Administrator	2020-07-13T13:44:58	@SNIndex+1	205bb11a-ce29-4dbb-b935-c1c8cf0905d6	Case
-@SNIndex+7	dffd13a6-dd24-4a45-8c33-169626dac71b	OnGridRowDbClick	Administrator	2020-07-13T11:59:29	Administrator	2020-07-13T13:44:58	@SNIndex+1	205bb11a-ce29-4dbb-b935-c1c8cf0905d6	Case
-@SNIndex+8	f6c80e8a-be63-45d2-aeb1-c9b393f9ba73	OnNew	Administrator	2020-07-13T11:59:29	Administrator	2020-07-13T13:44:58	@SNIndex+1	205bb11a-ce29-4dbb-b935-c1c8cf0905d6	Case
-@SNIndex+9	5fcc78e2-201c-44ae-bc3d-cb55bae14cdd	OnPrint	Administrator	2020-07-13T11:59:29	Administrator	2020-07-13T13:44:58	@SNIndex+1	205bb11a-ce29-4dbb-b935-c1c8cf0905d6	Case
-@SNIndex+10	eb9640a2-092f-40c0-9d2d-3cfc935cc139	OnDelete	Administrator	2020-07-13T11:59:29	Administrator	2020-07-13T13:44:58	@SNIndex+1	205bb11a-ce29-4dbb-b935-c1c8cf0905d6	Case
+@SNIndex+2	8e33e2df-37fc-4198-bc7d-ce3907873fff	LogisticsCosts	Administrator	2020-07-14T16:26:56	Administrator	2020-07-14T16:47:55	@SNIndex+1	1	0			80e85da3-c7d5-4c9c-8327-8523d7f66d1a	205bb11a-ce29-4dbb-b935-c1c8cf0905d6	00000000-0000-0000-0000-000000000000
+@SNIndex+11	0d359f87-f761-46ac-8226-9e9d30f78bc3	Administrator	2020-07-14T16:47:55	Administrator	2020-07-14T16:47:55	UFIDA.U9.Cust.BLT.ShipPlan.LogisticsConstsUI.LogisticsConstsBListUIFormWebPart	UFIDA.U9.Cust.BLT.ShipPlan.LogisticsConstsUI.WebPart	UFIDA\U9\Cust\BLT\ShipPlan\LogisticsConstsUI	.UI_列表Form带CheckBoxWebPart
+@SNIndex+11	0d359f87-f761-46ac-8226-9e9d30f78bc3	a965f686-4d30-4360-9044-6e03489f6516	@SNIndex+0	LogisticsConstsBListUIForm	205bb11a-ce29-4dbb-b935-c1c8cf0905d6	1	1	Administrator	2020-07-14T16:47:55	Administrator	2020-07-14T16:47:55	UFIDA.U9.Cust.BLT.ShipPlan.LogisticsConstsUI.LogisticsConstsBListUIFormWebPart	UFIDA.U9.Cust.BLT.ShipPlan.LogisticsConstsUI.WebPart	.UI_列表Form带CheckBoxWebPart	0	992	504
+@SNIndex+20	Click	OnNew	Administrator	2020-07-14T16:47:55	Administrator	2020-07-14T16:47:55	@SNIndex+12	4817b4db-3a36-45af-b61f-57bf26415a56
+@SNIndex+22	Click	OnDelete	Administrator	2020-07-14T16:47:55	Administrator	2020-07-14T16:47:55	@SNIndex+13	e4d2ec88-341e-490b-9935-45209e1d1da8
+@SNIndex+24	Click	OnOutPut	Administrator	2020-07-14T16:47:55	Administrator	2020-07-14T16:47:55	@SNIndex+14	d11a6b17-9113-4c26-a19b-326bd11b8d2e
+@SNIndex+26	Click	OnPrint	Administrator	2020-07-14T16:47:55	Administrator	2020-07-14T16:47:55	@SNIndex+15	7ccafd22-a522-45eb-8bfd-225f3ae68209
+@SNIndex+28	TextChanged	OnCaseChanged	Administrator	2020-07-14T16:47:55	Administrator	2020-07-14T16:47:55	@SNIndex+18	cb8a9687-e4e8-4890-9752-a3293a78a434
+@SNIndex+30	Click	OnLookCase	Administrator	2020-07-14T16:47:55	Administrator	2020-07-14T16:47:55	@SNIndex+16	acb129c5-4787-4e3f-a956-b9c9f0e09baa
+@SNIndex+32	GridRowDbClicked	OnGridRowDbClick	Administrator	2020-07-14T16:47:55	Administrator	2020-07-14T16:47:55	@SNIndex+17	8f263481-8ddb-41a6-855f-2e03d27cac70
+@SNIndex+1	205bb11a-ce29-4dbb-b935-c1c8cf0905d6	LogisticsConstsBListUIModel	Administrator	2020-07-14T16:26:56	Administrator	2020-07-14T16:47:55	@SNIndex+0
+@SNIndex+0	a965f686-4d30-4360-9044-6e03489f6516	LogisticsConstsUI	Administrator	2020-07-14T16:47:54	Administrator	2020-07-14T16:47:55	UFIDA.U9.Cust.BLT.ShipPlan.LogisticsConstsUI
+@SNIndex+12	4817b4db-3a36-45af-b61f-57bf26415a56	BtnNew	0d359f87-f761-46ac-8226-9e9d30f78bc3	@SNIndex+11	Button		0			Administrator	2020-07-14T16:47:55	Administrator	2020-07-14T16:47:55		1
+@SNIndex+13	e4d2ec88-341e-490b-9935-45209e1d1da8	BtnDelete	0d359f87-f761-46ac-8226-9e9d30f78bc3	@SNIndex+11	Button		0			Administrator	2020-07-14T16:47:55	Administrator	2020-07-14T16:47:55		1
+@SNIndex+14	d11a6b17-9113-4c26-a19b-326bd11b8d2e	BtnOutPut	0d359f87-f761-46ac-8226-9e9d30f78bc3	@SNIndex+11	Button		0			Administrator	2020-07-14T16:47:55	Administrator	2020-07-14T16:47:55		1
+@SNIndex+15	7ccafd22-a522-45eb-8bfd-225f3ae68209	BtnPrint	0d359f87-f761-46ac-8226-9e9d30f78bc3	@SNIndex+11	Button		0			Administrator	2020-07-14T16:47:55	Administrator	2020-07-14T16:47:55		1
+@SNIndex+16	acb129c5-4787-4e3f-a956-b9c9f0e09baa	OnLookCase	0d359f87-f761-46ac-8226-9e9d30f78bc3	@SNIndex+11	Button		0			Administrator	2020-07-14T16:47:55	Administrator	2020-07-14T16:47:55		1
+@SNIndex+17	8f263481-8ddb-41a6-855f-2e03d27cac70	DataGrid1	0d359f87-f761-46ac-8226-9e9d30f78bc3	@SNIndex+11	DataGrid		0			Administrator	2020-07-14T16:47:55	Administrator	2020-07-14T16:47:55		1
+@SNIndex+18	cb8a9687-e4e8-4890-9752-a3293a78a434	DDLCase	0d359f87-f761-46ac-8226-9e9d30f78bc3	@SNIndex+11	DropDownList		0			Administrator	2020-07-14T16:47:55	Administrator	2020-07-14T16:47:55		1
+@SNIndex+3	624f1b40-6d5f-40cf-a9e1-d7b254c4ceda	ID	Administrator	2020-07-14T16:26:56	Administrator	2020-07-14T16:47:55	@SNIndex+2	物流费统计.Key.ID	ba391065-6c27-4c82-acc8-b52b1c93a910		Key	0	0	8e33e2df-37fc-4198-bc7d-ce3907873fff	4f5449f8-a518-4c41-8296-9eb842300e32
+@SNIndex+4	5facf0f3-3e7e-4837-a0b5-fbbbb51c8da0	OnLookCase	Administrator	2020-07-14T16:26:56	Administrator	2020-07-14T16:47:55	@SNIndex+1	205bb11a-ce29-4dbb-b935-c1c8cf0905d6	Case
+@SNIndex+5	16857192-f8e3-4e5d-a409-c32c89c9088a	OnCaseChanged	Administrator	2020-07-14T16:26:56	Administrator	2020-07-14T16:47:55	@SNIndex+1	205bb11a-ce29-4dbb-b935-c1c8cf0905d6	Case
+@SNIndex+6	2c004827-7b94-4926-82ce-86a02be8fd2f	OnOutPut	Administrator	2020-07-14T16:26:56	Administrator	2020-07-14T16:47:55	@SNIndex+1	205bb11a-ce29-4dbb-b935-c1c8cf0905d6	Case
+@SNIndex+7	dffd13a6-dd24-4a45-8c33-169626dac71b	OnGridRowDbClick	Administrator	2020-07-14T16:26:56	Administrator	2020-07-14T16:47:55	@SNIndex+1	205bb11a-ce29-4dbb-b935-c1c8cf0905d6	Case
+@SNIndex+8	f6c80e8a-be63-45d2-aeb1-c9b393f9ba73	OnNew	Administrator	2020-07-14T16:26:56	Administrator	2020-07-14T16:47:55	@SNIndex+1	205bb11a-ce29-4dbb-b935-c1c8cf0905d6	Case
+@SNIndex+9	5fcc78e2-201c-44ae-bc3d-cb55bae14cdd	OnPrint	Administrator	2020-07-14T16:26:56	Administrator	2020-07-14T16:47:55	@SNIndex+1	205bb11a-ce29-4dbb-b935-c1c8cf0905d6	Case
+@SNIndex+10	eb9640a2-092f-40c0-9d2d-3cfc935cc139	OnDelete	Administrator	2020-07-14T16:26:56	Administrator	2020-07-14T16:47:55	@SNIndex+1	205bb11a-ce29-4dbb-b935-c1c8cf0905d6	Case

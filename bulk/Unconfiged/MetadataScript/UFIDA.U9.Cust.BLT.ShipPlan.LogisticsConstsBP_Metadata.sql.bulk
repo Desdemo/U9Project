@@ -33,4 +33,4 @@ ID, Name, CreateOp, CreateTime, ModifyOp, ModifyTime, Local_ID, MD_Class_ID, Loc
 UBF_MD_Component|37|36
 Local_ID, Kind, Name, ID, AssemblyName, CreateOp, ModifyTime, Version, ModifyOp, MD_Module_ID, CreateTime
 
-LogisticsConstsBP	672118a1-0ecb-4343-b3e9-9c58af16a44c	UFIDA.U9.Cust.BLT.ShipPlan.LogisticsConstsBP	Administrator	BP	2020-07-13T11:58:14		2020-07-13T11:58:14
+LogisticsConstsBP	672118a1-0ecb-4343-b3e9-9c58af16a44c	UFIDA.U9.Cust.BLT.ShipPlan.LogisticsConstsBP	Administrator	BP	2020-07-14T16:25:19		2020-07-14T16:25:19

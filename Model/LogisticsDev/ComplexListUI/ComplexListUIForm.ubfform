@@ -34,7 +34,7 @@
       </Events>
     </Button>
   </Toolbar>
-  <Card ID="63035ee1-c824-4bbb-81c5-a5a44eebcd14" ChildLabelWidth="60" ChildRefWidth="20" FunctionBar="FunctionBar" GridBottomMargin="10" GridColumnCount="22" GridColumnSpace="0" GridHeight="1" GridLeftMargin="20" GridRightMargin="10" GridRowCount="1" GridRowSpace="5" GridTopMargin="3" GridWidth="1" GridX="0" GridY="4" Height="30" LayoutType="GridBag" Name="Card0" TabIndex="3" TabStop="False" Width="1392" X="0" Y="601">
+  <Card ID="63035ee1-c824-4bbb-81c5-a5a44eebcd14" ChildLabelWidth="60" ChildRefWidth="20" FunctionBar="FunctionBar" GridBottomMargin="0" GridColumnCount="22" GridColumnSpace="0" GridHeight="1" GridLeftMargin="20" GridRightMargin="10" GridRowCount="1" GridRowSpace="5" GridTopMargin="0" GridWidth="1" GridX="0" GridY="4" Height="30" LayoutType="GridBag" Name="Card0" TabIndex="3" TabStop="False" Width="1392" X="0" Y="601">
     <Columns>
       <Column Fixed="True" Name="Column0" Type="Spacing" Width="80" />
       <Column Fixed="True" Name="Column1" Type="Spacing" Width="10" />
@@ -60,24 +60,24 @@
       <Column Fixed="False" Name="Column8" Type="Spacing" Width="1" />
     </Columns>
     <Rows>
-      <Row Fixed="True" Height="20" Name="Row0" />
+      <Row Fixed="False" Height="30" Name="Row0" />
     </Rows>
-    <Button ID="93dad9f1-2728-4657-8d36-99daa68fb68d" AccessKey="" DisplayName="运费计算" DisplayNameIndexStr="" DisplayNameResourceID="" DisplaySrcType="Custom" DisplaySrcUIFieldID="" DisplaySrcUIViewID="" GridHeight="1" GridWidth="1" GridX="18" GridY="0" Height="20" Name="BtnOk" TabIndex="9" TabStop="True" Width="80" X="821" Y="3">
+    <Button ID="93dad9f1-2728-4657-8d36-99daa68fb68d" AccessKey="" DisplayName="运费计算" DisplayNameIndexStr="" DisplayNameResourceID="" DisplaySrcType="Custom" DisplaySrcUIFieldID="" DisplaySrcUIViewID="" GridHeight="1" GridWidth="1" GridX="18" GridY="0" Height="30" Name="BtnOk" TabIndex="9" TabStop="True" Width="80" X="821" Y="0">
       <Events>
         <Event ActionName="OnOk" EnableEvent="True" EventType="PostBack" IsDataBinding="True" IsDataCollect="True" Name="Click" Parameter="OKClick" Template=".\UITpls\WebPart\RefCodeBehindCommon.tpl" />
       </Events>
     </Button>
-    <Button ID="d11bc0bb-f58a-498f-99b5-45b75c29f8e9" AccessKey="Z" DisplayName="费用分摊" DisplayNameIndexStr="" DisplayNameResourceID="" DisplaySrcType="Custom" DisplaySrcUIFieldID="" DisplaySrcUIViewID="" GridHeight="1" GridWidth="1" GridX="20" GridY="0" Height="20" Name="BtnClose" TabIndex="10" TabStop="True" Width="80" X="911" Y="3">
+    <Button ID="d11bc0bb-f58a-498f-99b5-45b75c29f8e9" AccessKey="Z" DisplayName="费用分摊" DisplayNameIndexStr="" DisplayNameResourceID="" DisplaySrcType="Custom" DisplaySrcUIFieldID="" DisplaySrcUIViewID="" GridHeight="1" GridWidth="1" GridX="20" GridY="0" Height="30" Name="BtnClose" TabIndex="10" TabStop="True" Width="80" X="911" Y="0">
       <Events>
         <Event ActionName="OnClose" EnableEvent="True" EventType="PostBack" IsDataBinding="True" IsDataCollect="True" Name="Click" Parameter="CancelClick" Template=".\UITpls\WebPart\ViewCodeBehindCommon.tpl" />
       </Events>
     </Button>
-    <Button ID="eeb68924-af16-4aaa-9cac-6d1b67b12f50" AccessKey="" DisplayName="手动费用分摊" DisplayNameIndexStr="" DisplayNameResourceID="" DisplaySrcType="Custom" DisplaySrcUIFieldID="" DisplaySrcUIViewID="" GridHeight="1" GridWidth="3" GridX="14" GridY="0" Height="20" Name="Planning302" TabIndex="11" TabStop="True" Width="161" X="650" Y="3">
+    <Button ID="eeb68924-af16-4aaa-9cac-6d1b67b12f50" AccessKey="" DisplayName="手动费用分摊" DisplayNameIndexStr="" DisplayNameResourceID="" DisplaySrcType="Custom" DisplaySrcUIFieldID="" DisplaySrcUIViewID="" GridHeight="1" GridWidth="3" GridX="14" GridY="0" Height="30" Name="Planning302" TabIndex="11" TabStop="True" Width="161" X="650" Y="0">
       <Events>
         <Event ActionName="Planning" EnableEvent="True" EventType="PostBack" Name="Click" Parameter="" Template="" />
       </Events>
     </Button>
-    <Button ID="bbd8281d-fb62-49ee-a2f1-9ed0e76bde5b" AccessKey="" GridHeight="1" GridWidth="1" GridX="12" GridY="0" Height="20" Name="SaveResult1267" TabIndex="12" TabStop="True" Width="80" X="560" Y="3">
+    <Button ID="c78a5cac-3a12-4cac-9398-6c5ae261fb7e" AccessKey="" GridHeight="1" GridWidth="1" GridX="12" GridY="0" Height="30" Name="SaveResult326" TabIndex="12" TabStop="True" Width="80" X="560" Y="0">
       <Events>
         <Event ActionName="SaveResult" EnableEvent="True" EventType="PostBack" IsDataBinding="True" IsDataCollect="True" Name="Click" Parameter="" Template="" />
       </Events>
@@ -217,7 +217,7 @@
         <UIFilterBar Name="ReferenceFilter" />
         <Events />
       </Reference>
-      <Label ID="a0c2d3fe-29b6-4bb1-a5a7-17e14118288b" DisplayName="两地提货" DisplayNameIndexStr="" DisplayNameResourceID="" DisplaySrcType="Custom" DisplaySrcUIFieldID="" DisplaySrcUIViewID="" Enabled="True" GridHeight="1" GridWidth="1" GridX="7" GridY="0" Height="20" IsNull="True" IsSequence="False" Name="lblTwoAddress1" RelationControl="TwoAddress1" TabIndex="31" TabStop="True" TitleAlign="Right" TitleLocation="Left" UIFieldID="" UIViewID="" Visible="True" Width="124" X="874" Y="0">
+      <Label ID="a0c2d3fe-29b6-4bb1-a5a7-17e14118288b" DisplayName="包含计算过的订单" DisplayNameIndexStr="" DisplayNameResourceID="" DisplaySrcType="Custom" DisplaySrcUIFieldID="" DisplaySrcUIViewID="" Enabled="True" GridHeight="1" GridWidth="1" GridX="7" GridY="0" Height="20" IsNull="True" IsSequence="False" Name="lblTwoAddress1" RelationControl="TwoAddress1" TabIndex="31" TabStop="True" TitleAlign="Right" TitleLocation="Left" UIFieldID="" UIViewID="" Visible="True" Width="124" X="874" Y="0">
         <Events />
         <RelationControls />
         <Events />
@@ -535,6 +535,19 @@
       <RoundRuleBind Name="RoundRuleBind20" />
       <ValueOfRoundByValueBind Name="ValueOfRoundByValueBind20" />
       <CurrencyType Name="CurrencyType20" />
+    </NumberControl>
+    <Label ID="176a97cb-ae09-45c2-8f9e-d4b525b1635f" Enabled="True" GridHeight="1" GridWidth="1" GridX="10" GridY="0" Height="21" IsNull="True" IsSequence="False" Name="lblUnitPrice0" RelationControl="UnitPrice0" TabIndex="24" TabStop="True" TitleAlign="Right" TitleLocation="Left" UIFieldID="" UIViewID="" Visible="True" Width="76" X="767" Y="0">
+      <Events />
+      <RelationControls />
+      <Events />
+    </Label>
+    <NumberControl ID="2f36965a-9031-4d30-aa7a-3d231e7f2cb4" DisplayFormat="53.0" Enabled="True" GridHeight="1" GridWidth="1" GridX="11" GridY="0" Height="21" IsNull="True" IsProperty="False" IsSequence="False" MultiLine="False" Name="UnitPrice0" Precision="2" RelationControl="lblUnitPrice0" TabIndex="25" TabStop="True" TextAlign="Right" TitleAlign="Left" TitleLocation="Left" UIFieldID="UnitPrice" UIViewID="ComplexList" Visible="True" Width="76" X="843" Y="0">
+      <Events />
+      <RelationControls />
+      <PrecisionBind />
+      <RoundRuleBind />
+      <ValueOfRoundByValueBind />
+      <CurrencyType />
     </NumberControl>
   </Card>
   <Events />

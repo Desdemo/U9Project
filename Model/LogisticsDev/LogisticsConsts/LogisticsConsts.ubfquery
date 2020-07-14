@@ -4,80 +4,83 @@
   <BPRefInfo id="2a74b38a-957b-46b7-9eb9-e72541518937" name="" displayName="" description="" help="" ProjectID="" ProjectPath="" BPItemID="" BPOperationID="" DTOID="" BPAgentDll="" BPAgentProxy="" />
   <UIRefInfo id="c39f6dcd-f602-4d92-8310-8505e4ce61f8" name="" displayName="" description="" help="" ProjectID="" ProjectPath="" UIModelItemID="061668b5-98fa-4e07-86ec-e0b07e8eb791" UIFormItemID="1c07d2ae-e5e1-45b4-9ae2-b04f570ae372" UIModelID="205bb11a-ce29-4dbb-b935-c1c8cf0905d6" />
   <FilterDefines>
-    <FilterDefine id="e1ba765c-e612-43ec-8a02-90ddfaea8688" name="DocType" displayName="DocType" description="" help="" ParentName="" Alias="DocType" IsFixed="False" IsAllowBlank="True" Visible="True" DescFieldContextValue="" FilterNodeType="Item" DateDisplayType="" RaiseChangedEvent="False" IsBuildWhereStr="True" OperatorList="" />
-    <FilterDefine id="c8f514cf-08ec-4814-8cd9-849c1fb7e3a4" name="Salesman" displayName="Salesman" description="" help="" ParentName="" Alias="Salesman" IsFixed="False" IsAllowBlank="True" Visible="True" DescFieldContextValue="" FilterNodeType="Item" DateDisplayType="" RaiseChangedEvent="False" IsBuildWhereStr="True" OperatorList="" />
-    <FilterDefine id="5cb4e965-e951-4bf6-85c7-30576ac86b15" name="ShipDate" displayName="ShipDate" description="" help="" ParentName="" Alias="ShipDate" IsFixed="False" IsAllowBlank="True" Visible="True" DescFieldContextValue="" FilterNodeType="Item" DateDisplayType="DateTime" RaiseChangedEvent="False" IsBuildWhereStr="True" OperatorList="" />
-    <FilterDefine id="0c339ef1-16a8-45e9-9d4f-88f67ce96e15" name="SaleNo" displayName="SaleNo" description="" help="" ParentName="" Alias="SaleNo" IsFixed="False" IsAllowBlank="True" Visible="True" DescFieldContextValue="" FilterNodeType="Item" DateDisplayType="" RaiseChangedEvent="False" IsBuildWhereStr="True" OperatorList="" />
-    <FilterDefine id="efec9d73-f03f-4bd5-b083-e6165d11c1d7" name="Supplier" displayName="Supplier" description="" help="" ParentName="" Alias="Supplier" IsFixed="False" IsAllowBlank="True" Visible="True" DescFieldContextValue="" FilterNodeType="Item" DateDisplayType="" RaiseChangedEvent="False" IsBuildWhereStr="True" OperatorList="">
-      <Reference id="1eed4a26-adec-4ca5-b4e1-89490c11f244" name="" displayName="" description="" help="" RefID="b8ca6928-d125-48d5-b0c3-29c5d60e793c" RefURI="" KeyField="" ValueField="Code" TextField="Name" ReturnValueField="Code" ReturnValueType="String" LeftExpression="Supplier.Code" RefWidth="580" RefHeight="408" />
+    <FilterDefine id="7a6c8296-a8dd-4b2d-b2ef-a0f128ee7fb2" name="DocType" displayName="DocType" description="" help="" ParentName="" Alias="DocType" IsFixed="False" IsAllowBlank="True" Visible="True" DescFieldContextValue="" FilterNodeType="Item" DateDisplayType="" RaiseChangedEvent="False" IsBuildWhereStr="True" OperatorList="" />
+    <FilterDefine id="858d87f1-9bef-4754-a639-e06602bdf1f8" name="Salesman" displayName="Salesman" description="" help="" ParentName="" Alias="Salesman" IsFixed="False" IsAllowBlank="True" Visible="True" DescFieldContextValue="" FilterNodeType="Item" DateDisplayType="" RaiseChangedEvent="False" IsBuildWhereStr="True" OperatorList="" />
+    <FilterDefine id="f1e3379a-7856-4215-a97e-e7b49e0eee96" name="ShipDate" displayName="ShipDate" description="" help="" ParentName="" Alias="ShipDate" IsFixed="False" IsAllowBlank="True" Visible="True" DescFieldContextValue="" FilterNodeType="Item" DateDisplayType="DateTime" RaiseChangedEvent="False" IsBuildWhereStr="True" OperatorList="" />
+    <FilterDefine id="bc3aa57c-6924-482e-91b7-aa783a573897" name="SaleNo" displayName="SaleNo" description="" help="" ParentName="" Alias="SaleNo" IsFixed="False" IsAllowBlank="True" Visible="True" DescFieldContextValue="" FilterNodeType="Item" DateDisplayType="" RaiseChangedEvent="False" IsBuildWhereStr="True" OperatorList="" />
+    <FilterDefine id="dde5afce-984a-4005-8619-790baa0e8714" name="Supplier" displayName="Supplier" description="" help="" ParentName="" Alias="Supplier" IsFixed="False" IsAllowBlank="True" Visible="True" DescFieldContextValue="" FilterNodeType="Item" DateDisplayType="" RaiseChangedEvent="False" IsBuildWhereStr="True" OperatorList="">
+      <Reference id="bdbdf77e-4ace-4bd2-8407-afe3ad7603d1" name="" displayName="" description="" help="" RefID="b8ca6928-d125-48d5-b0c3-29c5d60e793c" RefURI="" KeyField="" ValueField="Code" TextField="Name" ReturnValueField="Code" ReturnValueType="String" LeftExpression="Supplier.Code" RefWidth="580" RefHeight="408" />
     </FilterDefine>
-    <FilterDefine id="e493d884-977a-4159-b0a1-136f7b911cc1" name="ProductCategory" displayName="ProductCategory" description="" help="" ParentName="" Alias="ProductCategory" IsFixed="False" IsAllowBlank="True" Visible="True" DescFieldContextValue="" FilterNodeType="Item" DateDisplayType="" RaiseChangedEvent="False" IsBuildWhereStr="True" OperatorList="" />
-    <FilterDefine id="916b9cd3-1ed7-47a4-89d8-14a41429f226" name="Location" displayName="Location" description="" help="" ParentName="" Alias="Location" IsFixed="False" IsAllowBlank="True" Visible="True" DescFieldContextValue="" FilterNodeType="Item" DateDisplayType="" RaiseChangedEvent="False" IsBuildWhereStr="True" OperatorList="">
-      <Reference id="9d75cc08-cbdb-4307-856f-d1fe7aff30bc" name="" displayName="" description="" help="" RefID="947f690a-2519-45c0-af39-fed9ad0bd4b3" RefURI="" KeyField="" ValueField="Code" TextField="Name" ReturnValueField="Code" ReturnValueType="String" LeftExpression="Location" RefWidth="580" RefHeight="408" />
+    <FilterDefine id="77dc5a14-528f-40ff-ba5a-1ef3d4adeda5" name="ProductCategory" displayName="ProductCategory" description="" help="" ParentName="" Alias="ProductCategory" IsFixed="False" IsAllowBlank="True" Visible="True" DescFieldContextValue="" FilterNodeType="Item" DateDisplayType="" RaiseChangedEvent="False" IsBuildWhereStr="True" OperatorList="" />
+    <FilterDefine id="d6d757bd-8f1f-4b3d-9a4a-e55381371b1e" name="Location" displayName="Location" description="" help="" ParentName="" Alias="Location" IsFixed="False" IsAllowBlank="True" Visible="True" DescFieldContextValue="" FilterNodeType="Item" DateDisplayType="" RaiseChangedEvent="False" IsBuildWhereStr="True" OperatorList="">
+      <Reference id="06c920ff-5501-48a4-a017-8d841ed7d8f8" name="" displayName="" description="" help="" RefID="947f690a-2519-45c0-af39-fed9ad0bd4b3" RefURI="" KeyField="" ValueField="Code" TextField="Name" ReturnValueField="Code" ReturnValueType="String" LeftExpression="Location" RefWidth="580" RefHeight="408" />
     </FilterDefine>
   </FilterDefines>
   <ColumnDefines>
-    <ColumnDefine id="fd07d1f8-707a-46dd-bc75-b1bae3b26ae1" name="CreatedOn" displayName="CreatedOn" description="" help="" ParentName="" Alias="CreatedOn" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="DateTime" Point="2" />
-    <ColumnDefine id="cb301d5e-b258-4c82-b8aa-642cb10cbf4a" name="CreatedBy" displayName="CreatedBy" description="" help="" ParentName="" Alias="CreatedBy" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" Point="2" />
-    <ColumnDefine id="96f49d68-1b51-41b2-b91c-38455b27edb6" name="ModifiedOn" displayName="ModifiedOn" description="" help="" ParentName="" Alias="ModifiedOn" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="DateTime" Point="2" />
-    <ColumnDefine id="6cd9dde3-bdff-4331-9547-3f95979a1019" name="ModifiedBy" displayName="ModifiedBy" description="" help="" ParentName="" Alias="ModifiedBy" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" Point="2" />
-    <ColumnDefine id="c5ce7d46-2760-4adf-9501-db18010065fe" name="DocType" displayName="DocType" description="" help="" ParentName="" Alias="DocType" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" Point="2" />
-    <ColumnDefine id="5bad016b-a3ef-4b48-9ba1-517f0021655d" name="Salesman" displayName="Salesman" description="" help="" ParentName="" Alias="Salesman" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" Point="2" />
-    <ColumnDefine id="ed512b02-7755-4106-941a-e7c6cb95bc51" name="CustomerContact" displayName="CustomerContact" description="" help="" ParentName="" Alias="CustomerContact" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" Point="2" />
-    <ColumnDefine id="95c8fd4b-40a9-4734-a0af-1d238549cd58" name="Phone" displayName="Phone" description="" help="" ParentName="" Alias="Phone" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" Point="2" />
-    <ColumnDefine id="5948037e-826d-46bb-9842-102d6a102790" name="ShipDate" displayName="ShipDate" description="" help="" ParentName="" Alias="ShipDate" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="Date" Point="2" />
-    <ColumnDefine id="d17dc30b-a374-4de6-a5fd-518d1fcd800e" name="SaleNo" displayName="SaleNo" description="" help="" ParentName="" Alias="SaleNo" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" Point="2" />
-    <ColumnDefine id="b95cfbee-7ef3-4738-991e-9ecc422277d8" name="Supplier" displayName="Supplier" description="" help="" ParentName="" Alias="Supplier" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" Point="2" />
-    <ColumnDefine id="6ae6b941-2c88-40af-9588-bedf1b53d61f" name="Qty" displayName="Qty" description="" help="" ParentName="" Alias="Qty" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" PrecisionType="Static" NumericType="Numberic" Point="2" />
-    <ColumnDefine id="f79a1c39-cb21-4aad-b61f-d2f0c415efb4" name="ProductCategory" displayName="ProductCategory" description="" help="" ParentName="" Alias="ProductCategory" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" Point="2" />
-    <ColumnDefine id="d7993605-0e46-4a00-a4ca-bf9989a2d685" name="Province" displayName="Province" description="" help="" ParentName="" Alias="Province" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" Point="2" />
-    <ColumnDefine id="0ee405bd-2aa0-406c-bf48-e44da3d26000" name="Location" displayName="Location" description="" help="" ParentName="" Alias="Location" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" Point="2" />
-    <ColumnDefine id="43756d1a-feca-4ae8-aab3-987565e1999b" name="IBulk" displayName="IBulk" description="" help="" ParentName="" Alias="IBulk" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" Point="2" />
-    <ColumnDefine id="42614144-58af-4ae7-b24a-7237da27f04a" name="Weight" displayName="Weight" description="" help="" ParentName="" Alias="Weight" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" Point="2" />
-    <ColumnDefine id="02c723ff-5a1b-409f-9a91-811bac5589f8" name="BulkUom" displayName="BulkUom" description="" help="" ParentName="" Alias="BulkUom" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" Point="2" />
-    <ColumnDefine id="31700155-9fd5-4ce3-899a-f5904caf1299" name="WeightUom" displayName="WeightUom" description="" help="" ParentName="" Alias="WeightUom" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" Point="2" />
-    <ColumnDefine id="37d599e1-1bc6-469f-9eac-35ea4a2a2392" name="PickupFee" displayName="PickupFee" description="" help="" ParentName="" Alias="PickupFee" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" Point="2" />
-    <ColumnDefine id="175a505c-f644-4702-a021-5004bb82a6a9" name="DeliveryFee" displayName="DeliveryFee" description="" help="" ParentName="" Alias="DeliveryFee" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" Point="2" />
-    <ColumnDefine id="8f816894-6a5c-4f35-a78a-53f5d880d604" name="DischargeFee" displayName="DischargeFee" description="" help="" ParentName="" Alias="DischargeFee" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" Point="2" />
-    <ColumnDefine id="5da1573c-027f-4d2b-a176-ab6bd1561302" name="OtherFee" displayName="OtherFee" description="" help="" ParentName="" Alias="OtherFee" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" Point="2" />
-    <ColumnDefine id="0e9b005d-0c36-4bd3-9c8d-2e77be11dd76" name="StandardShipping" displayName="StandardShipping" description="" help="" ParentName="" Alias="StandardShipping" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" Point="2" />
-    <ColumnDefine id="82a2f83a-77fb-44cb-b259-14a67eb39f40" name="TotalFreight" displayName="TotalFreight" description="" help="" ParentName="" Alias="TotalFreight" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" Point="2" />
-    <ColumnDefine id="fc53f646-7ee1-4140-ab1c-061a258946af" name="RealFreight" displayName="RealFreight" description="" help="" ParentName="" Alias="RealFreight" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" Point="2" />
-    <ColumnDefine id="65af60e2-011f-4d57-90d5-daddb18ee174" name="AverageCost" displayName="AverageCost" description="" help="" ParentName="" Alias="AverageCost" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" Point="2" />
-    <ColumnDefine id="0c852e99-b5ac-41a6-9dcb-f064e50e32c2" name="Remark" displayName="Remark" description="" help="" ParentName="" Alias="Remark" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" Point="2" />
+    <ColumnDefine id="54d701c4-880d-4e99-b767-5b9a82543120" name="CreatedOn" displayName="CreatedOn" description="" help="" ParentName="" Alias="CreatedOn" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="DateTime" Point="2" />
+    <ColumnDefine id="7cc72b4b-7116-4c2f-823e-44d82144cc75" name="CreatedBy" displayName="CreatedBy" description="" help="" ParentName="" Alias="CreatedBy" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" Point="2" />
+    <ColumnDefine id="bd9a41c7-52e3-4cdd-b9ec-4a6ca5ab32f3" name="ModifiedOn" displayName="ModifiedOn" description="" help="" ParentName="" Alias="ModifiedOn" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="DateTime" Point="2" />
+    <ColumnDefine id="dfb00e6f-e4ff-4f2e-8667-f8e0ec456af3" name="ModifiedBy" displayName="ModifiedBy" description="" help="" ParentName="" Alias="ModifiedBy" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" Point="2" />
+    <ColumnDefine id="617cc8c0-6cee-4ab1-8002-c73ecaff41be" name="DocType" displayName="DocType" description="" help="" ParentName="" Alias="DocType" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" Point="2" />
+    <ColumnDefine id="68687381-b276-4a0f-bf46-b50d25f8ed97" name="Salesman" displayName="Salesman" description="" help="" ParentName="" Alias="Salesman" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" Point="2" />
+    <ColumnDefine id="8ef31552-fa80-4787-b258-892ad709b2a9" name="CustomerContact" displayName="CustomerContact" description="" help="" ParentName="" Alias="CustomerContact" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" Point="2" />
+    <ColumnDefine id="4cc9497a-a075-4dfa-b0ae-db35f44f7540" name="Phone" displayName="Phone" description="" help="" ParentName="" Alias="Phone" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" Point="2" />
+    <ColumnDefine id="15cae390-0c06-442d-b78e-b2500da8f9f4" name="ShipDate" displayName="ShipDate" description="" help="" ParentName="" Alias="ShipDate" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="Date" Point="2" />
+    <ColumnDefine id="50fe9975-af3b-4b63-a928-287a0c4744b4" name="SaleNo" displayName="SaleNo" description="" help="" ParentName="" Alias="SaleNo" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" Point="2" />
+    <ColumnDefine id="16efd623-dac0-486f-abc5-c0f0572d9cb6" name="Supplier" displayName="Supplier" description="" help="" ParentName="" Alias="Supplier" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" Point="2" />
+    <ColumnDefine id="46f9f294-73be-4e4c-b886-28d307c66ed1" name="Qty" displayName="Qty" description="" help="" ParentName="" Alias="Qty" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" PrecisionType="Static" NumericType="Numberic" Point="2" />
+    <ColumnDefine id="5452d6b6-629a-4906-8508-90ac0f387a50" name="ProductCategory" displayName="ProductCategory" description="" help="" ParentName="" Alias="ProductCategory" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" Point="2" />
+    <ColumnDefine id="8733d1b5-6476-41a7-a2df-b1b2f3716402" name="Province" displayName="Province" description="" help="" ParentName="" Alias="Province" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" Point="2" />
+    <ColumnDefine id="ec38ff25-1571-4935-9375-72640a8b26f6" name="Location" displayName="Location" description="" help="" ParentName="" Alias="Location" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" Point="2" />
+    <ColumnDefine id="c32de252-4ff7-4c37-bdbe-1e77f97cb663" name="IBulk" displayName="IBulk" description="" help="" ParentName="" Alias="IBulk" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" PrecisionType="LookUp" ScaleField="--&gt;Qty" Point="2" />
+    <ColumnDefine id="597336a0-49b4-4561-a890-416364be0adb" name="Weight" displayName="Weight" description="" help="" ParentName="" Alias="Weight" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" PrecisionType="LookUp" ScaleField="--&gt;Qty" Point="2" />
+    <ColumnDefine id="7d8e91c9-452e-4bb3-9756-910b755b3810" name="BulkUom" displayName="BulkUom" description="" help="" ParentName="" Alias="BulkUom" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" Point="2" />
+    <ColumnDefine id="17e8728a-27fd-43b0-b9ea-fe2e19e84f1a" name="WeightUom" displayName="WeightUom" description="" help="" ParentName="" Alias="WeightUom" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" Point="2" />
+    <ColumnDefine id="35ea9bc0-cdc4-4899-92d6-d7164e86072a" name="PickupFee" displayName="PickupFee" description="" help="" ParentName="" Alias="PickupFee" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" PrecisionType="LookUp" ScaleField="--&gt;Qty" Point="2" />
+    <ColumnDefine id="94051e5f-4134-42f3-a6e3-16f5bea26fc5" name="DeliveryFee" displayName="DeliveryFee" description="" help="" ParentName="" Alias="DeliveryFee" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" PrecisionType="LookUp" ScaleField="--&gt;Qty" Point="2" />
+    <ColumnDefine id="9f5e9fba-e711-4bf4-bbf5-f72ad1e60077" name="DischargeFee" displayName="DischargeFee" description="" help="" ParentName="" Alias="DischargeFee" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" PrecisionType="LookUp" ScaleField="--&gt;Qty" Point="2" />
+    <ColumnDefine id="45c27ec3-3c72-4674-b675-106190076380" name="OtherFee" displayName="OtherFee" description="" help="" ParentName="" Alias="OtherFee" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" PrecisionType="LookUp" ScaleField="--&gt;Qty" Point="2" />
+    <ColumnDefine id="370c3374-d1c8-4faf-947c-28b45f578e57" name="StandardShipping" displayName="StandardShipping" description="" help="" ParentName="" Alias="StandardShipping" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" PrecisionType="LookUp" ScaleField="--&gt;Qty" Point="2" />
+    <ColumnDefine id="6862a949-b241-4459-a42c-f04845f448d7" name="TotalFreight" displayName="TotalFreight" description="" help="" ParentName="" Alias="TotalFreight" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" PrecisionType="LookUp" ScaleField="--&gt;Qty" Point="2" />
+    <ColumnDefine id="67a8cddd-9692-4aba-95f4-b97b3c4072f4" name="RealFreight" displayName="RealFreight" description="" help="" ParentName="" Alias="RealFreight" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" PrecisionType="LookUp" ScaleField="--&gt;Qty" Point="2" />
+    <ColumnDefine id="daad931a-1904-459d-9e10-e8906b552157" name="AverageCost" displayName="AverageCost" description="" help="" ParentName="" Alias="AverageCost" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" PrecisionType="LookUp" ScaleField="--&gt;Qty" Point="2" />
+    <ColumnDefine id="10cbab97-c08f-4ef9-8be7-a03e78483371" name="Remark" displayName="Remark" description="" help="" ParentName="" Alias="Remark" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" Point="2" />
+    <ColumnDefine id="9949ff3f-4ff9-4d32-8567-496edba9dbb8" name="UintPrice" displayName="UintPrice" description="" help="" ParentName="" Alias="UintPrice" IsFixed="False" Visible="True" DescFieldContextValue="" ZeroIsEmpty="False" DateDisplayType="" PrecisionType="LookUp" ScaleField="--&gt;Qty" Point="2" />
   </ColumnDefines>
   <SortDefines>
-    <SortDefine id="8787a4bf-237f-4840-b89f-78f1707ac39a" name="CreatedOn" displayName="" description="" help="" ParentName="" Alias="CreatedOn" IsFixed="False" Visible="True" DescFieldContextValue="" />
+    <SortDefine id="b53d299e-3bc9-4053-af6e-6c9e86636d24" name="CreatedOn" displayName="" description="" help="" ParentName="" Alias="CreatedOn" IsFixed="False" Visible="True" DescFieldContextValue="" />
   </SortDefines>
   <DefaultCase>
     <BasicFilters>
-      <BasicFilter id="cd42386c-ab41-47cf-91e0-40e2abd5cd71" name="DocType" displayName="业务类型" description="" help="" />
-      <BasicFilter id="4cf06e05-3911-4528-9e19-1bcc1f78acf0" name="Salesman" displayName="跟单" description="" help="" />
-      <BasicFilter id="3f2bb407-594f-448a-aace-b5a91771c6c3" name="ShipDate" displayName="出货日期" description="" help="" />
-      <BasicFilter id="b7957f02-6beb-4152-b167-68cbbb49b87d" name="SaleNo" displayName="订单号" description="" help="" />
-      <BasicFilter id="dc7d71f6-f669-416b-89fc-be6ebd593005" name="Supplier" displayName="承运商" description="" help="" />
-      <BasicFilter id="83212286-540b-4c23-bfab-5d4215df4159" name="ProductCategory" displayName="商品类别" description="" help="" />
-      <BasicFilter id="71dd5d70-8025-426e-b59c-91e3de76f1fa" name="Location" displayName="收货地址" description="" help="" />
+      <BasicFilter id="757f1504-ee35-49ca-aeef-c1df32b10656" name="DocType" displayName="业务类型" description="" help="" />
+      <BasicFilter id="9b134326-6e5d-4503-8b0b-62c0811dd58d" name="Salesman" displayName="跟单" description="" help="" />
+      <BasicFilter id="53296313-aad4-424e-848f-01d67c06a644" name="ShipDate" displayName="出货日期" description="" help="" />
+      <BasicFilter id="d610f82c-d94a-46b0-aaea-02b324f29fd2" name="SaleNo" displayName="订单号" description="" help="" />
+      <BasicFilter id="44a3547c-a4ff-4943-b0ce-503efc135eb3" name="Supplier" displayName="承运商" description="" help="" />
+      <BasicFilter id="51ff5fce-2923-4ea3-a422-482956f55c71" name="ProductCategory" displayName="商品类别" description="" help="" />
+      <BasicFilter id="fec930e4-6dd7-4506-98f3-ac4223fba735" name="Location" displayName="收货地址" description="" help="" />
     </BasicFilters>
     <DefaultColumns>
-      <Column id="519ba268-8562-40a6-adcf-6f313498b54b" name="DocType" displayName="业务类型" description="" help="" />
-      <Column id="48806136-d245-4363-8588-35c66a56957c" name="Salesman" displayName="跟单" description="" help="" />
-      <Column id="13fbc5f1-1209-4c7f-8a71-834d03baf95f" name="CustomerContact" displayName="客户联系人" description="" help="" />
-      <Column id="bcb5581f-bcd6-480b-832c-cff57d7224f5" name="Phone" displayName="客户电话" description="" help="" />
-      <Column id="ff440058-36b1-4aa7-a909-fc69e75a4f90" name="ShipDate" displayName="出货日期" description="" help="" />
-      <Column id="50aea964-8d60-4f9c-bd3c-58fc955dce7f" name="SaleNo" displayName="订单号" description="" help="" />
-      <Column id="afe590ba-bf84-41ea-9174-cdd5ee8e6b7f" name="Qty" displayName="数量" description="" help="" />
-      <Column id="7b0ea79e-d9c8-481c-8b18-299cd8eab919" name="ProductCategory" displayName="商品类别" description="" help="" />
-      <Column id="b2c5f55c-e3cf-4dd2-b571-3f03c54b4715" name="Province" displayName="省份" description="" help="" />
-      <Column id="26b34569-7ae3-482e-a97a-4f4120f2176d" name="IBulk" displayName="体积" description="" help="" />
-      <Column id="a19cb1e1-b410-41b9-a086-0d1aa46cfdcf" name="Weight" displayName="重量" description="" help="" />
-      <Column id="e133c9ea-696e-4a47-8df3-0e9ed1d3e946" name="PickupFee" displayName="提货费" description="" help="" />
-      <Column id="7115792b-439a-4748-a38d-50512e123e73" name="DeliveryFee" displayName="送货费" description="" help="" />
-      <Column id="c6728f1f-60eb-489d-bd72-2b5bb56aef22" name="DischargeFee" displayName="卸货费" description="" help="" />
-      <Column id="bfdd8eb7-74a9-414e-baf9-f1f0b551e693" name="TotalFreight" displayName="费用合计" description="" help="" />
-      <Column id="1e042501-2eb5-4de1-8347-86c4ff6728b9" name="RealFreight" displayName="结算价格" description="" help="" />
-      <Column id="cabd4e66-d2df-4d6c-b003-4057e7f29de8" name="AverageCost" displayName="平均费用" description="" help="" />
-      <Column id="6931daed-1efb-402e-9262-11aa65eb76be" name="Remark" displayName="备注" description="" help="" />
+      <Column id="71d7fcd7-61b4-450a-bdda-fa1c8a02b57e" name="DocType" displayName="业务类型" description="" help="" />
+      <Column id="f6760d39-e198-431a-95bc-a83316c92fb9" name="Salesman" displayName="跟单" description="" help="" />
+      <Column id="d1ee180c-2a9f-45fb-89a4-b9ec85692a46" name="CustomerContact" displayName="客户联系人" description="" help="" />
+      <Column id="1fb001b3-81fd-4905-9077-540052f243f4" name="Phone" displayName="客户电话" description="" help="" />
+      <Column id="18238365-373f-4647-b943-7e20593e9259" name="ShipDate" displayName="出货日期" description="" help="" />
+      <Column id="9cf0714f-6f75-4b92-803c-3d16b00b542c" name="SaleNo" displayName="订单号" description="" help="" />
+      <Column id="7094f16e-8510-4ceb-a729-d4d55abe3488" name="Qty" displayName="数量" description="" help="" />
+      <Column id="6d83b71c-aef8-4470-82f6-1220c6ef81ef" name="ProductCategory" displayName="商品类别" description="" help="" />
+      <Column id="0f17ce91-0ef0-4d88-966a-205e47469d49" name="Province" displayName="省份" description="" help="" />
+      <Column id="c3d7ada5-08df-403c-9eb7-f538848b6c47" name="IBulk" displayName="体积" description="" help="" />
+      <Column id="f115e40c-3059-4bad-a68c-674fa0de03a3" name="Weight" displayName="重量" description="" help="" />
+      <Column id="428c2f83-0d86-46fb-bb64-a67900d2c83b" name="PickupFee" displayName="提货费" description="" help="" />
+      <Column id="afa11627-e3b0-45b1-b0e8-525df3fe9f70" name="DeliveryFee" displayName="送货费" description="" help="" />
+      <Column id="84690ec7-8519-482a-8dda-48c245e2d8de" name="DischargeFee" displayName="卸货费" description="" help="" />
+      <Column id="a17ce5cd-1015-410a-a81c-5b1251490aa0" name="TotalFreight" displayName="费用合计" description="" help="" />
+      <Column id="24495270-395f-4d02-a02b-2cad982209e3" name="RealFreight" displayName="结算价格" description="" help="" />
+      <Column id="25419091-ef54-4182-a851-673c453e265d" name="AverageCost" displayName="平均费用" description="" help="" />
+      <Column id="6d83c08a-1f89-410b-891d-11cb4a829197" name="Remark" displayName="备注" description="" help="" />
+      <Column id="e0d094de-70f5-4f4e-ba26-cb10e3cff8d6" name="StandardShipping" displayName="标准运费" description="" help="" />
+      <Column id="c26e04db-48cb-4c94-9afd-59bd2461f276" name="UintPrice" displayName="执行单价" description="" help="" />
     </DefaultColumns>
   </DefaultCase>
 </QueryComponent>
