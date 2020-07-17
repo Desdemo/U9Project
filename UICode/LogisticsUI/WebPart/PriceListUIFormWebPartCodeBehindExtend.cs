@@ -92,19 +92,29 @@ namespace UFIDA.U9.Cust.BLT.ShipPlan.LogisticsUI
 			
 		
 			BtnSubmit_Click_DefaultImpl(sender,e);
-		}	
-		 
-				//BtnApprove_Click...
-		private void BtnApprove_Click_Extend(object sender, EventArgs  e)
+		}
+
+        private void BtnSubmit_Click_DefaultImpl(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        //BtnApprove_Click...
+        private void BtnApprove_Click_Extend(object sender, EventArgs  e)
 		{
 			//调用模版提供的默认实现.--默认实现可能会调用相应的Action.
 			
 		
 			BtnApprove_Click_DefaultImpl(sender,e);
-		}	
-		 
-				//BtnFind_Click...
-		private void BtnFind_Click_Extend(object sender, EventArgs  e)
+		}
+
+        private void BtnApprove_Click_DefaultImpl(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        //BtnFind_Click...
+        private void BtnFind_Click_Extend(object sender, EventArgs  e)
 		{
 			//调用模版提供的默认实现.--默认实现可能会调用相应的Action.
 			

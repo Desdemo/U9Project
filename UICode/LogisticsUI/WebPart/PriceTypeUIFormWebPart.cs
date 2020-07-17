@@ -220,16 +220,6 @@ namespace UFIDA.U9.Cust.BLT.ShipPlan.LogisticsUI
 				//Button控件事件
 			this.BtnClose.Click += new EventHandler(BtnClose_Click);		
 						
-				//Button控件事件
-			this.FindButton.Click += new EventHandler(FindButton_Click);		
-						
-				//Button控件事件
-			this.QryButton.Click += new EventHandler(QryButton_Click);		
-						
-							
-				//Button控件事件
-			this.CancelButton.Click += new EventHandler(CancelButton_Click);		
-						
 
 		
 			//Grid控件的分页事件				

@@ -92,9 +92,6 @@ namespace UFIDA.U9.Cust.BLT.ShipPlan.LogisticsUI
         IUFSeparator Separator0;
         IUFButton BtnCopy;
         IUFSeparator Separator1;
-        IUFButton BtnSubmit;
-        IUFButton BtnApprove;
-        IUFButton BtnUndoApprove;
         IUFSeparator Separator2;
         IUFButton BtnFind;
         IUFButton BtnList;
@@ -110,16 +107,6 @@ namespace UFIDA.U9.Cust.BLT.ShipPlan.LogisticsUI
         IUFButton BtnOutput;
         IUFButton BtnPrint;
         IUFCard Card0;
-        IUFDropDownButton DDBtnOperation;
-        IUFDropDownButton DDBtnActivity;
-        IUFDropDownButton DDBtnQuery;
-        IUFDropDownButton DDBtnTaskLink;
-        IUFButton BtnOk;
-        IUFButton BtnClose;
-        IUFDropDownButton DropDownButton11;
-        IUFDropDownButton DropDownButton13;
-        IUFDropDownButton DropDownButton15;
-        IUFDropDownButton DropDownButton12;
         IUFCard Card4;
         IUFCard Card2;
         IUFLabel lblID38;
@@ -173,12 +160,6 @@ namespace UFIDA.U9.Cust.BLT.ShipPlan.LogisticsUI
 						
 				//Button控件事件
 			this.BtnCopy.Click += new EventHandler(BtnCopy_Click);		
-						
-				//Button控件事件
-			this.BtnSubmit.Click += new EventHandler(BtnSubmit_Click);		
-						
-				//Button控件事件
-			this.BtnApprove.Click += new EventHandler(BtnApprove_Click);		
 						
 				//Button控件事件
 			this.BtnFind.Click += new EventHandler(BtnFind_Click);		
@@ -396,22 +377,7 @@ namespace UFIDA.U9.Cust.BLT.ShipPlan.LogisticsUI
             this.BtnCopy.UIModel = this.Model.ElementID;
             this.BtnCopy.Action = "CopyClick";
 	                            _Toolbar.Controls.Add(new UFWebToolbarSeparatorAdapter());
-			                            this.BtnSubmit = UIControlBuilder.BuilderToolbarButton(_Toolbar, "True", "BtnSubmit", "True", "True", 35, 28,"8", "",true,false,"c42c0f21-2fd7-49b2-ac54-62f811747b18","c42c0f21-2fd7-49b2-ac54-62f811747b18","ac2c7f88-2ffc-4268-90ff-0a74925bd50a");
-		
-            UIControlBuilder.SetButtonAccessKey(this.BtnSubmit);
-            this.BtnSubmit.UIModel = this.Model.ElementID;
-            this.BtnSubmit.Action = "SubmitClick";
-	                            this.BtnApprove = UIControlBuilder.BuilderToolbarButton(_Toolbar, "True", "BtnApprove", "True", "True", 35, 28,"9", "",true,false,"eb678a04-c7e1-44f1-b175-8f90f9903862","eb678a04-c7e1-44f1-b175-8f90f9903862","3aa2e263-2549-4900-979a-463c0332e0b5");
-		
-            UIControlBuilder.SetButtonAccessKey(this.BtnApprove);
-            this.BtnApprove.UIModel = this.Model.ElementID;
-            this.BtnApprove.Action = "ApproveClick";
-	                            this.BtnUndoApprove = UIControlBuilder.BuilderToolbarButton(_Toolbar, "True", "BtnUndoApprove", "True", "True", 35, 28,"10", "",true,false,"ae796775-bce3-4aed-89a9-20eaa4648a67","ae796775-bce3-4aed-89a9-20eaa4648a67","569123b2-a18c-4f33-bb90-ec4bdf25daf7");
-		
-            UIControlBuilder.SetButtonAccessKey(this.BtnUndoApprove);
-            this.BtnUndoApprove.UIModel = this.Model.ElementID;
-            this.BtnUndoApprove.Action = "";
-	                            _Toolbar.Controls.Add(new UFWebToolbarSeparatorAdapter());
+			                            _Toolbar.Controls.Add(new UFWebToolbarSeparatorAdapter());
 			                            this.BtnFind = UIControlBuilder.BuilderToolbarButton(_Toolbar, "True", "BtnFind", "True", "True", 35, 28,"12", "",true,false,"27621430-7bc7-4c0e-979e-f0108439d13e","27621430-7bc7-4c0e-979e-f0108439d13e","73dea567-7406-43b7-b2d4-d94fc5e78277");
 		
             UIControlBuilder.SetButtonAccessKey(this.BtnFind);
@@ -488,162 +454,12 @@ namespace UFIDA.U9.Cust.BLT.ShipPlan.LogisticsUI
 
 
 
-	
-			_BuilderControl_DDBtnOperation(_UFCard);
-
-		
-			UIControlBuilder.BuilderUFControl(this.DDBtnOperation, "1");		
 
 
-	
-			_BuilderControl_DDBtnActivity(_UFCard);
-
-		
-			UIControlBuilder.BuilderUFControl(this.DDBtnActivity, "2");		
-
-
-	
-			_BuilderControl_DDBtnQuery(_UFCard);
-
-		
-			UIControlBuilder.BuilderUFControl(this.DDBtnQuery, "3");		
-
-
-	
-			_BuilderControl_DDBtnTaskLink(_UFCard);
-
-		
-			UIControlBuilder.BuilderUFControl(this.DDBtnTaskLink, "8");		
-
-
-				this.BtnOk = UIControlBuilder.BuilderUFButton(_UFCard, true, "BtnOk", true, true, 80, 20, 18, 0, 1, 1, "100","", this.Model.ElementID,"",false,"626ebf9b-f65a-4dd5-8f32-96f84919878c","626ebf9b-f65a-4dd5-8f32-96f84919878c","3967774d-32cd-4990-a667-ac07495826f0");
-	
-
-		
-			UIControlBuilder.BuilderUFControl(this.BtnOk, "9");		
-
-
-				this.BtnClose = UIControlBuilder.BuilderUFButton(_UFCard, true, "BtnClose", true, true, 80, 20, 20, 0, 1, 1, "100","", this.Model.ElementID,"",false,"020a5365-8f12-4970-b8df-17ce3ae60a68","020a5365-8f12-4970-b8df-17ce3ae60a68","787f2d7a-856f-49bd-b7be-d421bd52c297");
-	
-
-		
-			UIControlBuilder.BuilderUFControl(this.BtnClose, "10");		
-
-
-	
-			_BuilderControl_DropDownButton11(_UFCard);
-
-		
-			UIControlBuilder.BuilderUFControl(this.DropDownButton11, "5");		
-
-
-	
-			_BuilderControl_DropDownButton13(_UFCard);
-
-		
-			UIControlBuilder.BuilderUFControl(this.DropDownButton13, "6");		
-
-
-	
-			_BuilderControl_DropDownButton15(_UFCard);
-
-		
-			UIControlBuilder.BuilderUFControl(this.DropDownButton15, "7");		
-
-
-	
-			_BuilderControl_DropDownButton12(_UFCard);
-
-		
-			UIControlBuilder.BuilderUFControl(this.DropDownButton12, "4");		
-
-
-
-										
 
             
             container.Controls.Add(_UFCard);
             return _UFCard;
-        }
-
-				       
-        private void _BuilderControl_DDBtnOperation(IUFContainer container)
-        {
-            IUFDropDownButton _dropDownButton = UIControlBuilder.BuildDropDownButton(container,"DDBtnOperation",true, true,"1"
-            , 80, 20, 0, 0, 1, 1, "100","c4e31736-3819-479a-9f0a-2a306ba44bec","0f7ab24e-b974-44da-97a2-94fe2b2e7f10");
-            this.DDBtnOperation = _dropDownButton;
-            
-            ///foreach DropDownButton下的所有控件，增加到此容器
-        }
-
-				       
-        private void _BuilderControl_DDBtnActivity(IUFContainer container)
-        {
-            IUFDropDownButton _dropDownButton = UIControlBuilder.BuildDropDownButton(container,"DDBtnActivity",true, true,"2"
-            , 80, 20, 2, 0, 1, 1, "100","d24eab78-82b5-4f55-aa4a-f1c85a2c0489","e7bb5bfc-6b45-43e0-b6e5-9a7d0e44da92");
-            this.DDBtnActivity = _dropDownButton;
-            
-            ///foreach DropDownButton下的所有控件，增加到此容器
-        }
-
-				       
-        private void _BuilderControl_DDBtnQuery(IUFContainer container)
-        {
-            IUFDropDownButton _dropDownButton = UIControlBuilder.BuildDropDownButton(container,"DDBtnQuery",true, true,"3"
-            , 80, 20, 4, 0, 1, 1, "100","61a151e6-462e-4392-b264-c988ddd844b8","ab8e38e1-cc12-4a53-b1d7-ef0313979001");
-            this.DDBtnQuery = _dropDownButton;
-            
-            ///foreach DropDownButton下的所有控件，增加到此容器
-        }
-
-				       
-        private void _BuilderControl_DDBtnTaskLink(IUFContainer container)
-        {
-            IUFDropDownButton _dropDownButton = UIControlBuilder.BuildDropDownButton(container,"DDBtnTaskLink",true, true,"8"
-            , 80, 20, 14, 0, 1, 1, "100","e9b85406-d7e2-41f5-94da-49a69f06327c","93ef7dbe-a7fa-4ee6-8e5b-ba62049b4735");
-            this.DDBtnTaskLink = _dropDownButton;
-            
-            ///foreach DropDownButton下的所有控件，增加到此容器
-        }
-
-				       
-        private void _BuilderControl_DropDownButton11(IUFContainer container)
-        {
-            IUFDropDownButton _dropDownButton = UIControlBuilder.BuildDropDownButton(container,"DropDownButton11",true, true,"5"
-            , 80, 20, 8, 0, 1, 1, "100","","2ee0a33f-3086-4096-9297-59bfdf39d282");
-            this.DropDownButton11 = _dropDownButton;
-            
-            ///foreach DropDownButton下的所有控件，增加到此容器
-        }
-
-				       
-        private void _BuilderControl_DropDownButton13(IUFContainer container)
-        {
-            IUFDropDownButton _dropDownButton = UIControlBuilder.BuildDropDownButton(container,"DropDownButton13",true, true,"6"
-            , 80, 20, 10, 0, 1, 1, "100","","5bd5332b-028c-49cd-a20d-47e968136b5b");
-            this.DropDownButton13 = _dropDownButton;
-            
-            ///foreach DropDownButton下的所有控件，增加到此容器
-        }
-
-				       
-        private void _BuilderControl_DropDownButton15(IUFContainer container)
-        {
-            IUFDropDownButton _dropDownButton = UIControlBuilder.BuildDropDownButton(container,"DropDownButton15",true, true,"7"
-            , 80, 20, 12, 0, 1, 1, "100","","9ff0dd26-798b-4c7e-9b76-810a331e7435");
-            this.DropDownButton15 = _dropDownButton;
-            
-            ///foreach DropDownButton下的所有控件，增加到此容器
-        }
-
-				       
-        private void _BuilderControl_DropDownButton12(IUFContainer container)
-        {
-            IUFDropDownButton _dropDownButton = UIControlBuilder.BuildDropDownButton(container,"DropDownButton12",true, true,"4"
-            , 80, 20, 6, 0, 1, 1, "100","","a63a9fec-a023-4b66-ba94-f941552f452b");
-            this.DropDownButton12 = _dropDownButton;
-            
-            ///foreach DropDownButton下的所有控件，增加到此容器
         }
 
 	                   

@@ -6,8 +6,8 @@
     <Assembly ID="3432465e-c52b-47ce-a204-6f4eda8e2d7d" name="UFIDA.U9.Cust.BLT.ShipPlan.LogisticsUI" type="UI" path="" />
     <Assembly ID="8ae95a3d-b938-4eec-9c19-64dcc8c4ec2a" name="UFIDA.U9.Cust.BLT.ShipPlan.ComplexListUI" type="UI" path="" />
     <Assembly ID="7958f19a-cd89-424d-acf9-71990ba72195" name="UFIDA.U9.Cust.BLT.ShipPlan.ComputeBP" type="BP" path="" />
+    <Assembly ID="a965f686-4d30-4360-9044-6e03489f6516" name="UFIDA.U9.Cust.BLT.ShipPlan.LogisticsConstsUI" type="UI" path="" />
     <Assembly ID="672118a1-0ecb-4343-b3e9-9c58af16a44c" name="UFIDA.U9.Cust.BLT.ShipPlan.LogisticsConstsBP" type="BP" path="" />
     <Assembly ID="0cb01b69-427a-4ba5-9da4-a2e2563f5d74" name="LogisticsConsts" type="" path="" />
-    <Assembly ID="a965f686-4d30-4360-9044-6e03489f6516" name="UFIDA.U9.Cust.BLT.ShipPlan.LogisticsConstsUI" type="UI" path="" />
   </AssemblyGroup>
 </ServiceGroup>

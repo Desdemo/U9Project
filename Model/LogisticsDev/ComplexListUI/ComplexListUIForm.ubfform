@@ -544,10 +544,10 @@
     <NumberControl ID="2f36965a-9031-4d30-aa7a-3d231e7f2cb4" DisplayFormat="53.0" Enabled="True" GridHeight="1" GridWidth="1" GridX="11" GridY="0" Height="21" IsNull="True" IsProperty="False" IsSequence="False" MultiLine="False" Name="UnitPrice0" Precision="2" RelationControl="lblUnitPrice0" TabIndex="25" TabStop="True" TextAlign="Right" TitleAlign="Left" TitleLocation="Left" UIFieldID="UnitPrice" UIViewID="ComplexList" Visible="True" Width="76" X="843" Y="0">
       <Events />
       <RelationControls />
-      <PrecisionBind />
-      <RoundRuleBind />
-      <ValueOfRoundByValueBind />
-      <CurrencyType />
+      <PrecisionBind Name="PrecisionBind21" />
+      <RoundRuleBind Name="RoundRuleBind21" />
+      <ValueOfRoundByValueBind Name="ValueOfRoundByValueBind21" />
+      <CurrencyType Name="CurrencyType21" />
     </NumberControl>
   </Card>
   <Events />
