@@ -548,10 +548,6 @@ namespace UFIDA.U9.Cust.BLT.ShipPlan.LogisticsUI
 		{
 			get { return this.Fields["PriceType"]; }
 		}
-		public IUIField FieldPriceType_Name
-		{
-			get { return this.Fields["PriceType_Name"]; }
-		}
 		public IUIField FieldSerialNumber
 		{
 			get { return this.Fields["SerialNumber"]; }
@@ -578,6 +574,11 @@ namespace UFIDA.U9.Cust.BLT.ShipPlan.LogisticsUI
 		}
 
 
+		[Obsolete("请使用CurrentFilter属性，这个方法有可能会导致强弱类型转换出错")]
+		public PriceType_PriceTypeLineDefaultFilterFilter DefaultFilter
+		{
+			get { return (PriceType_PriceTypeLineDefaultFilterFilter)this.CurrentFilter; }
+		}
 		#endregion
 
 		#region Init
@@ -590,7 +591,6 @@ namespace UFIDA.U9.Cust.BLT.ShipPlan.LogisticsUI
 			UIModelRuntimeFactory.AddNewUIField(this,"ModifiedBy", typeof(String), true,"","System.String", "ModifiedBy", true,true, false, "",false,(UIFieldType)1,"3d174255-fd12-47f7-8844-3b5e4fae9e8c","945ebc56-962f-4cbe-b9a4-76b1c2382197");
 			UIModelRuntimeFactory.AddNewUIField(this,"SysVersion", typeof(Int64), true,"0","System.Int64", "SysVersion", true,true, false, "",false,(UIFieldType)1,"ba391065-6c27-4c82-acc8-b52b1c93a910","ae2465c2-66a3-4551-8df0-00cc79cf38ff");
 			UIModelRuntimeFactory.AddNewUIField(this,"PriceType", typeof(Int64), true,"","UFIDA.U9.Cust.BLT.ShipPlan.LogisticsBE.PriceType", "PriceType", true,true, false, "",false,(UIFieldType)4,"bd95fd8c-8ea8-44e4-9b29-6b1d3075fe9b","d322e08b-ed1d-460a-b60c-3784067abd53");
-			UIModelRuntimeFactory.AddNewUIField(this,"PriceType_Name", typeof(String), false,"","System.String", "PriceType.Name", false,true, false, "",false,(UIFieldType)1,"3d174255-fd12-47f7-8844-3b5e4fae9e8c","f639eb7a-bcc9-4c2c-a15f-e98cabdd9497");
 			UIModelRuntimeFactory.AddNewUIField(this,"SerialNumber", typeof(Int32), false,"0","System.Int32", "SerialNumber", true,true, false, "",false,(UIFieldType)1,"d7c6031e-d3fe-41aa-a397-5edd86c10cae","65a14ea2-2ff2-4232-a7d4-80a6070de175");
 			UIModelRuntimeFactory.AddNewUIField(this,"UnitPrice", typeof(Double), false,"0","System.Double", "UnitPrice", true,true, false, "",false,(UIFieldType)1,"a5242caa-f9ee-4159-b8c9-d0952a79175a","9eaee70e-0126-4ec7-8c9d-ebca83efec02");
 			UIModelRuntimeFactory.AddNewUIField(this,"Start", typeof(Int32), false,"0","System.Int32", "Start", true,true, false, "",false,(UIFieldType)1,"d7c6031e-d3fe-41aa-a397-5edd86c10cae","4fd9c896-22ce-4d9b-a239-101e2e2d046f");
@@ -599,6 +599,7 @@ namespace UFIDA.U9.Cust.BLT.ShipPlan.LogisticsUI
 			UIModelRuntimeFactory.AddNewUIField(this,"LineTotal", typeof(Int32), false,"0","System.Int32", "LineTotal", true,true, false, "",false,(UIFieldType)1,"d7c6031e-d3fe-41aa-a397-5edd86c10cae","1642a902-9494-41bd-b6e7-42001aad2907");
 
 
+			this.CurrentFilter = new PriceType_PriceTypeLineDefaultFilterFilter(this);
 		}
 		#endregion
 		
@@ -738,19 +739,6 @@ namespace UFIDA.U9.Cust.BLT.ShipPlan.LogisticsUI
 		}
 		
 		
-		public  String PriceType_Name
-		{
-			get{
-				//object value = this[this.uiviewPriceType_PriceTypeLine.FieldPriceType_Name] ;
-				//return (String)value;
-				return GetValue<String>(this.uiviewPriceType_PriceTypeLine.FieldPriceType_Name);
-			}
-			set{
-				this[this.uiviewPriceType_PriceTypeLine.FieldPriceType_Name] = value;
-			}
-		}
-		
-		
 		public  Int32 SerialNumber
 		{
 			get{
@@ -830,6 +818,35 @@ namespace UFIDA.U9.Cust.BLT.ShipPlan.LogisticsUI
 		#endregion
 	}
 	
+	[Serializable]
+	public class PriceType_PriceTypeLineDefaultFilterFilter : UIFilter
+	{
+		#region Constructor
+		public PriceType_PriceTypeLineDefaultFilterFilter(IUIView view) 
+			: base("DefaultFilter",view,@"",@"")
+		{
+			InitClass();
+		}
+		//for Clone Constructor
+		private PriceType_PriceTypeLineDefaultFilterFilter()
+			: base("DefaultFilter",null,"","")
+		{}
+		protected override IUIFilter CreateCloneInstance()
+		{
+			return new PriceType_PriceTypeLineDefaultFilterFilter();
+		}
+		#endregion
+
+		#region property
+		#endregion
+		
+		#region function
+		private void InitClass()
+		{
+		}
+		#endregion
+
+	}
 
 
 

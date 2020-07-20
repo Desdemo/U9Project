@@ -925,11 +925,6 @@ namespace UFIDA.U9.Cust.BLT.ShipPlan.LogisticsUI
 			,true,"",true,"1","1");
 	  
 		 	                     
-			column = GridControlBuilder.GridColumnBuilder(_UFGrid,"PriceType_Name0","TextBoxColumnModel", "", 0,this.Model.PriceType_PriceTypeLine.Fields["PriceType_Name"]/*PriceType_Name*/,"PriceType_Name", false, true, true, false, false, false, 0, 100, "50",true, false,"","f639eb7a-bcc9-4c2c-a15f-e98cabdd9497","f639eb7a-bcc9-4c2c-a15f-e98cabdd9497","f6e8e35c-2b25-440c-8b43-2df7d91b6a3a");
-         
-			GridControlBuilder.GridTextBoxColumnBuilder((IUFTextBoxColumn)column,"",TextAlign.Left, false,"",false,"1","1","50") ;          
-	  
-		 	                     
 			column = GridControlBuilder.GridColumnBuilder(_UFGrid,"UnitPrice0","NumberColumnModel", "", 0,this.Model.PriceType_PriceTypeLine.Fields["UnitPrice"]/*UnitPrice*/,"UnitPrice", false, true, true, false, false, false, 11, 100, "53.0",true, false,"0","9eaee70e-0126-4ec7-8c9d-ebca83efec02","9eaee70e-0126-4ec7-8c9d-ebca83efec02","1833f4cf-d5b9-45d4-96c1-7c55b1930e35");
 			GridControlBuilder.GridNumberColumnBuilder((IUFNumberColumn)column, NumbericType.Numberic, 79228162514264337593543950335m, -79228162514264337593543950335m, null, null, null, null
 			,true,"",false,"1","1");

@@ -3,44 +3,46 @@ BaseFile|11
 UBF_MD_Association|36|35
 ID, Name, CreateOp, CreateTime, ModifyOp, ModifyTime, Parent_Class_ID, Child_Class_ID, Parent_Attribute_ID, Child_Attribute_ID, ParentCardinality, ChildCardinality, Kind, IsCascadeDelete, IsCascadeUpdate, IsEnableCascadeValidation, CascadeDeleteRule, CascadeUpdateRule, IsCreateFK
 
-UBF_MD_Class|36|38
+UBF_MD_Class|36|39
 ID, Name, CreateOp, CreateTime, ModifyOp, ModifyTime, Local_ID, MD_ParentClass_ID, MD_Component_ID, Local_Component_ID, ClassType, FullName, IsMain, IsAbstract, Discriminator, InheritanceMapKind, IsModifyControl, HasImpressibleAttribute, IsInCache, DefaultTableName, IsAuthority, IsDefault, IsService, TransactionType, ReturnTypeID, IsExtend, IsQueryDTO, IsPersistence, IsPkClustered,ForOBAImport
 
-UBF_MD_IndexAttribute|39|38
+UBF_MD_IndexAttribute|40|39
 ID, CreatedBy, CreatedOn, ModifiedBy, ModifiedOn, EntityIndex, AttributeUID, AttributeName, ColumnName, DataTypeFullName, DataTypeUID, IsEntity, IsCollection, AttributeFullName, Sequence, IsAscend
 
-UBF_MD_IndexIncludeAttribute|39|38
+UBF_MD_IndexIncludeAttribute|40|39
 ID, CreatedBy, CreatedOn, ModifiedBy, ModifiedOn, EntityIndex, AttributeUID, AttributeName, ColumnName, DataTypeFullName, DataTypeUID, IsEntity, IsCollection, AttributeFullName, Sequence, IsAscend
 
-UBF_MD_Project|39|39
+UBF_MD_Project|40|40
 Name, ID, AssemblyName, CreateOp, ComponentType, ModifyTime, ModifyOp, CreateTime
 
-UBF_MD_EntityIndex|40|39
+UBF_MD_EntityIndex|41|40
 ID, Name, CreatedBy, CreatedOn, ModifiedBy, ModifiedOn, IsUnique, IsCluster, EntityUID, EntityFullName
 
-UBF_MD_Stereotype|40|39
+UBF_MD_Stereotype|41|40
 ID, Name, Template, Classify, OwnerId, OwnerType, ComponentId, Ordinal
 ID, OwnerId
-UBF_MD_Import|40|40
+UBF_MD_Import|41|41
 Source_ID, Imported_ID
 
-UBF_MD_StereotypeValue|41|40
+UBF_MD_StereotypeValue|42|41
 Name, Value, StereotypeUid, StereotypeOwnerUid, ComponentId, StereotypeOrdinal
 Name, StereotypeUid, StereotypeOwnerUid, StereotypeOrdinal
-UBF_MD_Attribute|41|45
+UBF_MD_Attribute|42|47
 ID, Name, CreateOp, CreateTime, ModifyOp, ModifyTime, Local_ID, MD_Class_ID, Local_Class_ID, DataTypeID, GroupName, IsCollection, DefaultValue, Length, Precision, Sequence, Scale, MaxValue, MinValue, IsKey, IsNullable, IsReadOnly, Visibility, IsCalculation, IsGlobalization, IsSystem, IsBusinessKey, IsQueryAttribute, IsForAsso, GroupID, IsModifyControl, IsDynamic, IsImpressible, IsInCache, IsKeySerializable, IsColumnDefine, IsFilterDefine, IsSortDefine, IsDefaultColumn, IsEntityData, DefaultColumnName, DataTypeFlag,ForOBAImport
 
-UBF_MD_Component|46|46
+UBF_MD_Component|48|48
 Local_ID, Kind, Name, ID, AssemblyName, CreateOp, ModifyTime, Version, ModifyOp, MD_Module_ID, CreateTime
 
-85a2d1e7-52e2-459e-a3eb-cbcd26e3baa7	ComputeBP	Administrator	2020-07-14T11:41:41	Administrator	2020-07-14T15:49:53	@SNIndex+1	00000000-0000-0000-0000-000000000000	d5a826c6-8101-48ab-97d3-1ff714356d02	@SNIndex+0	7	UFIDA.U9.Cust.BLT.ShipPlan.ComputeBP.ComputeBP			UFIDA.UBF.MD.Business.Operation						1	0	0	2	9b412470-c8e9-407b-99b2-2b4c2508d4d1					
-429e0588-aa6b-429f-bfe7-76c88fb061e6	Operation	Administrator	2020-07-14T11:41:41	Administrator	2020-07-14T15:49:53	@SNIndex+4	00000000-0000-0000-0000-000000000000	d5a826c6-8101-48ab-97d3-1ff714356d02	@SNIndex+0	7	UFIDA.U9.Cust.BLT.ShipPlan.ComputeBP.Operation			UFIDA.UBF.MD.Business.Operation						1	0	0	2	378d45b4-375d-4b5d-8748-abc9575c26b3					
-8c524551-ce42-4c64-9714-323b35a77a32	CreateLogisticsConstsOperation	Administrator	2020-07-14T11:41:41	Administrator	2020-07-14T15:49:53	@SNIndex+6	00000000-0000-0000-0000-000000000000	d5a826c6-8101-48ab-97d3-1ff714356d02	@SNIndex+0	7	UFIDA.U9.Cust.BLT.ShipPlan.ComputeBP.CreateLogisticsConstsOperation			UFIDA.UBF.MD.Business.Operation						1	0	0	2	5efeea06-cae7-4cc0-82e9-20a789e4e582					
-ComputeBP	7958f19a-cd89-424d-acf9-71990ba72195	UFIDA.U9.Cust.BLT.ShipPlan.ComputeBP	Administrator	BP	2020-07-14T11:41:41		2020-07-14T11:41:41
+85a2d1e7-52e2-459e-a3eb-cbcd26e3baa7	ComputeBP	Administrator	2020-07-20T14:44:32	Administrator	2020-07-20T14:46:47	@SNIndex+1	00000000-0000-0000-0000-000000000000	d5a826c6-8101-48ab-97d3-1ff714356d02	@SNIndex+0	7	UFIDA.U9.Cust.BLT.ShipPlan.ComputeBP.ComputeBP			UFIDA.UBF.MD.Business.Operation						1	0	0	2	9b412470-c8e9-407b-99b2-2b4c2508d4d1					
+429e0588-aa6b-429f-bfe7-76c88fb061e6	Operation	Administrator	2020-07-20T14:44:32	Administrator	2020-07-20T14:46:47	@SNIndex+4	00000000-0000-0000-0000-000000000000	d5a826c6-8101-48ab-97d3-1ff714356d02	@SNIndex+0	7	UFIDA.U9.Cust.BLT.ShipPlan.ComputeBP.Operation			UFIDA.UBF.MD.Business.Operation						1	0	0	2	378d45b4-375d-4b5d-8748-abc9575c26b3					
+8c524551-ce42-4c64-9714-323b35a77a32	CreateLogisticsConstsOperation	Administrator	2020-07-20T14:44:32	Administrator	2020-07-20T14:46:47	@SNIndex+6	00000000-0000-0000-0000-000000000000	d5a826c6-8101-48ab-97d3-1ff714356d02	@SNIndex+0	7	UFIDA.U9.Cust.BLT.ShipPlan.ComputeBP.CreateLogisticsConstsOperation			UFIDA.UBF.MD.Business.Operation						1	0	0	2	5efeea06-cae7-4cc0-82e9-20a789e4e582					
+9c19e338-7a92-4352-99c8-372b479af579	OnUpdatesOperation	Administrator	2020-07-20T14:44:32	Administrator	2020-07-20T14:46:47	@SNIndex+9	00000000-0000-0000-0000-000000000000	d5a826c6-8101-48ab-97d3-1ff714356d02	@SNIndex+0	7	UFIDA.U9.Cust.BLT.ShipPlan.ComputeBP.OnUpdatesOperation			UFIDA.UBF.MD.Business.Operation						1	0	0	2	5efeea06-cae7-4cc0-82e9-20a789e4e582					
+ComputeBP	7958f19a-cd89-424d-acf9-71990ba72195	UFIDA.U9.Cust.BLT.ShipPlan.ComputeBP	Administrator	BP	2020-07-20T14:44:32		2020-07-20T14:44:32
 7958f19a-cd89-424d-acf9-71990ba72195	91ad4317-b286-4156-b6f4-6a79ce43994a
-0e3dcd32-139c-4b04-b626-8341c1f06923	Data	Administrator	2020-07-14T11:41:41		2020-07-14T11:41:41	@SNIndex+2	85a2d1e7-52e2-459e-a3eb-cbcd26e3baa7	@SNIndex+1	9b412470-c8e9-407b-99b2-2b4c2508d4d1	Misc	0		4	10	0	0			0	1	0	0	0	0	0	1	1	1	f82e3de7-cbec-44b3-8dab-116908f74a2c	0	0	0	0	0	1	1	1	1	1		1	0
-02d7f7ee-b13a-495c-9961-16c9f3577bb0	DataLine	Administrator	2020-07-14T11:41:41		2020-07-14T11:41:41	@SNIndex+3	85a2d1e7-52e2-459e-a3eb-cbcd26e3baa7	@SNIndex+1	7c236994-42fa-4f5f-97de-edfea1c7966b	Misc	1		50	5	1	0			0	1	0	0	0	0	0	1	1	1	f82e3de7-cbec-44b3-8dab-116908f74a2c	0	0	0	0	0	1	1	1	1	1		4	0
-69a5bfb7-7f51-4d18-86f0-a5815fdfc759	Amounts	Administrator	2020-07-14T11:41:41		2020-07-14T11:41:41	@SNIndex+5	429e0588-aa6b-429f-bfe7-76c88fb061e6	@SNIndex+4	18c20d02-9d67-4778-8ee8-52b802e977ca	Misc	1		50	5	0	0			0	1	0	0	0	0	0	0	1	1	403d0148-8860-41d7-b431-ef96e522226f	0	0	0	0	0	1	1	1	1	1		4	0
-11ea9ab0-e98e-4735-8846-d3edfa6c6083	Data	Administrator	2020-07-14T11:41:41		2020-07-14T11:41:41	@SNIndex+7	8c524551-ce42-4c64-9714-323b35a77a32	@SNIndex+6	9b412470-c8e9-407b-99b2-2b4c2508d4d1	Misc	0		50	5	0	0			0	1	0	0	0	0	0	1	1	1	8144b318-7d43-425c-a17e-ffc0d763a14e	0	0	0	0	0	1	1	1	1	1		1	0
-a17b3758-abd3-473e-b30e-329fbbc2bb33	DataLine	Administrator	2020-07-14T11:41:41		2020-07-14T11:41:41	@SNIndex+8	8c524551-ce42-4c64-9714-323b35a77a32	@SNIndex+6	7c236994-42fa-4f5f-97de-edfea1c7966b	Misc	1		50	5	1	0			0	1	0	0	0	0	0	0	1	1	8144b318-7d43-425c-a17e-ffc0d763a14e	0	0	0	0	0	1	1	1	1	1		4	0
-@SNIndex+0	BP	FreightCalculationBP	d5a826c6-8101-48ab-97d3-1ff714356d02	UFIDA.U9.Cust.BLT.ShipPlan.ComputeBP	Administrator	2020-07-14T11:41:41			7958f19a-cd89-424d-acf9-71990ba72195	2020-07-14T11:41:41
+0e3dcd32-139c-4b04-b626-8341c1f06923	Data	Administrator	2020-07-20T14:44:32		2020-07-20T14:44:32	@SNIndex+2	85a2d1e7-52e2-459e-a3eb-cbcd26e3baa7	@SNIndex+1	9b412470-c8e9-407b-99b2-2b4c2508d4d1	Misc	0		4	10	0	0			0	1	0	0	0	0	0	1	1	1	f82e3de7-cbec-44b3-8dab-116908f74a2c	0	0	0	0	0	1	1	1	1	1		1	0
+02d7f7ee-b13a-495c-9961-16c9f3577bb0	DataLine	Administrator	2020-07-20T14:44:32		2020-07-20T14:44:32	@SNIndex+3	85a2d1e7-52e2-459e-a3eb-cbcd26e3baa7	@SNIndex+1	7c236994-42fa-4f5f-97de-edfea1c7966b	Misc	1		50	5	1	0			0	1	0	0	0	0	0	1	1	1	f82e3de7-cbec-44b3-8dab-116908f74a2c	0	0	0	0	0	1	1	1	1	1		4	0
+69a5bfb7-7f51-4d18-86f0-a5815fdfc759	Amounts	Administrator	2020-07-20T14:44:32		2020-07-20T14:44:32	@SNIndex+5	429e0588-aa6b-429f-bfe7-76c88fb061e6	@SNIndex+4	18c20d02-9d67-4778-8ee8-52b802e977ca	Misc	1		50	5	0	0			0	1	0	0	0	0	0	0	1	1	403d0148-8860-41d7-b431-ef96e522226f	0	0	0	0	0	1	1	1	1	1		4	0
+11ea9ab0-e98e-4735-8846-d3edfa6c6083	Data	Administrator	2020-07-20T14:44:32		2020-07-20T14:44:32	@SNIndex+7	8c524551-ce42-4c64-9714-323b35a77a32	@SNIndex+6	9b412470-c8e9-407b-99b2-2b4c2508d4d1	Misc	0		50	5	0	0			0	1	0	0	0	0	0	1	1	1	8144b318-7d43-425c-a17e-ffc0d763a14e	0	0	0	0	0	1	1	1	1	1		1	0
+a17b3758-abd3-473e-b30e-329fbbc2bb33	DataLine	Administrator	2020-07-20T14:44:32		2020-07-20T14:44:32	@SNIndex+8	8c524551-ce42-4c64-9714-323b35a77a32	@SNIndex+6	7c236994-42fa-4f5f-97de-edfea1c7966b	Misc	1		50	5	1	0			0	1	0	0	0	0	0	0	1	1	8144b318-7d43-425c-a17e-ffc0d763a14e	0	0	0	0	0	1	1	1	1	1		4	0
+03d8cd2c-85d3-4e34-adc4-969b5460afae	Data	Administrator	2020-07-20T14:44:32		2020-07-20T14:44:32	@SNIndex+10	9c19e338-7a92-4352-99c8-372b479af579	@SNIndex+9	804630a2-e5c8-4d2f-8df2-66fef25c969f	Misc	1		50	5	0	0			0	1	0	0	0	0	0	0	1	1	944d5e13-064c-4d4c-a205-e5e7283b8118	0	0	0	0	0	1	1	1	1	1		4	0
+@SNIndex+0	BP	FreightCalculationBP	d5a826c6-8101-48ab-97d3-1ff714356d02	UFIDA.U9.Cust.BLT.ShipPlan.ComputeBP	Administrator	2020-07-20T14:44:32			7958f19a-cd89-424d-acf9-71990ba72195	2020-07-20T14:44:32

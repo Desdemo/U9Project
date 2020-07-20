@@ -9,6 +9,7 @@
     <Item id="b89f1708-7811-456c-976e-47436b059601" include="..\LogisticsConstsUI\LogisticsConstsUI.ubfuiproj" />
     <Item id="b49a0479-e4ef-4074-9031-5348aad5da8e" include="..\LogisticsConstsBP\LogisticsConstsBP.ubfbpproj" />
     <Item id="bddaedc9-c702-4bf9-9226-d63bd0e1710d" include="LogisticsConsts\LogisticsConsts.ubfqueryproj" />
+    <Item id="33aaa973-85e0-48f7-93ee-9593d81a3493" include="ComplexListPrint\ComplexListPrint.ubfanproj" />
   </ItemGroup>
   <ServiceGroupInfo id="bb77c12c-0530-4d62-8375-038a3927ef4f" name="LogisticsDev" displayName="LogisticsDev" description="" help="" fullPath="D:\Code\U9demo\Logistics\Model\LogisticsDev\LogisticsDev.ubfsln" applicationID="" />
 </Solution>

@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<UFReportTemplate ID="4d379605-03f9-4c52-8495-a834b07fb975">
+  <ReportModel Language="zh-CN">
+    <ReportTemplateInfo>
+      <Name>ComplexListPrint</Name>
+      <DisplayName>ComplexListPrint</DisplayName>
+      <ReportID>4d379605-03f9-4c52-8495-a834b07fb975</ReportID>
+      <Description>由系统自动创建的报表模板</Description>
+      <CreateOp>Administrator</CreateOp>
+      <ExtendInfo />
+      <Container />
+      <ContainerID />
+      <CreateTime>2020-07-20 09:10:38</CreateTime>
+    </ReportTemplateInfo>
+    <Report>
+      <Name>ComplexListPrint</Name>
+      <MyName>ComplexListPrint</MyName>
+      <ReportID>4d379605-03f9-4c52-8495-a834b07fb975</ReportID>
+      <RuntimNoPagging>false</RuntimNoPagging>
+      <SetPageRows>false</SetPageRows>
+      <RowNumberOnPage>0</RowNumberOnPage>
+      <Language>zh-CN</Language>
+      <Author>Administrator</Author>
+      <Designer>由系统自动创建的报表模板</Designer>
+      <DynamicMatrixTable />
+      <BaseMeasure>Mil</BaseMeasure>
+      <UserMeasure>Inch</UserMeasure>
+      <Width>8200</Width>
+      <PageSet>
+        <CanNotModifiedOnRuntime>false</CanNotModifiedOnRuntime>
+        <Margin>
+          <Left>300</Left>
+          <Right>300</Right>
+          <Top>300</Top>
+          <Bottom>300</Bottom>
+        </Margin>
+        <Height>11693</Height>
+        <Width>8268</Width>
+        <Landscape>false</Landscape>
+        <PaperType>A4</PaperType>
+      </PageSet>
+      <ReportHeader name="ReportHeader">
+        <Hide>false</Hide>
+        <ReportItems>
+          <TextBoxs>
+            <TextBox name="TextBox_1">
+              <Style>
+                <FormatStyle />
+                <Front />
+                <Alignment />
+                <Background />
+                <Padding />
+                <Font />
+                <Border />
+              </Style>
+              <Location>
+                <Top>340</Top>
+                <Left>850</Left>
+              </Location>
+              <Width>1000</Width>
+              <Height>220</Height>
+              <Text>物流费用头_配送日期</Text>
+              <IS8N>true</IS8N>
+              <CultureReference>{ReferenceEntityAttribute:5765b7ed-85b7-4378-acee-3efc272287cc}</CultureReference>
+              <IsBookMark>false</IsBookMark>
+            </TextBox>
+            <TextBox name="TextBox_2">
+              <Style>
+                <FormatStyle />
+                <Front />
+                <Alignment />
+                <Background />
+                <Padding />
+                <Font />
+                <Border />
+              </Style>
+              <Location>
+                <Top>340</Top>
+                <Left>1910</Left>
+              </Location>
+              <Width>1500</Width>
+              <Height>220</Height>
+              <Text>=First(Fields!ComplexList_ShipDate.Value,"ComplexPrint01Dt")</Text>
+              <IsBookMark>false</IsBookMark>
+            </TextBox>
+            <TextBox name="TextBox_3">
+              <Style>
+                <FormatStyle />
+                <Front />
+                <Alignment />
+                <Background />
+                <Padding />
+                <Font />
+                <Border />
+              </Style>
+              <Location>
+                <Top>750</Top>
+                <Left>1210</Left>
+              </Location>
+              <Width>1000</Width>
+              <Height>220</Height>
+              <Text>物流费用头_计价依据</Text>
+              <IS8N>true</IS8N>
+              <CultureReference>{ReferenceEntityAttribute:5d3f3501-5c90-4bfe-ad36-097996ddcf90}</CultureReference>
+              <IsBookMark>false</IsBookMark>
+            </TextBox>
+            <TextBox name="TextBox_4">
+              <Style>
+                <FormatStyle />
+                <Front />
+                <Alignment />
+                <Background />
+                <Padding />
+                <Font />
+                <Border />
+              </Style>
+              <Location>
+                <Top>750</Top>
+                <Left>2270</Left>
+              </Location>
+              <Width>1500</Width>
+              <Height>220</Height>
+              <Text>=First(Fields!ComplexList_ComputeBasis.Value,"ComplexPrint01Dt")</Text>
+              <IsBookMark>false</IsBookMark>
+            </TextBox>
+            <TextBox name="TextBox_5">
+              <Style>
+                <FormatStyle />
+                <Front />
+                <Alignment />
+                <Background />
+                <Padding />
+                <Font />
+                <Border />
+              </Style>
+              <Location>
+                <Top>290</Top>
+                <Left>4050</Left>
+              </Location>
+              <Width>1000</Width>
+              <Height>220</Height>
+              <Text>物流费用头_实际重量</Text>
+              <IS8N>true</IS8N>
+              <CultureReference>{ReferenceEntityAttribute:77aeade1-adf9-4cfc-839c-fc12724e5272}</CultureReference>
+              <IsBookMark>false</IsBookMark>
+            </TextBox>
+            <TextBox name="TextBox_6">
+              <Style>
+                <FormatStyle />
+                <Front />
+                <Alignment />
+                <Background />
+                <Padding />
+                <Font />
+                <Border />
+              </Style>
+              <Location>
+                <Top>290</Top>
+                <Left>5110</Left>
+              </Location>
+              <Width>1500</Width>
+              <Height>220</Height>
+              <Text>=Sum(Fields!ComplexList_RealWeight.Value,"ComplexPrint01Dt")</Text>
+              <DataType>Number</DataType>
+              <IsBookMark>false</IsBookMark>
+            </TextBox>
+            <TextBox name="TextBox_7">
+              <Style>
+                <FormatStyle />
+                <Front />
+                <Alignment />
+                <Background />
+                <Padding />
+                <Font />
+                <Border />
+              </Style>
+              <Location>
+                <Top>880</Top>
+                <Left>4570</Left>
+              </Location>
+              <Width>1000</Width>
+              <Height>220</Height>
+              <Text>物流费用头_实际体积</Text>
+              <IS8N>true</IS8N>
+              <CultureReference>{ReferenceEntityAttribute:5ee35c6e-1a33-42d1-8a96-6f45036e2e74}</CultureReference>
+              <IsBookMark>false</IsBookMark>
+            </TextBox>
+            <TextBox name="TextBox_8">
+              <Style>
+                <FormatStyle />
+                <Front />
+                <Alignment />
+                <Background />
+                <Padding />
+                <Font />
+                <Border />
+              </Style>
+              <Location>
+                <Top>880</Top>
+                <Left>5630</Left>
+              </Location>
+              <Width>1500</Width>
+              <Height>220</Height>
+              <Text>=Sum(Fields!ComplexList_RealBulk.Value,"ComplexPrint01Dt")</Text>
+              <DataType>Number</DataType>
+              <IsBookMark>false</IsBookMark>
+            </TextBox>
+          </TextBoxs>
+          <Cells />
+        </ReportItems>
+        <Style>
+          <Background />
+        </Style>
+        <PrintModel>PrintOnFirstPage</PrintModel>
+      </ReportHeader>
+      <ReportFooter name="ReportFooter">
+        <Hide>false</Hide>
+        <ReportItems>
+          <Cells />
+        </ReportItems>
+        <Style>
+          <Background />
+        </Style>
+        <PrintModel>PrintOnLastPage</PrintModel>
+      </ReportFooter>
+      <ReportBody name="ReportDetail">
+        <Height>1800</Height>
+        <Hide>false</Hide>
+        <ReportItems>
+          <Cells />
+        </ReportItems>
+        <Style>
+          <Background />
+        </Style>
+        <Container>Normal</Container>
+      </ReportBody>
+      <ReportDataSources>
+        <ReportDataSource name="ComplexPring01">
+          <ShareDataSource>false</ShareDataSource>
+          <IntegratedSecurity>true</IntegratedSecurity>
+          <ProviderType>UFRPT</ProviderType>
+          <ConnectionString>Data Source=DESKTOP-LQO9U6R;Initial Catalog=zydev;Persist Security Info=True;User ID=sa;Password=123456</ConnectionString>
+          <ID>e6ca4d4b-af61-44c3-99a1-7a7f66361060</ID>
+        </ReportDataSource>
+      </ReportDataSources>
+      <ReportDataQuerys>
+        <DataQuery name="ComplexPrint01Dt">
+          <DataSourceName>ComplexPring01</DataSourceName>
+          <Fields>
+            <Field name="ComplexList_ShipDate">
+              <FieldName>ComplexList_ShipDate</FieldName>
+              <DataType>System.Date</DataType>
+              <DefaultLabel>物流费用头_配送日期</DefaultLabel>
+              <ReferenceCommand>{ReferenceEntityAttribute:5765b7ed-85b7-4378-acee-3efc272287cc}</ReferenceCommand>
+              <SubFields />
+              <BreakColumnByDisplayField>false</BreakColumnByDisplayField>
+            </Field>
+            <Field name="ComplexList_RealBulk">
+              <FieldName>ComplexList_RealBulk</FieldName>
+              <DataType>System.Double</DataType>
+              <DefaultLabel>物流费用头_实际体积</DefaultLabel>
+              <ReferenceCommand>{ReferenceEntityAttribute:5ee35c6e-1a33-42d1-8a96-6f45036e2e74}</ReferenceCommand>
+              <SubFields />
+              <BreakColumnByDisplayField>false</BreakColumnByDisplayField>
+            </Field>
+            <Field name="ComplexList_RealWeight">
+              <FieldName>ComplexList_RealWeight</FieldName>
+              <DataType>System.Double</DataType>
+              <DefaultLabel>物流费用头_实际重量</DefaultLabel>
+              <ReferenceCommand>{ReferenceEntityAttribute:77aeade1-adf9-4cfc-839c-fc12724e5272}</ReferenceCommand>
+              <SubFields />
+              <BreakColumnByDisplayField>false</BreakColumnByDisplayField>
+            </Field>
+            <Field name="ComplexList_ComputeBasis">
+              <FieldName>ComplexList_ComputeBasis</FieldName>
+              <DefaultLabel>物流费用头_计价依据</DefaultLabel>
+              <ReferenceCommand>{ReferenceEntityAttribute:5d3f3501-5c90-4bfe-ad36-097996ddcf90}</ReferenceCommand>
+              <SubFields />
+              <BreakColumnByDisplayField>false</BreakColumnByDisplayField>
+            </Field>
+          </Fields>
+          <Command>
+            <CommandType>BusinessEntity</CommandType>
+            <CommandText>select UFIDA::U9::Cust::BLT::ShipPlan::LogisticsBE::ComplexList.ShipDate as ComplexList_ShipDate,UFIDA::U9::Cust::BLT::ShipPlan::LogisticsBE::ComplexList.RealBulk as ComplexList_RealBulk,UFIDA::U9::Cust::BLT::ShipPlan::LogisticsBE::ComplexList.RealWeight as ComplexList_RealWeight,GetEnumName('UFIDA.U9.Cust.BLT.ShipPlan.LogisticsBE.ComputeBasisEnum',UFIDA::U9::Cust::BLT::ShipPlan::LogisticsBE::ComplexList.ComputeBasis) as ComplexList_ComputeBasis  from  UFIDA::U9::Cust::BLT::ShipPlan::LogisticsBE::ComplexList</CommandText>
+            <Identity />
+            <Parameters>
+              <QueryParameter name="@Global_Parameter">
+                <Value>传输全部报表条件...</Value>
+              </QueryParameter>
+            </Parameters>
+            <Relations>
+              <Relation>
+                <LeftID>9b412470-c8e9-407b-99b2-2b4c2508d4d1</LeftID>
+                <Left>ComplexList</Left>
+                <LeftPath>UFIDA::U9::Cust::BLT::ShipPlan::LogisticsBE::ComplexList</LeftPath>
+                <LeftAlia />
+                <RightAlia />
+                <Right />
+                <RightPath />
+                <RightID />
+                <RelationType>innerJoin</RelationType>
+                <Conditions />
+              </Relation>
+            </Relations>
+          </Command>
+        </DataQuery>
+      </ReportDataQuerys>
+      <EmbeddedImages />
+      <CodeModels />
+    </Report>
+  </ReportModel>
+</UFReportTemplate>

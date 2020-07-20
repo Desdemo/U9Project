@@ -11,5 +11,6 @@
     <Item id="48e0b3ea-6966-4296-b523-2ed96d3d042b" name="PriceList.ubfbe" displayName="PriceList.ubfbe" description="" help="" include="PriceList.ubfbe" type="BE" />
     <Item id="b01586f0-b3fb-42a7-9db4-12c54064e944" name="ComplexBE.ubfbe" displayName="ComplexBE.ubfbe" description="" help="" include="ComplexBE.ubfbe" type="BE" />
     <Item id="4b4e8f72-c866-41b8-bf60-d4f17c343713" name="LogisticsCostsBE.ubfbe" displayName="LogisticsCostsBE.ubfbe" description="" help="" include="LogisticsCostsBE.ubfbe" type="BE" />
+    <Item id="d3c72247-5d32-49b3-b169-e1aa9b9435a2" name="FreightLinkBE.ubfbe" displayName="FreightLinkBE.ubfbe" description="" help="" include="FreightLinkBE.ubfbe" type="BE" />
   </ItemGroup>
 </Project>

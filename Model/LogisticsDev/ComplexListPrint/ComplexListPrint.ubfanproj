@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project id="508702b0-7e15-4c3a-bfc7-3f0f127403cf" name="ComplexListPrint" displayName="ComplexListPrint" description="" help="" type="RPT" assemblyName="ComplexListPrint" mapProject="" resourceName="" projectVersion="Normal">
+  <SourceControl />
+  <ItemGroup>
+    <Item id="44024afa-2a5c-4a72-aaa5-b5d73b8441f7" name="ComplexListPrint.urdl" displayName="ComplexListPrint.urdl" description="" help="" include="ComplexListPrint.urdl" type="" />
+  </ItemGroup>
+</Project>

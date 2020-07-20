@@ -302,7 +302,6 @@ namespace UFIDA.U9.Cust.BLT.ShipPlan.LogisticsUI
 		{
 			this.Model.PriceType.ClearErrorMessage();
 			UFWebClientGridAdapter grid = new UFWebClientGridAdapter(this.DataGrid5);
-
 			//取表格数据（当前行）
 			ArrayList list = (ArrayList)args.ArgsHash[UFWebClientGridAdapter.ALL_GRIDDATA_SelectedRows]; //基本固定代码
 			int curIndex = int.Parse(list[0].ToString());

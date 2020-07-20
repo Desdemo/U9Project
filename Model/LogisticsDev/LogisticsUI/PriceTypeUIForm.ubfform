@@ -324,7 +324,6 @@
           <HeaderCell ID="019d5c25-71bc-47b8-85f1-cda24a3c6b5e" ColSpan="1" Name="HeaderCell0" OwnerColName="ID48" RowSpan="1" />
           <HeaderCell ID="8c51a96e-dbc2-42c3-928e-14782a5f899f" ColSpan="1" Name="HeaderCell1" OwnerColName="SysVersion72" RowSpan="1" />
           <HeaderCell ID="61e8629d-fb56-4a84-b30e-4c1ef8a1bf7c" ColSpan="1" Name="HeaderCell2" OwnerColName="SerialNumber0" RowSpan="1" />
-          <HeaderCell ID="89428fdf-0947-45ce-af55-e6686d62fa08" ColSpan="1" DisplayName="名称" DisplayNameIndexStr="" DisplayNameResourceID="" DisplaySrcUIFieldID="" DisplaySrcUIViewID="" Name="HeaderCell10" OwnerColName="PriceType_Name0" RowSpan="1" />
           <HeaderCell ID="37c447a9-ddc1-4af6-a8e4-a724ac9989a8" ColSpan="1" DisplayName="单价" DisplayNameIndexStr="" DisplayNameResourceID="" DisplaySrcUIFieldID="" DisplaySrcUIViewID="" Name="HeaderCell12" OwnerColName="UnitPrice0" RowSpan="1" />
           <HeaderCell ID="1a67bd1f-65fb-46dc-9bd0-1067c3fdeaff" ColSpan="1" Name="HeaderCell3" OwnerColName="Start0" RowSpan="1" />
           <HeaderCell ID="75f1e39d-63c4-4092-9774-27712ef5f37b" ColSpan="1" Name="HeaderCell4" OwnerColName="Cutoff0" RowSpan="1" />
@@ -355,38 +354,35 @@
           <CurrencyType Name="CurrencyType4" />
           <Events />
         </NumberColumn>
-        <TextBoxColumn ID="f6e8e35c-2b25-440c-8b43-2df7d91b6a3a" DefaultValue="" DisplayFormat="50" Enabled="True" Help="计价类型.Misc.名称" IsNull="False" IsProperty="False" IsSequence="False" Name="PriceType_Name0" NPos="4" Point="0" TextAlign="Left" UIFieldID="PriceType_Name" UIViewID="PriceType_PriceTypeLine" Visible="True">
-          <Events />
-        </TextBoxColumn>
-        <NumberColumn ID="1833f4cf-d5b9-45d4-96c1-7c55b1930e35" DefaultValue="0" DisplayFormat="53.0" Enabled="True" Help="计价类型行.Misc.单价" IsNull="False" IsProperty="False" IsSequence="False" Name="UnitPrice0" NPos="5" Point="0" UIFieldID="UnitPrice" UIViewID="PriceType_PriceTypeLine" Visible="True">
+        <NumberColumn ID="1833f4cf-d5b9-45d4-96c1-7c55b1930e35" DefaultValue="0" DisplayFormat="53.0" Enabled="True" Help="计价类型行.Misc.单价" IsNull="False" IsProperty="False" IsSequence="False" Name="UnitPrice0" NPos="4" Point="0" UIFieldID="UnitPrice" UIViewID="PriceType_PriceTypeLine" Visible="True">
           <PrecisionBind Name="PrecisionBind5" />
           <RoundRuleBind Name="RoundRuleBind5" />
           <ValueOfRoundByValueBind Name="ValueOfRoundByValueBind5" />
           <CurrencyType Name="CurrencyType5" />
           <Events />
         </NumberColumn>
-        <NumberColumn ID="14674a21-a5bb-4aef-8e39-7d6d7b96b07b" DefaultValue="0" DisplayFormat="10.0" Enabled="True" Help="计价类型行.Misc.开始" IsNull="False" IsProperty="False" IsSequence="False" Name="Start0" NPos="6" Point="0" UIFieldID="Start" UIViewID="PriceType_PriceTypeLine" Visible="True">
+        <NumberColumn ID="14674a21-a5bb-4aef-8e39-7d6d7b96b07b" DefaultValue="0" DisplayFormat="10.0" Enabled="True" Help="计价类型行.Misc.开始" IsNull="False" IsProperty="False" IsSequence="False" Name="Start0" NPos="5" Point="0" UIFieldID="Start" UIViewID="PriceType_PriceTypeLine" Visible="True">
           <PrecisionBind Name="PrecisionBind6" />
           <RoundRuleBind Name="RoundRuleBind6" />
           <ValueOfRoundByValueBind Name="ValueOfRoundByValueBind6" />
           <CurrencyType Name="CurrencyType6" />
           <Events />
         </NumberColumn>
-        <NumberColumn ID="331a0534-55f0-4dd6-9011-e85cf0f8c76d" DefaultValue="0" DisplayFormat="10.0" Enabled="True" Help="计价类型行.Misc.截止" IsNull="False" IsProperty="False" IsSequence="False" Name="Cutoff0" NPos="7" Point="0" UIFieldID="Cutoff" UIViewID="PriceType_PriceTypeLine" Visible="True">
+        <NumberColumn ID="331a0534-55f0-4dd6-9011-e85cf0f8c76d" DefaultValue="0" DisplayFormat="10.0" Enabled="True" Help="计价类型行.Misc.截止" IsNull="False" IsProperty="False" IsSequence="False" Name="Cutoff0" NPos="6" Point="0" UIFieldID="Cutoff" UIViewID="PriceType_PriceTypeLine" Visible="True">
           <PrecisionBind Name="PrecisionBind7" />
           <RoundRuleBind Name="RoundRuleBind7" />
           <ValueOfRoundByValueBind Name="ValueOfRoundByValueBind7" />
           <CurrencyType Name="CurrencyType7" />
           <Events />
         </NumberColumn>
-        <NumberColumn ID="6a61af83-b05e-470e-8e92-b5b0bb75cf03" DefaultValue="0" DisplayFormat="10.0" Enabled="False" HasSum="True" Help="计价类型行.Misc.合计" IsNull="False" IsProperty="False" IsSequence="False" Name="LineTotal0" NPos="8" Point="0" UIFieldID="LineTotal" UIViewID="PriceType_PriceTypeLine" Visible="True">
+        <NumberColumn ID="6a61af83-b05e-470e-8e92-b5b0bb75cf03" DefaultValue="0" DisplayFormat="10.0" Enabled="False" HasSum="True" Help="计价类型行.Misc.合计" IsNull="False" IsProperty="False" IsSequence="False" Name="LineTotal0" NPos="7" Point="0" UIFieldID="LineTotal" UIViewID="PriceType_PriceTypeLine" Visible="True">
           <PrecisionBind Name="PrecisionBind8" />
           <RoundRuleBind Name="RoundRuleBind8" />
           <ValueOfRoundByValueBind Name="ValueOfRoundByValueBind8" />
           <CurrencyType Name="CurrencyType8" />
           <Events />
         </NumberColumn>
-        <TextBoxColumn ID="41c7230d-5516-4e27-aa65-82544f5def8f" DefaultValue="" DisplayFormat="50" Enabled="True" Help="计价类型行.Misc.备注" IsNull="True" IsProperty="False" IsSequence="False" Name="Remark288" NPos="9" Point="0" TextAlign="Left" UIFieldID="Remark" UIViewID="PriceType_PriceTypeLine" Visible="True">
+        <TextBoxColumn ID="41c7230d-5516-4e27-aa65-82544f5def8f" DefaultValue="" DisplayFormat="50" Enabled="True" Help="计价类型行.Misc.备注" IsNull="True" IsProperty="False" IsSequence="False" Name="Remark288" NPos="8" Point="0" TextAlign="Left" UIFieldID="Remark" UIViewID="PriceType_PriceTypeLine" Visible="True">
           <Events />
         </TextBoxColumn>
       </Columns>
